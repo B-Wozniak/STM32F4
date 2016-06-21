@@ -1,0 +1,6 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$stm32f4xx_8h.html" title="CMSIS Cortex&#45;M4 Device Peripheral Access Layer Header File. This file contains all the peripheral reg..." alt="" coords="157,80,536,107"/>
+<area shape="rect" id="node5" href="$gpio_8c.html" title="GPIO driver." alt="" coords="5,229,320,256"/>
+<area shape="rect" id="node7" href="$gpio_8h.html" title="Header for gpio.c." alt="" coords="189,155,504,181"/>
+<area shape="rect" id="node10" href="$main_8c.html" title="Sample STM32F4 project." alt="" coords="369,229,689,256"/>
+</map>
