@@ -387,12 +387,12 @@ END GROUP
 .debug_pubnames
  *(.debug_pubnames)
 
-.debug_info     0x00000000      0x8a2
+.debug_info     0x00000000      0x8b3
  *(.debug_info .gnu.linkonce.wi.*)
- .debug_info    0x00000000       0x53 out/startup.o
- .debug_info    0x00000053      0x400 out/main.o
- .debug_info    0x00000453       0x88 out/vectors.o
- .debug_info    0x000004db      0x3c7 out/gpio.o
+ .debug_info    0x00000000       0x64 out/startup.o
+ .debug_info    0x00000064      0x400 out/main.o
+ .debug_info    0x00000464       0x88 out/vectors.o
+ .debug_info    0x000004ec      0x3c7 out/gpio.o
 
 .debug_abbrev   0x00000000      0x2b0
  *(.debug_abbrev)
@@ -414,14 +414,14 @@ END GROUP
  .debug_frame   0x00000078       0x30 out/vectors.o
  .debug_frame   0x000000a8       0x5c out/gpio.o
 
-.debug_str      0x00000000    0x638ca
+.debug_str      0x00000000    0x638db
  *(.debug_str)
- .debug_str     0x00000000    0x63716 out/main.o
-                              0x63899 (size before relaxing)
- .debug_str     0x00063716       0x35 out/vectors.o
-                               0x24fa (size before relaxing)
- .debug_str     0x0006374b      0x17f out/gpio.o
-                              0x43b7d (size before relaxing)
+ .debug_str     0x00000000    0x63727 out/main.o
+                              0x638aa (size before relaxing)
+ .debug_str     0x00063727       0x35 out/vectors.o
+                               0x250b (size before relaxing)
+ .debug_str     0x0006375c      0x17f out/gpio.o
+                              0x43b8e (size before relaxing)
 
 .debug_loc
  *(.debug_loc)

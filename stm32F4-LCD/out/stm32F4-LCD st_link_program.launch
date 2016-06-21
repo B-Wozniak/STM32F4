@@ -5,6 +5,6 @@
 <listEntry value="org.eclipse.ui.externaltools.launchGroup"/>
 </listAttribute>
 <stringAttribute key="org.eclipse.ui.externaltools.ATTR_LOCATION" value="C:\Program Files (x86)\STMicroelectronics\STM32 ST-LINK Utility\ST-LINK Utility\ST-LINK_CLI.exe"/>
-<stringAttribute key="org.eclipse.ui.externaltools.ATTR_TOOL_ARGUMENTS" value="-c SWD UR LPM -ME -P stm32f4_blink_led.hex -V -HardRst -Q"/>
-<stringAttribute key="org.eclipse.ui.externaltools.ATTR_WORKING_DIRECTORY" value="${workspace_loc:/stm32f4_blink_led/out}"/>
+<stringAttribute key="org.eclipse.ui.externaltools.ATTR_TOOL_ARGUMENTS" value="-c SWD UR LPM -ME -P stm32F4-LCD.hex -V -HardRst -Q"/>
+<stringAttribute key="org.eclipse.ui.externaltools.ATTR_WORKING_DIRECTORY" value="${workspace_loc:/stm32F4-LCD/out}"/>
 </launchConfiguration>

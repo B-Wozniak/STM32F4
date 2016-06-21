@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\Bartek\AppData\Local\Temp\ccsqC3sf.s 			page 1
+ARM GAS  C:\Users\Bartek\AppData\Local\Temp\ccgdBRxL.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\Bartek\AppData\Local\Temp\ccsqC3sf.s 			page 1
   55              		.align	2
   56              		.thumb
   57              		.thumb_func
-ARM GAS  C:\Users\Bartek\AppData\Local\Temp\ccsqC3sf.s 			page 2
+ARM GAS  C:\Users\Bartek\AppData\Local\Temp\ccgdBRxL.s 			page 2
 
 
   58              		.type	__Default_Handler, %function
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\Bartek\AppData\Local\Temp\ccsqC3sf.s 			page 1
   89              		.thumb_set CRYP_IRQHandler,__Default_Handler
   90              		.weak	DCMI_IRQHandler
   91              		.thumb_set DCMI_IRQHandler,__Default_Handler
-ARM GAS  C:\Users\Bartek\AppData\Local\Temp\ccsqC3sf.s 			page 3
+ARM GAS  C:\Users\Bartek\AppData\Local\Temp\ccgdBRxL.s 			page 3
 
 
   92              		.weak	OTG_HS_IRQHandler
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\Bartek\AppData\Local\Temp\ccsqC3sf.s 			page 1
  146              		.weak	TIM5_IRQHandler
  147              		.thumb_set TIM5_IRQHandler,__Default_Handler
  148              		.weak	SDIO_IRQHandler
-ARM GAS  C:\Users\Bartek\AppData\Local\Temp\ccsqC3sf.s 			page 4
+ARM GAS  C:\Users\Bartek\AppData\Local\Temp\ccgdBRxL.s 			page 4
 
 
  149              		.thumb_set SDIO_IRQHandler,__Default_Handler
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\Bartek\AppData\Local\Temp\ccsqC3sf.s 			page 1
  203              		.thumb_set CAN1_SCE_IRQHandler,__Default_Handler
  204              		.weak	CAN1_RX1_IRQHandler
  205              		.thumb_set CAN1_RX1_IRQHandler,__Default_Handler
-ARM GAS  C:\Users\Bartek\AppData\Local\Temp\ccsqC3sf.s 			page 5
+ARM GAS  C:\Users\Bartek\AppData\Local\Temp\ccgdBRxL.s 			page 5
 
 
  206              		.weak	CAN1_RX0_IRQHandler
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\Bartek\AppData\Local\Temp\ccsqC3sf.s 			page 1
  260              		.weak	__Reserved_0x24_Handler
  261              		.thumb_set __Reserved_0x24_Handler,__Default_Handler
  262              		.weak	__Reserved_0x20_Handler
-ARM GAS  C:\Users\Bartek\AppData\Local\Temp\ccsqC3sf.s 			page 6
+ARM GAS  C:\Users\Bartek\AppData\Local\Temp\ccgdBRxL.s 			page 6
 
 
  263              		.thumb_set __Reserved_0x20_Handler,__Default_Handler
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\Bartek\AppData\Local\Temp\ccsqC3sf.s 			page 1
  317 008c 00000000 		.word	CAN1_TX_IRQHandler
  318 0090 00000000 		.word	CAN1_RX0_IRQHandler
  319 0094 00000000 		.word	CAN1_RX1_IRQHandler
-ARM GAS  C:\Users\Bartek\AppData\Local\Temp\ccsqC3sf.s 			page 7
+ARM GAS  C:\Users\Bartek\AppData\Local\Temp\ccgdBRxL.s 			page 7
 
 
  320 0098 00000000 		.word	CAN1_SCE_IRQHandler
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\Bartek\AppData\Local\Temp\ccsqC3sf.s 			page 1
  374 0170 00000000 		.word	OTG_HS_WKUP_IRQHandler
  375 0174 00000000 		.word	OTG_HS_IRQHandler
  376 0178 00000000 		.word	DCMI_IRQHandler
-ARM GAS  C:\Users\Bartek\AppData\Local\Temp\ccsqC3sf.s 			page 8
+ARM GAS  C:\Users\Bartek\AppData\Local\Temp\ccgdBRxL.s 			page 8
 
 
  377 017c 00000000 		.word	CRYP_IRQHandler
@@ -433,16 +433,16 @@ ARM GAS  C:\Users\Bartek\AppData\Local\Temp\ccsqC3sf.s 			page 1
  386 0006 00000000 		.4byte	.Ldebug_abbrev0
  387 000a 04       		.byte	0x4
  388 000b 01       		.uleb128 0x1
- 389 000c BA000000 		.4byte	.LASF366
+ 389 000c 9E000000 		.4byte	.LASF366
  390 0010 01       		.byte	0x1
- 391 0011 790D0000 		.4byte	.LASF367
- 392 0015 F41A0000 		.4byte	.LASF368
+ 391 0011 5C0D0000 		.4byte	.LASF367
+ 392 0015 21230000 		.4byte	.LASF368
  393 0019 00000000 		.4byte	.Ldebug_ranges0+0
  394 001d 00000000 		.4byte	0
  395 0021 00000000 		.4byte	.Ldebug_line0
  396 0025 00000000 		.4byte	.Ldebug_macro0
  397 0029 02       		.uleb128 0x2
- 398 002a 320A0000 		.4byte	.LASF369
+ 398 002a 160A0000 		.4byte	.LASF369
  399 002e 01       		.byte	0x1
  400 002f 15       		.byte	0x15
  401 0030 00000000 		.4byte	.LFB0
@@ -450,14 +450,14 @@ ARM GAS  C:\Users\Bartek\AppData\Local\Temp\ccsqC3sf.s 			page 1
  403 0038 01       		.uleb128 0x1
  404 0039 9C       		.byte	0x9c
  405 003a 03       		.uleb128 0x3
- 406 003b B1010000 		.4byte	.LASF364
+ 406 003b 95010000 		.4byte	.LASF364
  407 003f 01       		.byte	0x1
  408 0040 4601     		.2byte	0x146
  409 0042 4D000000 		.4byte	0x4d
  410 0046 04       		.uleb128 0x4
  411 0047 01       		.byte	0x1
  412 0048 08       		.byte	0x8
- 413 0049 581C0000 		.4byte	.LASF362
+ 413 0049 511C0000 		.4byte	.LASF362
  414 004d 05       		.uleb128 0x5
  415 004e 46000000 		.4byte	0x46
  416 0052 06       		.uleb128 0x6
@@ -470,15 +470,15 @@ ARM GAS  C:\Users\Bartek\AppData\Local\Temp\ccsqC3sf.s 			page 1
  423 0062 04       		.uleb128 0x4
  424 0063 04       		.byte	0x4
  425 0064 07       		.byte	0x7
- 426 0065 65120000 		.4byte	.LASF363
+ 426 0065 60120000 		.4byte	.LASF363
  427 0069 08       		.uleb128 0x8
  428 006a 04       		.byte	0x4
  429 006b 6F000000 		.4byte	0x6f
  430 006f 09       		.uleb128 0x9
  431 0070 0A       		.uleb128 0xa
- 432 0071 82060000 		.4byte	.LASF365
+ 432 0071 66060000 		.4byte	.LASF365
  433 0075 01       		.byte	0x1
-ARM GAS  C:\Users\Bartek\AppData\Local\Temp\ccsqC3sf.s 			page 9
+ARM GAS  C:\Users\Bartek\AppData\Local\Temp\ccgdBRxL.s 			page 9
 
 
  434 0076 4A01     		.2byte	0x14a
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\Bartek\AppData\Local\Temp\ccsqC3sf.s 			page 1
  488 002e 00       		.byte	0
  489 002f 03       		.uleb128 0x3
  490 0030 0E       		.uleb128 0xe
-ARM GAS  C:\Users\Bartek\AppData\Local\Temp\ccsqC3sf.s 			page 10
+ARM GAS  C:\Users\Bartek\AppData\Local\Temp\ccgdBRxL.s 			page 10
 
 
  491 0031 3A       		.uleb128 0x3a
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\Bartek\AppData\Local\Temp\ccsqC3sf.s 			page 1
  545 0067 13       		.uleb128 0x13
  546 0068 00       		.byte	0
  547 0069 00       		.byte	0
-ARM GAS  C:\Users\Bartek\AppData\Local\Temp\ccsqC3sf.s 			page 11
+ARM GAS  C:\Users\Bartek\AppData\Local\Temp\ccgdBRxL.s 			page 11
 
 
  548 006a 09       		.uleb128 0x9
@@ -658,1154 +658,1154 @@ ARM GAS  C:\Users\Bartek\AppData\Local\Temp\ccsqC3sf.s 			page 1
  602 0010 00       		.byte	0
  603              		.section	.debug_macro,"G",%progbits,wm4.0.5c85dddcaeec4b2aef6974e769dd345a,comdat
  604              	.Ldebug_macro1:
-ARM GAS  C:\Users\Bartek\AppData\Local\Temp\ccsqC3sf.s 			page 12
+ARM GAS  C:\Users\Bartek\AppData\Local\Temp\ccgdBRxL.s 			page 12
 
 
  605 0000 0400     		.2byte	0x4
  606 0002 00       		.byte	0
  607 0003 05       		.byte	0x5
  608 0004 00       		.uleb128 0
- 609 0005 5C140000 		.4byte	.LASF0
+ 609 0005 57140000 		.4byte	.LASF0
  610 0009 05       		.byte	0x5
  611 000a 00       		.uleb128 0
- 612 000b A3040000 		.4byte	.LASF1
+ 612 000b 87040000 		.4byte	.LASF1
  613 000f 05       		.byte	0x5
  614 0010 00       		.uleb128 0
- 615 0011 18130000 		.4byte	.LASF2
+ 615 0011 13130000 		.4byte	.LASF2
  616 0015 05       		.byte	0x5
  617 0016 00       		.uleb128 0
- 618 0017 230D0000 		.4byte	.LASF3
+ 618 0017 060D0000 		.4byte	.LASF3
  619 001b 05       		.byte	0x5
  620 001c 00       		.uleb128 0
- 621 001d EC100000 		.4byte	.LASF4
+ 621 001d E7100000 		.4byte	.LASF4
  622 0021 05       		.byte	0x5
  623 0022 00       		.uleb128 0
- 624 0023 62210000 		.4byte	.LASF5
+ 624 0023 5B210000 		.4byte	.LASF5
  625 0027 05       		.byte	0x5
  626 0028 00       		.uleb128 0
- 627 0029 711A0000 		.4byte	.LASF6
+ 627 0029 751A0000 		.4byte	.LASF6
  628 002d 05       		.byte	0x5
  629 002e 00       		.uleb128 0
- 630 002f 3A030000 		.4byte	.LASF7
+ 630 002f 1E030000 		.4byte	.LASF7
  631 0033 05       		.byte	0x5
  632 0034 00       		.uleb128 0
- 633 0035 C0140000 		.4byte	.LASF8
+ 633 0035 BB140000 		.4byte	.LASF8
  634 0039 05       		.byte	0x5
  635 003a 00       		.uleb128 0
- 636 003b 6D0C0000 		.4byte	.LASF9
+ 636 003b 500C0000 		.4byte	.LASF9
  637 003f 05       		.byte	0x5
  638 0040 00       		.uleb128 0
- 639 0041 37220000 		.4byte	.LASF10
+ 639 0041 30220000 		.4byte	.LASF10
  640 0045 05       		.byte	0x5
  641 0046 00       		.uleb128 0
- 642 0047 F21E0000 		.4byte	.LASF11
+ 642 0047 EB1E0000 		.4byte	.LASF11
  643 004b 05       		.byte	0x5
  644 004c 00       		.uleb128 0
- 645 004d 421B0000 		.4byte	.LASF12
+ 645 004d 3B1B0000 		.4byte	.LASF12
  646 0051 05       		.byte	0x5
  647 0052 00       		.uleb128 0
- 648 0053 6A1D0000 		.4byte	.LASF13
+ 648 0053 631D0000 		.4byte	.LASF13
  649 0057 05       		.byte	0x5
  650 0058 00       		.uleb128 0
- 651 0059 D5220000 		.4byte	.LASF14
+ 651 0059 CE220000 		.4byte	.LASF14
  652 005d 05       		.byte	0x5
  653 005e 00       		.uleb128 0
- 654 005f CC110000 		.4byte	.LASF15
+ 654 005f C7110000 		.4byte	.LASF15
  655 0063 05       		.byte	0x5
  656 0064 00       		.uleb128 0
- 657 0065 9F1D0000 		.4byte	.LASF16
+ 657 0065 981D0000 		.4byte	.LASF16
  658 0069 05       		.byte	0x5
  659 006a 00       		.uleb128 0
- 660 006b 170C0000 		.4byte	.LASF17
+ 660 006b FA0B0000 		.4byte	.LASF17
  661 006f 05       		.byte	0x5
-ARM GAS  C:\Users\Bartek\AppData\Local\Temp\ccsqC3sf.s 			page 13
+ARM GAS  C:\Users\Bartek\AppData\Local\Temp\ccgdBRxL.s 			page 13
 
 
  662 0070 00       		.uleb128 0
- 663 0071 170F0000 		.4byte	.LASF18
+ 663 0071 130F0000 		.4byte	.LASF18
  664 0075 05       		.byte	0x5
  665 0076 00       		.uleb128 0
- 666 0077 33190000 		.4byte	.LASF19
+ 666 0077 37190000 		.4byte	.LASF19
  667 007b 05       		.byte	0x5
  668 007c 00       		.uleb128 0
- 669 007d 8C0A0000 		.4byte	.LASF20
+ 669 007d 700A0000 		.4byte	.LASF20
  670 0081 05       		.byte	0x5
  671 0082 00       		.uleb128 0
- 672 0083 FE060000 		.4byte	.LASF21
+ 672 0083 E2060000 		.4byte	.LASF21
  673 0087 05       		.byte	0x5
  674 0088 00       		.uleb128 0
- 675 0089 89000000 		.4byte	.LASF22
+ 675 0089 6D000000 		.4byte	.LASF22
  676 008d 05       		.byte	0x5
  677 008e 00       		.uleb128 0
- 678 008f 6D200000 		.4byte	.LASF23
+ 678 008f 66200000 		.4byte	.LASF23
  679 0093 05       		.byte	0x5
  680 0094 00       		.uleb128 0
- 681 0095 44130000 		.4byte	.LASF24
+ 681 0095 3F130000 		.4byte	.LASF24
  682 0099 05       		.byte	0x5
  683 009a 00       		.uleb128 0
- 684 009b FD190000 		.4byte	.LASF25
+ 684 009b 011A0000 		.4byte	.LASF25
  685 009f 05       		.byte	0x5
  686 00a0 00       		.uleb128 0
- 687 00a1 950E0000 		.4byte	.LASF26
+ 687 00a1 780E0000 		.4byte	.LASF26
  688 00a5 05       		.byte	0x5
  689 00a6 00       		.uleb128 0
- 690 00a7 AF190000 		.4byte	.LASF27
+ 690 00a7 B3190000 		.4byte	.LASF27
  691 00ab 05       		.byte	0x5
  692 00ac 00       		.uleb128 0
- 693 00ad 8F080000 		.4byte	.LASF28
+ 693 00ad 73080000 		.4byte	.LASF28
  694 00b1 05       		.byte	0x5
  695 00b2 00       		.uleb128 0
- 696 00b3 FC080000 		.4byte	.LASF29
+ 696 00b3 E0080000 		.4byte	.LASF29
  697 00b7 05       		.byte	0x5
  698 00b8 00       		.uleb128 0
- 699 00b9 C40C0000 		.4byte	.LASF30
+ 699 00b9 A70C0000 		.4byte	.LASF30
  700 00bd 05       		.byte	0x5
  701 00be 00       		.uleb128 0
- 702 00bf 5F050000 		.4byte	.LASF31
+ 702 00bf 43050000 		.4byte	.LASF31
  703 00c3 05       		.byte	0x5
  704 00c4 00       		.uleb128 0
- 705 00c5 101E0000 		.4byte	.LASF32
+ 705 00c5 091E0000 		.4byte	.LASF32
  706 00c9 05       		.byte	0x5
  707 00ca 00       		.uleb128 0
- 708 00cb 5D1E0000 		.4byte	.LASF33
+ 708 00cb 561E0000 		.4byte	.LASF33
  709 00cf 05       		.byte	0x5
  710 00d0 00       		.uleb128 0
- 711 00d1 1A1A0000 		.4byte	.LASF34
+ 711 00d1 1E1A0000 		.4byte	.LASF34
  712 00d5 05       		.byte	0x5
  713 00d6 00       		.uleb128 0
- 714 00d7 F90E0000 		.4byte	.LASF35
+ 714 00d7 F50E0000 		.4byte	.LASF35
  715 00db 05       		.byte	0x5
  716 00dc 00       		.uleb128 0
- 717 00dd 910B0000 		.4byte	.LASF36
+ 717 00dd 740B0000 		.4byte	.LASF36
  718 00e1 05       		.byte	0x5
-ARM GAS  C:\Users\Bartek\AppData\Local\Temp\ccsqC3sf.s 			page 14
+ARM GAS  C:\Users\Bartek\AppData\Local\Temp\ccgdBRxL.s 			page 14
 
 
  719 00e2 00       		.uleb128 0
- 720 00e3 AF0E0000 		.4byte	.LASF37
+ 720 00e3 920E0000 		.4byte	.LASF37
  721 00e7 05       		.byte	0x5
  722 00e8 00       		.uleb128 0
- 723 00e9 EE030000 		.4byte	.LASF38
+ 723 00e9 D2030000 		.4byte	.LASF38
  724 00ed 05       		.byte	0x5
  725 00ee 00       		.uleb128 0
- 726 00ef D2060000 		.4byte	.LASF39
+ 726 00ef B6060000 		.4byte	.LASF39
  727 00f3 05       		.byte	0x5
  728 00f4 00       		.uleb128 0
- 729 00f5 75080000 		.4byte	.LASF40
+ 729 00f5 59080000 		.4byte	.LASF40
  730 00f9 05       		.byte	0x5
  731 00fa 00       		.uleb128 0
- 732 00fb 440A0000 		.4byte	.LASF41
+ 732 00fb 280A0000 		.4byte	.LASF41
  733 00ff 05       		.byte	0x5
  734 0100 00       		.uleb128 0
- 735 0101 45090000 		.4byte	.LASF42
+ 735 0101 29090000 		.4byte	.LASF42
  736 0105 05       		.byte	0x5
  737 0106 00       		.uleb128 0
- 738 0107 9D000000 		.4byte	.LASF43
+ 738 0107 81000000 		.4byte	.LASF43
  739 010b 05       		.byte	0x5
  740 010c 00       		.uleb128 0
- 741 010d 8A060000 		.4byte	.LASF44
+ 741 010d 6E060000 		.4byte	.LASF44
  742 0111 05       		.byte	0x5
  743 0112 00       		.uleb128 0
- 744 0113 701F0000 		.4byte	.LASF45
+ 744 0113 691F0000 		.4byte	.LASF45
  745 0117 05       		.byte	0x5
  746 0118 00       		.uleb128 0
- 747 0119 8F160000 		.4byte	.LASF46
+ 747 0119 8A160000 		.4byte	.LASF46
  748 011d 05       		.byte	0x5
  749 011e 00       		.uleb128 0
- 750 011f D9020000 		.4byte	.LASF47
+ 750 011f BD020000 		.4byte	.LASF47
  751 0123 05       		.byte	0x5
  752 0124 00       		.uleb128 0
- 753 0125 EF180000 		.4byte	.LASF48
+ 753 0125 F3180000 		.4byte	.LASF48
  754 0129 05       		.byte	0x5
  755 012a 00       		.uleb128 0
- 756 012b 5D090000 		.4byte	.LASF49
+ 756 012b 41090000 		.4byte	.LASF49
  757 012f 05       		.byte	0x5
  758 0130 00       		.uleb128 0
- 759 0131 FF160000 		.4byte	.LASF50
+ 759 0131 FA160000 		.4byte	.LASF50
  760 0135 05       		.byte	0x5
  761 0136 00       		.uleb128 0
- 762 0137 4E1A0000 		.4byte	.LASF51
+ 762 0137 521A0000 		.4byte	.LASF51
  763 013b 05       		.byte	0x5
  764 013c 00       		.uleb128 0
- 765 013d 9B230000 		.4byte	.LASF52
+ 765 013d AC230000 		.4byte	.LASF52
  766 0141 05       		.byte	0x5
  767 0142 00       		.uleb128 0
- 768 0143 1E140000 		.4byte	.LASF53
+ 768 0143 19140000 		.4byte	.LASF53
  769 0147 05       		.byte	0x5
  770 0148 00       		.uleb128 0
- 771 0149 C2010000 		.4byte	.LASF54
+ 771 0149 A6010000 		.4byte	.LASF54
  772 014d 05       		.byte	0x5
  773 014e 00       		.uleb128 0
- 774 014f 01060000 		.4byte	.LASF55
+ 774 014f E5050000 		.4byte	.LASF55
  775 0153 05       		.byte	0x5
-ARM GAS  C:\Users\Bartek\AppData\Local\Temp\ccsqC3sf.s 			page 15
+ARM GAS  C:\Users\Bartek\AppData\Local\Temp\ccgdBRxL.s 			page 15
 
 
  776 0154 00       		.uleb128 0
- 777 0155 EC090000 		.4byte	.LASF56
+ 777 0155 D0090000 		.4byte	.LASF56
  778 0159 05       		.byte	0x5
  779 015a 00       		.uleb128 0
- 780 015b 7C090000 		.4byte	.LASF57
+ 780 015b 60090000 		.4byte	.LASF57
  781 015f 05       		.byte	0x5
  782 0160 00       		.uleb128 0
- 783 0161 03210000 		.4byte	.LASF58
+ 783 0161 FC200000 		.4byte	.LASF58
  784 0165 05       		.byte	0x5
  785 0166 00       		.uleb128 0
- 786 0167 7B110000 		.4byte	.LASF59
+ 786 0167 76110000 		.4byte	.LASF59
  787 016b 05       		.byte	0x5
  788 016c 00       		.uleb128 0
- 789 016d EF1D0000 		.4byte	.LASF60
+ 789 016d E81D0000 		.4byte	.LASF60
  790 0171 05       		.byte	0x5
  791 0172 00       		.uleb128 0
- 792 0173 2F210000 		.4byte	.LASF61
+ 792 0173 28210000 		.4byte	.LASF61
  793 0177 05       		.byte	0x5
  794 0178 00       		.uleb128 0
- 795 0179 D0150000 		.4byte	.LASF62
+ 795 0179 CB150000 		.4byte	.LASF62
  796 017d 05       		.byte	0x5
  797 017e 00       		.uleb128 0
- 798 017f 60230000 		.4byte	.LASF63
+ 798 017f 71230000 		.4byte	.LASF63
  799 0183 05       		.byte	0x5
  800 0184 00       		.uleb128 0
- 801 0185 45060000 		.4byte	.LASF64
+ 801 0185 29060000 		.4byte	.LASF64
  802 0189 05       		.byte	0x5
  803 018a 00       		.uleb128 0
- 804 018b 7A1C0000 		.4byte	.LASF65
+ 804 018b 731C0000 		.4byte	.LASF65
  805 018f 05       		.byte	0x5
  806 0190 00       		.uleb128 0
- 807 0191 45200000 		.4byte	.LASF66
+ 807 0191 3E200000 		.4byte	.LASF66
  808 0195 05       		.byte	0x5
  809 0196 00       		.uleb128 0
- 810 0197 BA090000 		.4byte	.LASF67
+ 810 0197 9E090000 		.4byte	.LASF67
  811 019b 05       		.byte	0x5
  812 019c 00       		.uleb128 0
- 813 019d C41B0000 		.4byte	.LASF68
+ 813 019d BD1B0000 		.4byte	.LASF68
  814 01a1 05       		.byte	0x5
  815 01a2 00       		.uleb128 0
- 816 01a3 AA100000 		.4byte	.LASF69
+ 816 01a3 A5100000 		.4byte	.LASF69
  817 01a7 05       		.byte	0x5
  818 01a8 00       		.uleb128 0
- 819 01a9 1F190000 		.4byte	.LASF70
+ 819 01a9 23190000 		.4byte	.LASF70
  820 01ad 05       		.byte	0x5
  821 01ae 00       		.uleb128 0
- 822 01af 66100000 		.4byte	.LASF71
+ 822 01af 61100000 		.4byte	.LASF71
  823 01b3 05       		.byte	0x5
  824 01b4 00       		.uleb128 0
- 825 01b5 351A0000 		.4byte	.LASF72
+ 825 01b5 391A0000 		.4byte	.LASF72
  826 01b9 05       		.byte	0x5
  827 01ba 00       		.uleb128 0
- 828 01bb 0C150000 		.4byte	.LASF73
+ 828 01bb 07150000 		.4byte	.LASF73
  829 01bf 05       		.byte	0x5
  830 01c0 00       		.uleb128 0
- 831 01c1 4D030000 		.4byte	.LASF74
+ 831 01c1 31030000 		.4byte	.LASF74
  832 01c5 05       		.byte	0x5
-ARM GAS  C:\Users\Bartek\AppData\Local\Temp\ccsqC3sf.s 			page 16
+ARM GAS  C:\Users\Bartek\AppData\Local\Temp\ccgdBRxL.s 			page 16
 
 
  833 01c6 00       		.uleb128 0
- 834 01c7 071D0000 		.4byte	.LASF75
+ 834 01c7 001D0000 		.4byte	.LASF75
  835 01cb 05       		.byte	0x5
  836 01cc 00       		.uleb128 0
- 837 01cd 34050000 		.4byte	.LASF76
+ 837 01cd 18050000 		.4byte	.LASF76
  838 01d1 05       		.byte	0x5
  839 01d2 00       		.uleb128 0
- 840 01d3 B40C0000 		.4byte	.LASF77
+ 840 01d3 970C0000 		.4byte	.LASF77
  841 01d7 05       		.byte	0x5
  842 01d8 00       		.uleb128 0
- 843 01d9 AA180000 		.4byte	.LASF78
+ 843 01d9 AE180000 		.4byte	.LASF78
  844 01dd 05       		.byte	0x5
  845 01de 00       		.uleb128 0
- 846 01df DF0A0000 		.4byte	.LASF79
+ 846 01df C20A0000 		.4byte	.LASF79
  847 01e3 05       		.byte	0x5
  848 01e4 00       		.uleb128 0
- 849 01e5 CA030000 		.4byte	.LASF80
+ 849 01e5 AE030000 		.4byte	.LASF80
  850 01e9 05       		.byte	0x5
  851 01ea 00       		.uleb128 0
- 852 01eb 75180000 		.4byte	.LASF81
+ 852 01eb 79180000 		.4byte	.LASF81
  853 01ef 05       		.byte	0x5
  854 01f0 00       		.uleb128 0
- 855 01f1 33150000 		.4byte	.LASF82
+ 855 01f1 2E150000 		.4byte	.LASF82
  856 01f5 05       		.byte	0x5
  857 01f6 00       		.uleb128 0
- 858 01f7 8E020000 		.4byte	.LASF83
+ 858 01f7 72020000 		.4byte	.LASF83
  859 01fb 05       		.byte	0x5
  860 01fc 00       		.uleb128 0
- 861 01fd DB1B0000 		.4byte	.LASF84
+ 861 01fd D41B0000 		.4byte	.LASF84
  862 0201 05       		.byte	0x5
  863 0202 00       		.uleb128 0
- 864 0203 7C200000 		.4byte	.LASF85
+ 864 0203 75200000 		.4byte	.LASF85
  865 0207 05       		.byte	0x5
  866 0208 00       		.uleb128 0
- 867 0209 CB210000 		.4byte	.LASF86
+ 867 0209 C4210000 		.4byte	.LASF86
  868 020d 05       		.byte	0x5
  869 020e 00       		.uleb128 0
- 870 020f 2B120000 		.4byte	.LASF87
+ 870 020f 26120000 		.4byte	.LASF87
  871 0213 05       		.byte	0x5
  872 0214 00       		.uleb128 0
- 873 0215 BE230000 		.4byte	.LASF88
+ 873 0215 CF230000 		.4byte	.LASF88
  874 0219 05       		.byte	0x5
  875 021a 00       		.uleb128 0
- 876 021b 240E0000 		.4byte	.LASF89
+ 876 021b 070E0000 		.4byte	.LASF89
  877 021f 05       		.byte	0x5
  878 0220 00       		.uleb128 0
- 879 0221 BE0A0000 		.4byte	.LASF90
+ 879 0221 A10A0000 		.4byte	.LASF90
  880 0225 05       		.byte	0x5
  881 0226 00       		.uleb128 0
- 882 0227 3E080000 		.4byte	.LASF91
+ 882 0227 22080000 		.4byte	.LASF91
  883 022b 05       		.byte	0x5
  884 022c 00       		.uleb128 0
- 885 022d 5C130000 		.4byte	.LASF92
+ 885 022d 57130000 		.4byte	.LASF92
  886 0231 05       		.byte	0x5
  887 0232 00       		.uleb128 0
- 888 0233 0F050000 		.4byte	.LASF93
+ 888 0233 F3040000 		.4byte	.LASF93
  889 0237 05       		.byte	0x5
-ARM GAS  C:\Users\Bartek\AppData\Local\Temp\ccsqC3sf.s 			page 17
+ARM GAS  C:\Users\Bartek\AppData\Local\Temp\ccgdBRxL.s 			page 17
 
 
  890 0238 00       		.uleb128 0
- 891 0239 3D240000 		.4byte	.LASF94
+ 891 0239 4E240000 		.4byte	.LASF94
  892 023d 05       		.byte	0x5
  893 023e 00       		.uleb128 0
- 894 023f 150D0000 		.4byte	.LASF95
+ 894 023f F80C0000 		.4byte	.LASF95
  895 0243 05       		.byte	0x5
  896 0244 00       		.uleb128 0
- 897 0245 1D170000 		.4byte	.LASF96
+ 897 0245 18170000 		.4byte	.LASF96
  898 0249 05       		.byte	0x5
  899 024a 00       		.uleb128 0
- 900 024b 560F0000 		.4byte	.LASF97
+ 900 024b 520F0000 		.4byte	.LASF97
  901 024f 05       		.byte	0x5
  902 0250 00       		.uleb128 0
- 903 0251 D41A0000 		.4byte	.LASF98
+ 903 0251 D81A0000 		.4byte	.LASF98
  904 0255 05       		.byte	0x5
  905 0256 00       		.uleb128 0
- 906 0257 3B0B0000 		.4byte	.LASF99
+ 906 0257 1E0B0000 		.4byte	.LASF99
  907 025b 05       		.byte	0x5
  908 025c 00       		.uleb128 0
- 909 025d 59060000 		.4byte	.LASF100
+ 909 025d 3D060000 		.4byte	.LASF100
  910 0261 05       		.byte	0x5
  911 0262 00       		.uleb128 0
- 912 0263 9C010000 		.4byte	.LASF101
+ 912 0263 80010000 		.4byte	.LASF101
  913 0267 05       		.byte	0x5
  914 0268 00       		.uleb128 0
- 915 0269 DD110000 		.4byte	.LASF102
+ 915 0269 D8110000 		.4byte	.LASF102
  916 026d 05       		.byte	0x5
  917 026e 00       		.uleb128 0
- 918 026f 8C230000 		.4byte	.LASF103
+ 918 026f 9D230000 		.4byte	.LASF103
  919 0273 05       		.byte	0x5
  920 0274 00       		.uleb128 0
- 921 0275 29090000 		.4byte	.LASF104
+ 921 0275 0D090000 		.4byte	.LASF104
  922 0279 05       		.byte	0x5
  923 027a 00       		.uleb128 0
- 924 027b 0F190000 		.4byte	.LASF105
+ 924 027b 13190000 		.4byte	.LASF105
  925 027f 05       		.byte	0x5
  926 0280 00       		.uleb128 0
- 927 0281 3B1E0000 		.4byte	.LASF106
+ 927 0281 341E0000 		.4byte	.LASF106
  928 0285 05       		.byte	0x5
  929 0286 00       		.uleb128 0
- 930 0287 CD1E0000 		.4byte	.LASF107
+ 930 0287 C61E0000 		.4byte	.LASF107
  931 028b 05       		.byte	0x5
  932 028c 00       		.uleb128 0
- 933 028d 94170000 		.4byte	.LASF108
+ 933 028d 8F170000 		.4byte	.LASF108
  934 0291 05       		.byte	0x5
  935 0292 00       		.uleb128 0
- 936 0293 A71C0000 		.4byte	.LASF109
+ 936 0293 A01C0000 		.4byte	.LASF109
  937 0297 05       		.byte	0x5
  938 0298 00       		.uleb128 0
- 939 0299 A6020000 		.4byte	.LASF110
+ 939 0299 8A020000 		.4byte	.LASF110
  940 029d 05       		.byte	0x5
  941 029e 00       		.uleb128 0
- 942 029f 48100000 		.4byte	.LASF111
+ 942 029f 43100000 		.4byte	.LASF111
  943 02a3 05       		.byte	0x5
  944 02a4 00       		.uleb128 0
- 945 02a5 960C0000 		.4byte	.LASF112
+ 945 02a5 790C0000 		.4byte	.LASF112
  946 02a9 05       		.byte	0x5
-ARM GAS  C:\Users\Bartek\AppData\Local\Temp\ccsqC3sf.s 			page 18
+ARM GAS  C:\Users\Bartek\AppData\Local\Temp\ccgdBRxL.s 			page 18
 
 
  947 02aa 00       		.uleb128 0
- 948 02ab A5130000 		.4byte	.LASF113
+ 948 02ab A0130000 		.4byte	.LASF113
  949 02af 05       		.byte	0x5
  950 02b0 00       		.uleb128 0
  951 02b1 00000000 		.4byte	.LASF114
  952 02b5 05       		.byte	0x5
  953 02b6 00       		.uleb128 0
- 954 02b7 04080000 		.4byte	.LASF115
+ 954 02b7 E8070000 		.4byte	.LASF115
  955 02bb 05       		.byte	0x5
  956 02bc 00       		.uleb128 0
- 957 02bd B11D0000 		.4byte	.LASF116
+ 957 02bd AA1D0000 		.4byte	.LASF116
  958 02c1 05       		.byte	0x5
  959 02c2 00       		.uleb128 0
- 960 02c3 CE0B0000 		.4byte	.LASF117
+ 960 02c3 B10B0000 		.4byte	.LASF117
  961 02c7 05       		.byte	0x5
  962 02c8 00       		.uleb128 0
- 963 02c9 24080000 		.4byte	.LASF118
+ 963 02c9 08080000 		.4byte	.LASF118
  964 02cd 05       		.byte	0x5
  965 02ce 00       		.uleb128 0
- 966 02cf 67140000 		.4byte	.LASF119
+ 966 02cf 62140000 		.4byte	.LASF119
  967 02d3 05       		.byte	0x5
  968 02d4 00       		.uleb128 0
- 969 02d5 141B0000 		.4byte	.LASF120
+ 969 02d5 0D1B0000 		.4byte	.LASF120
  970 02d9 05       		.byte	0x5
  971 02da 00       		.uleb128 0
- 972 02db 98140000 		.4byte	.LASF121
+ 972 02db 93140000 		.4byte	.LASF121
  973 02df 05       		.byte	0x5
  974 02e0 00       		.uleb128 0
- 975 02e1 D9180000 		.4byte	.LASF122
+ 975 02e1 DD180000 		.4byte	.LASF122
  976 02e5 05       		.byte	0x5
  977 02e6 00       		.uleb128 0
- 978 02e7 470D0000 		.4byte	.LASF123
+ 978 02e7 2A0D0000 		.4byte	.LASF123
  979 02eb 05       		.byte	0x5
  980 02ec 00       		.uleb128 0
- 981 02ed 7E020000 		.4byte	.LASF124
+ 981 02ed 62020000 		.4byte	.LASF124
  982 02f1 05       		.byte	0x5
  983 02f2 00       		.uleb128 0
- 984 02f3 04130000 		.4byte	.LASF125
+ 984 02f3 FF120000 		.4byte	.LASF125
  985 02f7 05       		.byte	0x5
  986 02f8 00       		.uleb128 0
- 987 02f9 2E0C0000 		.4byte	.LASF126
+ 987 02f9 110C0000 		.4byte	.LASF126
  988 02fd 05       		.byte	0x5
  989 02fe 00       		.uleb128 0
- 990 02ff 470E0000 		.4byte	.LASF127
+ 990 02ff 2A0E0000 		.4byte	.LASF127
  991 0303 05       		.byte	0x5
  992 0304 00       		.uleb128 0
- 993 0305 09220000 		.4byte	.LASF128
+ 993 0305 02220000 		.4byte	.LASF128
  994 0309 05       		.byte	0x5
  995 030a 00       		.uleb128 0
- 996 030b C10F0000 		.4byte	.LASF129
+ 996 030b BC0F0000 		.4byte	.LASF129
  997 030f 05       		.byte	0x5
  998 0310 00       		.uleb128 0
- 999 0311 800C0000 		.4byte	.LASF130
+ 999 0311 630C0000 		.4byte	.LASF130
  1000 0315 05       		.byte	0x5
  1001 0316 00       		.uleb128 0
- 1002 0317 65110000 		.4byte	.LASF131
+ 1002 0317 60110000 		.4byte	.LASF131
  1003 031b 05       		.byte	0x5
-ARM GAS  C:\Users\Bartek\AppData\Local\Temp\ccsqC3sf.s 			page 19
+ARM GAS  C:\Users\Bartek\AppData\Local\Temp\ccgdBRxL.s 			page 19
 
 
  1004 031c 00       		.uleb128 0
- 1005 031d BF170000 		.4byte	.LASF132
+ 1005 031d BA170000 		.4byte	.LASF132
  1006 0321 05       		.byte	0x5
  1007 0322 00       		.uleb128 0
- 1008 0323 AB050000 		.4byte	.LASF133
+ 1008 0323 8F050000 		.4byte	.LASF133
  1009 0327 05       		.byte	0x5
  1010 0328 00       		.uleb128 0
- 1011 0329 88190000 		.4byte	.LASF134
+ 1011 0329 8C190000 		.4byte	.LASF134
  1012 032d 05       		.byte	0x5
  1013 032e 00       		.uleb128 0
- 1014 032f 5D190000 		.4byte	.LASF135
+ 1014 032f 61190000 		.4byte	.LASF135
  1015 0333 05       		.byte	0x5
  1016 0334 00       		.uleb128 0
- 1017 0335 D8070000 		.4byte	.LASF136
+ 1017 0335 BC070000 		.4byte	.LASF136
  1018 0339 05       		.byte	0x5
  1019 033a 00       		.uleb128 0
- 1020 033b F01C0000 		.4byte	.LASF137
+ 1020 033b E91C0000 		.4byte	.LASF137
  1021 033f 05       		.byte	0x5
  1022 0340 00       		.uleb128 0
- 1023 0341 A10D0000 		.4byte	.LASF138
+ 1023 0341 840D0000 		.4byte	.LASF138
  1024 0345 05       		.byte	0x5
  1025 0346 00       		.uleb128 0
- 1026 0347 ED0D0000 		.4byte	.LASF139
+ 1026 0347 D00D0000 		.4byte	.LASF139
  1027 034b 05       		.byte	0x5
  1028 034c 00       		.uleb128 0
- 1029 034d DB050000 		.4byte	.LASF140
+ 1029 034d BF050000 		.4byte	.LASF140
  1030 0351 05       		.byte	0x5
  1031 0352 00       		.uleb128 0
- 1032 0353 40110000 		.4byte	.LASF141
+ 1032 0353 3B110000 		.4byte	.LASF141
  1033 0357 05       		.byte	0x5
  1034 0358 00       		.uleb128 0
- 1035 0359 171C0000 		.4byte	.LASF142
+ 1035 0359 101C0000 		.4byte	.LASF142
  1036 035d 05       		.byte	0x5
  1037 035e 00       		.uleb128 0
- 1038 035f 83240000 		.4byte	.LASF143
+ 1038 035f 94240000 		.4byte	.LASF143
  1039 0363 05       		.byte	0x5
  1040 0364 00       		.uleb128 0
- 1041 0365 47140000 		.4byte	.LASF144
+ 1041 0365 42140000 		.4byte	.LASF144
  1042 0369 05       		.byte	0x5
  1043 036a 00       		.uleb128 0
- 1044 036b 46190000 		.4byte	.LASF145
+ 1044 036b 4A190000 		.4byte	.LASF145
  1045 036f 05       		.byte	0x5
  1046 0370 00       		.uleb128 0
- 1047 0371 29110000 		.4byte	.LASF146
+ 1047 0371 24110000 		.4byte	.LASF146
  1048 0375 05       		.byte	0x5
  1049 0376 00       		.uleb128 0
- 1050 0377 39020000 		.4byte	.LASF147
+ 1050 0377 1D020000 		.4byte	.LASF147
  1051 037b 05       		.byte	0x5
  1052 037c 00       		.uleb128 0
- 1053 037d B1160000 		.4byte	.LASF148
+ 1053 037d AC160000 		.4byte	.LASF148
  1054 0381 05       		.byte	0x5
  1055 0382 00       		.uleb128 0
- 1056 0383 9B1E0000 		.4byte	.LASF149
+ 1056 0383 941E0000 		.4byte	.LASF149
  1057 0387 05       		.byte	0x5
  1058 0388 00       		.uleb128 0
- 1059 0389 CE120000 		.4byte	.LASF150
+ 1059 0389 C9120000 		.4byte	.LASF150
  1060 038d 05       		.byte	0x5
-ARM GAS  C:\Users\Bartek\AppData\Local\Temp\ccsqC3sf.s 			page 20
+ARM GAS  C:\Users\Bartek\AppData\Local\Temp\ccgdBRxL.s 			page 20
 
 
  1061 038e 00       		.uleb128 0
- 1062 038f B0240000 		.4byte	.LASF151
+ 1062 038f C1240000 		.4byte	.LASF151
  1063 0393 05       		.byte	0x5
  1064 0394 00       		.uleb128 0
- 1065 0395 40040000 		.4byte	.LASF152
+ 1065 0395 24040000 		.4byte	.LASF152
  1066 0399 05       		.byte	0x5
  1067 039a 00       		.uleb128 0
- 1068 039b F1210000 		.4byte	.LASF153
+ 1068 039b EA210000 		.4byte	.LASF153
  1069 039f 05       		.byte	0x5
  1070 03a0 00       		.uleb128 0
- 1071 03a1 83140000 		.4byte	.LASF154
+ 1071 03a1 7E140000 		.4byte	.LASF154
  1072 03a5 05       		.byte	0x5
  1073 03a6 00       		.uleb128 0
- 1074 03a7 F2150000 		.4byte	.LASF155
+ 1074 03a7 ED150000 		.4byte	.LASF155
  1075 03ab 05       		.byte	0x5
  1076 03ac 00       		.uleb128 0
- 1077 03ad 57040000 		.4byte	.LASF156
+ 1077 03ad 3B040000 		.4byte	.LASF156
  1078 03b1 05       		.byte	0x5
  1079 03b2 00       		.uleb128 0
- 1080 03b3 9D110000 		.4byte	.LASF157
+ 1080 03b3 98110000 		.4byte	.LASF157
  1081 03b7 05       		.byte	0x5
  1082 03b8 00       		.uleb128 0
- 1083 03b9 BC060000 		.4byte	.LASF158
+ 1083 03b9 A0060000 		.4byte	.LASF158
  1084 03bd 05       		.byte	0x5
  1085 03be 00       		.uleb128 0
- 1086 03bf 2B1D0000 		.4byte	.LASF159
+ 1086 03bf 241D0000 		.4byte	.LASF159
  1087 03c3 05       		.byte	0x5
  1088 03c4 00       		.uleb128 0
- 1089 03c5 CB040000 		.4byte	.LASF160
+ 1089 03c5 AF040000 		.4byte	.LASF160
  1090 03c9 05       		.byte	0x5
  1091 03ca 00       		.uleb128 0
- 1092 03cb 931F0000 		.4byte	.LASF161
+ 1092 03cb 8C1F0000 		.4byte	.LASF161
  1093 03cf 05       		.byte	0x5
  1094 03d0 00       		.uleb128 0
- 1095 03d1 FE0D0000 		.4byte	.LASF162
+ 1095 03d1 E10D0000 		.4byte	.LASF162
  1096 03d5 05       		.byte	0x5
  1097 03d6 00       		.uleb128 0
- 1098 03d7 16160000 		.4byte	.LASF163
+ 1098 03d7 11160000 		.4byte	.LASF163
  1099 03db 05       		.byte	0x5
  1100 03dc 00       		.uleb128 0
- 1101 03dd 8B120000 		.4byte	.LASF164
+ 1101 03dd 86120000 		.4byte	.LASF164
  1102 03e1 05       		.byte	0x5
  1103 03e2 00       		.uleb128 0
- 1104 03e3 251E0000 		.4byte	.LASF165
+ 1104 03e3 1E1E0000 		.4byte	.LASF165
  1105 03e7 05       		.byte	0x5
  1106 03e8 00       		.uleb128 0
- 1107 03e9 C0070000 		.4byte	.LASF166
+ 1107 03e9 A4070000 		.4byte	.LASF166
  1108 03ed 05       		.byte	0x5
  1109 03ee 00       		.uleb128 0
- 1110 03ef 5D0A0000 		.4byte	.LASF167
+ 1110 03ef 410A0000 		.4byte	.LASF167
  1111 03f3 05       		.byte	0x5
  1112 03f4 00       		.uleb128 0
- 1113 03f5 13180000 		.4byte	.LASF168
+ 1113 03f5 F81A0000 		.4byte	.LASF168
  1114 03f9 05       		.byte	0x5
  1115 03fa 00       		.uleb128 0
- 1116 03fb B8150000 		.4byte	.LASF169
+ 1116 03fb B3150000 		.4byte	.LASF169
  1117 03ff 05       		.byte	0x5
-ARM GAS  C:\Users\Bartek\AppData\Local\Temp\ccsqC3sf.s 			page 21
+ARM GAS  C:\Users\Bartek\AppData\Local\Temp\ccgdBRxL.s 			page 21
 
 
  1118 0400 00       		.uleb128 0
- 1119 0401 A7060000 		.4byte	.LASF170
+ 1119 0401 8B060000 		.4byte	.LASF170
  1120 0405 05       		.byte	0x5
  1121 0406 00       		.uleb128 0
- 1122 0407 C3020000 		.4byte	.LASF171
+ 1122 0407 A7020000 		.4byte	.LASF171
  1123 040b 05       		.byte	0x5
  1124 040c 00       		.uleb128 0
- 1125 040d 5D0D0000 		.4byte	.LASF172
+ 1125 040d 400D0000 		.4byte	.LASF172
  1126 0411 05       		.byte	0x5
  1127 0412 00       		.uleb128 0
- 1128 0413 CF200000 		.4byte	.LASF173
+ 1128 0413 C8200000 		.4byte	.LASF173
  1129 0417 05       		.byte	0x5
  1130 0418 00       		.uleb128 0
- 1131 0419 DF1F0000 		.4byte	.LASF174
+ 1131 0419 D81F0000 		.4byte	.LASF174
  1132 041d 05       		.byte	0x5
  1133 041e 00       		.uleb128 0
- 1134 041f 68020000 		.4byte	.LASF175
+ 1134 041f 4C020000 		.4byte	.LASF175
  1135 0423 05       		.byte	0x5
  1136 0424 00       		.uleb128 0
- 1137 0425 7B170000 		.4byte	.LASF176
+ 1137 0425 76170000 		.4byte	.LASF176
  1138 0429 05       		.byte	0x5
  1139 042a 00       		.uleb128 0
- 1140 042b B8120000 		.4byte	.LASF177
+ 1140 042b B3120000 		.4byte	.LASF177
  1141 042f 05       		.byte	0x5
  1142 0430 00       		.uleb128 0
- 1143 0431 6C240000 		.4byte	.LASF178
+ 1143 0431 7D240000 		.4byte	.LASF178
  1144 0435 05       		.byte	0x5
  1145 0436 00       		.uleb128 0
- 1146 0437 0F100000 		.4byte	.LASF179
+ 1146 0437 0A100000 		.4byte	.LASF179
  1147 043b 05       		.byte	0x5
  1148 043c 00       		.uleb128 0
- 1149 043d D3140000 		.4byte	.LASF180
+ 1149 043d CE140000 		.4byte	.LASF180
  1150 0441 05       		.byte	0x5
  1151 0442 00       		.uleb128 0
- 1152 0443 7A050000 		.4byte	.LASF181
+ 1152 0443 5E050000 		.4byte	.LASF181
  1153 0447 05       		.byte	0x5
  1154 0448 00       		.uleb128 0
- 1155 0449 38170000 		.4byte	.LASF182
+ 1155 0449 33170000 		.4byte	.LASF182
  1156 044d 05       		.byte	0x5
  1157 044e 00       		.uleb128 0
- 1158 044f D1100000 		.4byte	.LASF183
+ 1158 044f CC100000 		.4byte	.LASF183
  1159 0453 05       		.byte	0x5
  1160 0454 00       		.uleb128 0
- 1161 0455 13120000 		.4byte	.LASF184
+ 1161 0455 0E120000 		.4byte	.LASF184
  1162 0459 05       		.byte	0x5
  1163 045a 00       		.uleb128 0
- 1164 045b 28230000 		.4byte	.LASF185
+ 1164 045b DC0E0000 		.4byte	.LASF185
  1165 045f 05       		.byte	0x5
  1166 0460 00       		.uleb128 0
- 1167 0461 CD130000 		.4byte	.LASF186
+ 1167 0461 C8130000 		.4byte	.LASF186
  1168 0465 05       		.byte	0x5
  1169 0466 00       		.uleb128 0
- 1170 0467 551F0000 		.4byte	.LASF187
+ 1170 0467 4E1F0000 		.4byte	.LASF187
  1171 046b 05       		.byte	0x5
  1172 046c 00       		.uleb128 0
- 1173 046d 101F0000 		.4byte	.LASF188
+ 1173 046d 091F0000 		.4byte	.LASF188
  1174 0471 05       		.byte	0x5
-ARM GAS  C:\Users\Bartek\AppData\Local\Temp\ccsqC3sf.s 			page 22
+ARM GAS  C:\Users\Bartek\AppData\Local\Temp\ccgdBRxL.s 			page 22
 
 
  1175 0472 00       		.uleb128 0
- 1176 0473 17110000 		.4byte	.LASF189
+ 1176 0473 12110000 		.4byte	.LASF189
  1177 0477 05       		.byte	0x5
  1178 0478 00       		.uleb128 0
- 1179 0479 4D050000 		.4byte	.LASF190
+ 1179 0479 31050000 		.4byte	.LASF190
  1180 047d 05       		.byte	0x5
  1181 047e 00       		.uleb128 0
- 1182 047f A00A0000 		.4byte	.LASF191
+ 1182 047f 0E180000 		.4byte	.LASF191
  1183 0483 05       		.byte	0x5
  1184 0484 00       		.uleb128 0
- 1185 0485 220B0000 		.4byte	.LASF192
+ 1185 0485 050B0000 		.4byte	.LASF192
  1186 0489 05       		.byte	0x5
  1187 048a 00       		.uleb128 0
- 1188 048b 24040000 		.4byte	.LASF193
+ 1188 048b 08040000 		.4byte	.LASF193
  1189 048f 05       		.byte	0x5
  1190 0490 00       		.uleb128 0
- 1191 0491 DE040000 		.4byte	.LASF194
+ 1191 0491 C2040000 		.4byte	.LASF194
  1192 0495 05       		.byte	0x5
  1193 0496 00       		.uleb128 0
- 1194 0497 7F1B0000 		.4byte	.LASF195
+ 1194 0497 781B0000 		.4byte	.LASF195
  1195 049b 05       		.byte	0x5
  1196 049c 00       		.uleb128 0
- 1197 049d D20E0000 		.4byte	.LASF196
+ 1197 049d B50E0000 		.4byte	.LASF196
  1198 04a1 05       		.byte	0x5
  1199 04a2 00       		.uleb128 0
- 1200 04a3 7A0E0000 		.4byte	.LASF197
+ 1200 04a3 5D0E0000 		.4byte	.LASF197
  1201 04a7 05       		.byte	0x5
  1202 04a8 00       		.uleb128 0
- 1203 04a9 0B020000 		.4byte	.LASF198
+ 1203 04a9 EF010000 		.4byte	.LASF198
  1204 04ad 05       		.byte	0x5
  1205 04ae 00       		.uleb128 0
- 1206 04af 17070000 		.4byte	.LASF199
+ 1206 04af FB060000 		.4byte	.LASF199
  1207 04b3 05       		.byte	0x5
  1208 04b4 00       		.uleb128 0
- 1209 04b5 51210000 		.4byte	.LASF200
+ 1209 04b5 4A210000 		.4byte	.LASF200
  1210 04b9 05       		.byte	0x5
  1211 04ba 00       		.uleb128 0
- 1212 04bb E8200000 		.4byte	.LASF201
+ 1212 04bb E1200000 		.4byte	.LASF201
  1213 04bf 05       		.byte	0x5
  1214 04c0 00       		.uleb128 0
- 1215 04c1 B1210000 		.4byte	.LASF202
+ 1215 04c1 AA210000 		.4byte	.LASF202
  1216 04c5 05       		.byte	0x5
  1217 04c6 00       		.uleb128 0
- 1218 04c7 2F1C0000 		.4byte	.LASF203
+ 1218 04c7 281C0000 		.4byte	.LASF203
  1219 04cb 05       		.byte	0x5
  1220 04cc 00       		.uleb128 0
- 1221 04cd 35100000 		.4byte	.LASF204
+ 1221 04cd 30100000 		.4byte	.LASF204
  1222 04d1 05       		.byte	0x5
  1223 04d2 00       		.uleb128 0
- 1224 04d3 5B0C0000 		.4byte	.LASF205
+ 1224 04d3 3E0C0000 		.4byte	.LASF205
  1225 04d7 05       		.byte	0x5
  1226 04d8 00       		.uleb128 0
- 1227 04d9 E0160000 		.4byte	.LASF206
+ 1227 04d9 DB160000 		.4byte	.LASF206
  1228 04dd 05       		.byte	0x5
  1229 04de 00       		.uleb128 0
- 1230 04df 5E0E0000 		.4byte	.LASF207
+ 1230 04df 410E0000 		.4byte	.LASF207
  1231 04e3 05       		.byte	0x5
-ARM GAS  C:\Users\Bartek\AppData\Local\Temp\ccsqC3sf.s 			page 23
+ARM GAS  C:\Users\Bartek\AppData\Local\Temp\ccgdBRxL.s 			page 23
 
 
  1232 04e4 00       		.uleb128 0
- 1233 04e5 5D1C0000 		.4byte	.LASF208
+ 1233 04e5 561C0000 		.4byte	.LASF208
  1234 04e9 05       		.byte	0x5
  1235 04ea 00       		.uleb128 0
- 1236 04eb 9D240000 		.4byte	.LASF209
+ 1236 04eb AE240000 		.4byte	.LASF209
  1237 04ef 05       		.byte	0x5
  1238 04f0 00       		.uleb128 0
- 1239 04f1 EF050000 		.4byte	.LASF210
+ 1239 04f1 D3050000 		.4byte	.LASF210
  1240 04f5 05       		.byte	0x5
  1241 04f6 00       		.uleb128 0
- 1242 04f7 D11D0000 		.4byte	.LASF211
+ 1242 04f7 CA1D0000 		.4byte	.LASF211
  1243 04fb 05       		.byte	0x5
  1244 04fc 00       		.uleb128 0
- 1245 04fd B6080000 		.4byte	.LASF212
+ 1245 04fd 9A080000 		.4byte	.LASF212
  1246 0501 05       		.byte	0x5
  1247 0502 00       		.uleb128 0
- 1248 0503 6E120000 		.4byte	.LASF213
+ 1248 0503 69120000 		.4byte	.LASF213
  1249 0507 05       		.byte	0x5
  1250 0508 00       		.uleb128 0
- 1251 0509 BD100000 		.4byte	.LASF214
+ 1251 0509 B8100000 		.4byte	.LASF214
  1252 050d 05       		.byte	0x5
  1253 050e 00       		.uleb128 0
- 1254 050f 340D0000 		.4byte	.LASF215
+ 1254 050f 170D0000 		.4byte	.LASF215
  1255 0513 05       		.byte	0x5
  1256 0514 00       		.uleb128 0
- 1257 0515 2E060000 		.4byte	.LASF216
+ 1257 0515 12060000 		.4byte	.LASF216
  1258 0519 05       		.byte	0x5
  1259 051a 00       		.uleb128 0
- 1260 051b D8240000 		.4byte	.LASF217
+ 1260 051b E9240000 		.4byte	.LASF217
  1261 051f 05       		.byte	0x5
  1262 0520 00       		.uleb128 0
- 1263 0521 3C0C0000 		.4byte	.LASF218
+ 1263 0521 1F0C0000 		.4byte	.LASF218
  1264 0525 05       		.byte	0x5
  1265 0526 00       		.uleb128 0
- 1266 0527 EA060000 		.4byte	.LASF219
+ 1266 0527 CE060000 		.4byte	.LASF219
  1267 052b 05       		.byte	0x5
  1268 052c 00       		.uleb128 0
- 1269 052d C5240000 		.4byte	.LASF220
+ 1269 052d D6240000 		.4byte	.LASF220
  1270 0531 05       		.byte	0x5
  1271 0532 00       		.uleb128 0
- 1272 0533 4A220000 		.4byte	.LASF221
+ 1272 0533 43220000 		.4byte	.LASF221
  1273 0537 05       		.byte	0x5
  1274 0538 00       		.uleb128 0
- 1275 0539 29070000 		.4byte	.LASF222
+ 1275 0539 0D070000 		.4byte	.LASF222
  1276 053d 05       		.byte	0x5
  1277 053e 00       		.uleb128 0
- 1278 053f F80B0000 		.4byte	.LASF223
+ 1278 053f DB0B0000 		.4byte	.LASF223
  1279 0543 05       		.byte	0x5
  1280 0544 00       		.uleb128 0
- 1281 0545 22220000 		.4byte	.LASF224
+ 1281 0545 1B220000 		.4byte	.LASF224
  1282 0549 05       		.byte	0x5
  1283 054a 00       		.uleb128 0
- 1284 054b C5180000 		.4byte	.LASF225
+ 1284 054b C9180000 		.4byte	.LASF225
  1285 054f 05       		.byte	0x5
  1286 0550 00       		.uleb128 0
- 1287 0551 00030000 		.4byte	.LASF226
+ 1287 0551 E4020000 		.4byte	.LASF226
  1288 0555 05       		.byte	0x5
-ARM GAS  C:\Users\Bartek\AppData\Local\Temp\ccsqC3sf.s 			page 24
+ARM GAS  C:\Users\Bartek\AppData\Local\Temp\ccgdBRxL.s 			page 24
 
 
  1289 0556 00       		.uleb128 0
- 1290 0557 4F170000 		.4byte	.LASF227
+ 1290 0557 4A170000 		.4byte	.LASF227
  1291 055b 05       		.byte	0x5
  1292 055c 00       		.uleb128 0
- 1293 055d 7E1D0000 		.4byte	.LASF228
+ 1293 055d 771D0000 		.4byte	.LASF228
  1294 0561 05       		.byte	0x5
  1295 0562 00       		.uleb128 0
- 1296 0563 B91F0000 		.4byte	.LASF229
+ 1296 0563 B21F0000 		.4byte	.LASF229
  1297 0567 05       		.byte	0x5
  1298 0568 00       		.uleb128 0
- 1299 0569 F9010000 		.4byte	.LASF230
+ 1299 0569 DD010000 		.4byte	.LASF230
  1300 056d 05       		.byte	0x5
  1301 056e 00       		.uleb128 0
- 1302 056f CE1C0000 		.4byte	.LASF231
+ 1302 056f C71C0000 		.4byte	.LASF231
  1303 0573 05       		.byte	0x5
  1304 0574 00       		.uleb128 0
- 1305 0575 521B0000 		.4byte	.LASF232
+ 1305 0575 4B1B0000 		.4byte	.LASF232
  1306 0579 05       		.byte	0x5
  1307 057a 00       		.uleb128 0
- 1308 057b 88030000 		.4byte	.LASF233
+ 1308 057b 6C030000 		.4byte	.LASF233
  1309 057f 05       		.byte	0x5
  1310 0580 00       		.uleb128 0
- 1311 0581 181D0000 		.4byte	.LASF234
+ 1311 0581 111D0000 		.4byte	.LASF234
  1312 0585 05       		.byte	0x5
  1313 0586 00       		.uleb128 0
- 1314 0587 EA190000 		.4byte	.LASF235
+ 1314 0587 EE190000 		.4byte	.LASF235
  1315 058b 05       		.byte	0x5
  1316 058c 00       		.uleb128 0
- 1317 058d BE220000 		.4byte	.LASF236
+ 1317 058d B7220000 		.4byte	.LASF236
  1318 0591 05       		.byte	0x5
  1319 0592 00       		.uleb128 0
- 1320 0593 650F0000 		.4byte	.LASF237
+ 1320 0593 840A0000 		.4byte	.LASF237
  1321 0597 05       		.byte	0x5
  1322 0598 00       		.uleb128 0
- 1323 0599 F1040000 		.4byte	.LASF238
+ 1323 0599 D5040000 		.4byte	.LASF238
  1324 059d 05       		.byte	0x5
  1325 059e 00       		.uleb128 0
- 1326 059f 6D1B0000 		.4byte	.LASF239
+ 1326 059f 661B0000 		.4byte	.LASF239
  1327 05a3 05       		.byte	0x5
  1328 05a4 00       		.uleb128 0
- 1329 05a5 A8090000 		.4byte	.LASF240
+ 1329 05a5 8C090000 		.4byte	.LASF240
  1330 05a9 05       		.byte	0x5
  1331 05aa 00       		.uleb128 0
- 1332 05ab FD230000 		.4byte	.LASF241
+ 1332 05ab 0E240000 		.4byte	.LASF241
  1333 05af 05       		.byte	0x5
  1334 05b0 00       		.uleb128 0
- 1335 05b1 241B0000 		.4byte	.LASF242
+ 1335 05b1 1D1B0000 		.4byte	.LASF242
  1336 05b5 05       		.byte	0x5
  1337 05b6 00       		.uleb128 0
- 1338 05b7 A60F0000 		.4byte	.LASF243
+ 1338 05b7 A10F0000 		.4byte	.LASF243
  1339 05bb 05       		.byte	0x5
  1340 05bc 00       		.uleb128 0
- 1341 05bd E3170000 		.4byte	.LASF244
+ 1341 05bd DE170000 		.4byte	.LASF244
  1342 05c1 05       		.byte	0x5
  1343 05c2 00       		.uleb128 0
- 1344 05c3 DA0D0000 		.4byte	.LASF245
+ 1344 05c3 BD0D0000 		.4byte	.LASF245
  1345 05c7 05       		.byte	0x5
-ARM GAS  C:\Users\Bartek\AppData\Local\Temp\ccsqC3sf.s 			page 25
+ARM GAS  C:\Users\Bartek\AppData\Local\Temp\ccgdBRxL.s 			page 25
 
 
  1346 05c8 00       		.uleb128 0
- 1347 05c9 EC220000 		.4byte	.LASF246
+ 1347 05c9 E5220000 		.4byte	.LASF246
  1348 05cd 05       		.byte	0x5
  1349 05ce 00       		.uleb128 0
- 1350 05cf 120A0000 		.4byte	.LASF247
+ 1350 05cf F6090000 		.4byte	.LASF247
  1351 05d3 05       		.byte	0x5
  1352 05d4 00       		.uleb128 0
- 1353 05d5 F6170000 		.4byte	.LASF248
+ 1353 05d5 F1170000 		.4byte	.LASF248
  1354 05d9 05       		.byte	0x5
  1355 05da 00       		.uleb128 0
- 1356 05db 7F220000 		.4byte	.LASF249
+ 1356 05db 78220000 		.4byte	.LASF249
  1357 05df 05       		.byte	0x5
  1358 05e0 00       		.uleb128 0
- 1359 05e1 80040000 		.4byte	.LASF250
+ 1359 05e1 64040000 		.4byte	.LASF250
  1360 05e5 05       		.byte	0x5
  1361 05e6 00       		.uleb128 0
- 1362 05e7 820F0000 		.4byte	.LASF251
+ 1362 05e7 7D0F0000 		.4byte	.LASF251
  1363 05eb 05       		.byte	0x5
  1364 05ec 00       		.uleb128 0
- 1365 05ed 931A0000 		.4byte	.LASF252
+ 1365 05ed 971A0000 		.4byte	.LASF252
  1366 05f1 05       		.byte	0x5
  1367 05f2 00       		.uleb128 0
- 1368 05f3 77150000 		.4byte	.LASF253
+ 1368 05f3 72150000 		.4byte	.LASF253
  1369 05f7 05       		.byte	0x5
  1370 05f8 00       		.uleb128 0
- 1371 05f9 10040000 		.4byte	.LASF254
+ 1371 05f9 F4030000 		.4byte	.LASF254
  1372 05fd 05       		.byte	0x5
  1373 05fe 00       		.uleb128 0
- 1374 05ff A11B0000 		.4byte	.LASF255
+ 1374 05ff 9A1B0000 		.4byte	.LASF255
  1375 0603 05       		.byte	0x5
  1376 0604 00       		.uleb128 0
- 1377 0605 A9200000 		.4byte	.LASF256
+ 1377 0605 A2200000 		.4byte	.LASF256
  1378 0609 05       		.byte	0x5
  1379 060a 00       		.uleb128 0
- 1380 060b 63070000 		.4byte	.LASF257
+ 1380 060b 47070000 		.4byte	.LASF257
  1381 060f 05       		.byte	0x5
  1382 0610 00       		.uleb128 0
- 1383 0611 ED140000 		.4byte	.LASF258
+ 1383 0611 E8140000 		.4byte	.LASF258
  1384 0615 05       		.byte	0x5
  1385 0616 00       		.uleb128 0
- 1386 0617 DD210000 		.4byte	.LASF259
+ 1386 0617 D6210000 		.4byte	.LASF259
  1387 061b 05       		.byte	0x5
  1388 061c 00       		.uleb128 0
- 1389 061d 6B220000 		.4byte	.LASF260
+ 1389 061d 64220000 		.4byte	.LASF260
  1390 0621 05       		.byte	0x5
  1391 0622 00       		.uleb128 0
- 1392 0623 D90C0000 		.4byte	.LASF261
+ 1392 0623 BC0C0000 		.4byte	.LASF261
  1393 0627 05       		.byte	0x5
  1394 0628 00       		.uleb128 0
- 1395 0629 D50F0000 		.4byte	.LASF262
+ 1395 0629 D00F0000 		.4byte	.LASF262
  1396 062d 05       		.byte	0x5
  1397 062e 00       		.uleb128 0
- 1398 062f 41230000 		.4byte	.LASF263
+ 1398 062f 52230000 		.4byte	.LASF263
  1399 0633 05       		.byte	0x5
  1400 0634 00       		.uleb128 0
- 1401 0635 87010000 		.4byte	.LASF264
+ 1401 0635 6B010000 		.4byte	.LASF264
  1402 0639 05       		.byte	0x5
-ARM GAS  C:\Users\Bartek\AppData\Local\Temp\ccsqC3sf.s 			page 26
+ARM GAS  C:\Users\Bartek\AppData\Local\Temp\ccgdBRxL.s 			page 26
 
 
  1403 063a 00       		.uleb128 0
- 1404 063b 02110000 		.4byte	.LASF265
+ 1404 063b FD100000 		.4byte	.LASF265
  1405 063f 05       		.byte	0x5
  1406 0640 00       		.uleb128 0
- 1407 0641 BB1A0000 		.4byte	.LASF266
+ 1407 0641 BF1A0000 		.4byte	.LASF266
  1408 0645 05       		.byte	0x5
  1409 0646 00       		.uleb128 0
- 1410 0647 92220000 		.4byte	.LASF267
+ 1410 0647 8B220000 		.4byte	.LASF267
  1411 064b 05       		.byte	0x5
  1412 064c 00       		.uleb128 0
- 1413 064d 19030000 		.4byte	.LASF268
+ 1413 064d FD020000 		.4byte	.LASF268
  1414 0651 05       		.byte	0x5
  1415 0652 00       		.uleb128 0
- 1416 0653 73160000 		.4byte	.LASF269
+ 1416 0653 6E160000 		.4byte	.LASF269
  1417 0657 05       		.byte	0x5
  1418 0658 00       		.uleb128 0
- 1419 0659 9C100000 		.4byte	.LASF270
+ 1419 0659 97100000 		.4byte	.LASF270
  1420 065d 05       		.byte	0x5
  1421 065e 00       		.uleb128 0
  1422 065f 1F000000 		.4byte	.LASF271
  1423 0663 05       		.byte	0x5
  1424 0664 00       		.uleb128 0
- 1425 0665 091C0000 		.4byte	.LASF272
+ 1425 0665 021C0000 		.4byte	.LASF272
  1426 0669 05       		.byte	0x5
  1427 066a 00       		.uleb128 0
- 1428 066b 2A0F0000 		.4byte	.LASF273
+ 1428 066b 260F0000 		.4byte	.LASF273
  1429 066f 05       		.byte	0x5
  1430 0670 00       		.uleb128 0
- 1431 0671 F80A0000 		.4byte	.LASF274
+ 1431 0671 DB0A0000 		.4byte	.LASF274
  1432 0675 05       		.byte	0x5
  1433 0676 00       		.uleb128 0
- 1434 0677 B51B0000 		.4byte	.LASF275
+ 1434 0677 AE1B0000 		.4byte	.LASF275
  1435 067b 05       		.byte	0x5
  1436 067c 00       		.uleb128 0
- 1437 067d 67180000 		.4byte	.LASF276
+ 1437 067d 6B180000 		.4byte	.LASF276
  1438 0681 05       		.byte	0x5
  1439 0682 00       		.uleb128 0
- 1440 0683 BE1C0000 		.4byte	.LASF277
+ 1440 0683 B71C0000 		.4byte	.LASF277
  1441 0687 05       		.byte	0x5
  1442 0688 00       		.uleb128 0
- 1443 0689 D10A0000 		.4byte	.LASF278
+ 1443 0689 B40A0000 		.4byte	.LASF278
  1444 068d 05       		.byte	0x5
  1445 068e 00       		.uleb128 0
- 1446 068f 78130000 		.4byte	.LASF279
+ 1446 068f 73130000 		.4byte	.LASF279
  1447 0693 05       		.byte	0x5
  1448 0694 00       		.uleb128 0
- 1449 0695 64160000 		.4byte	.LASF280
+ 1449 0695 5F160000 		.4byte	.LASF280
  1450 0699 05       		.byte	0x5
  1451 069a 00       		.uleb128 0
- 1452 069b 29020000 		.4byte	.LASF281
+ 1452 069b 0D020000 		.4byte	.LASF281
  1453 069f 05       		.byte	0x5
  1454 06a0 00       		.uleb128 0
- 1455 06a1 6B000000 		.4byte	.LASF282
+ 1455 06a1 4F000000 		.4byte	.LASF282
  1456 06a5 05       		.byte	0x5
  1457 06a6 00       		.uleb128 0
- 1458 06a7 E90E0000 		.4byte	.LASF283
+ 1458 06a7 CC0E0000 		.4byte	.LASF283
  1459 06ab 05       		.byte	0x5
-ARM GAS  C:\Users\Bartek\AppData\Local\Temp\ccsqC3sf.s 			page 27
+ARM GAS  C:\Users\Bartek\AppData\Local\Temp\ccgdBRxL.s 			page 27
 
 
  1460 06ac 00       		.uleb128 0
- 1461 06ad 3F160000 		.4byte	.LASF284
+ 1461 06ad 3A160000 		.4byte	.LASF284
  1462 06b1 05       		.byte	0x5
  1463 06b2 00       		.uleb128 0
- 1464 06b3 F91B0000 		.4byte	.LASF285
+ 1464 06b3 F21B0000 		.4byte	.LASF285
  1465 06b7 05       		.byte	0x5
  1466 06b8 00       		.uleb128 0
- 1467 06b9 94150000 		.4byte	.LASF286
+ 1467 06b9 8F150000 		.4byte	.LASF286
  1468 06bd 05       		.byte	0x5
  1469 06be 00       		.uleb128 0
  1470 06bf 2E000000 		.4byte	.LASF287
  1471 06c3 05       		.byte	0x5
  1472 06c4 00       		.uleb128 0
- 1473 06c5 030A0000 		.4byte	.LASF288
+ 1473 06c5 E7090000 		.4byte	.LASF288
  1474 06c9 05       		.byte	0x5
  1475 06ca 00       		.uleb128 0
- 1476 06cb 4A1C0000 		.4byte	.LASF289
+ 1476 06cb 431C0000 		.4byte	.LASF289
  1477 06cf 05       		.byte	0x5
  1478 06d0 00       		.uleb128 0
- 1479 06d1 81160000 		.4byte	.LASF290
+ 1479 06d1 7C160000 		.4byte	.LASF290
  1480 06d5 05       		.byte	0x5
  1481 06d6 00       		.uleb128 0
- 1482 06d7 921B0000 		.4byte	.LASF291
+ 1482 06d7 8B1B0000 		.4byte	.LASF291
  1483 06db 05       		.byte	0x5
  1484 06dc 00       		.uleb128 0
- 1485 06dd EA010000 		.4byte	.LASF292
+ 1485 06dd CE010000 		.4byte	.LASF292
  1486 06e1 05       		.byte	0x5
  1487 06e2 00       		.uleb128 0
- 1488 06e3 390F0000 		.4byte	.LASF293
+ 1488 06e3 350F0000 		.4byte	.LASF293
  1489 06e7 05       		.byte	0x5
  1490 06e8 00       		.uleb128 0
- 1491 06e9 841A0000 		.4byte	.LASF294
+ 1491 06e9 881A0000 		.4byte	.LASF294
  1492 06ed 05       		.byte	0x5
  1493 06ee 00       		.uleb128 0
- 1494 06ef C0200000 		.4byte	.LASF295
+ 1494 06ef B9200000 		.4byte	.LASF295
  1495 06f3 05       		.byte	0x5
  1496 06f4 00       		.uleb128 0
- 1497 06f5 B1070000 		.4byte	.LASF296
+ 1497 06f5 95070000 		.4byte	.LASF296
  1498 06f9 05       		.byte	0x5
  1499 06fa 00       		.uleb128 0
- 1500 06fb E31E0000 		.4byte	.LASF297
+ 1500 06fb DC1E0000 		.4byte	.LASF297
  1501 06ff 05       		.byte	0x5
  1502 0700 00       		.uleb128 0
- 1503 0701 7A000000 		.4byte	.LASF298
+ 1503 0701 5E000000 		.4byte	.LASF298
  1504 0705 05       		.byte	0x5
  1505 0706 00       		.uleb128 0
- 1506 0707 01230000 		.4byte	.LASF299
+ 1506 0707 FA220000 		.4byte	.LASF299
  1507 070b 05       		.byte	0x5
  1508 070c 00       		.uleb128 0
- 1509 070d FF0F0000 		.4byte	.LASF300
+ 1509 070d FA0F0000 		.4byte	.LASF300
  1510 0711 05       		.byte	0x5
  1511 0712 00       		.uleb128 0
- 1512 0713 93040000 		.4byte	.LASF301
+ 1512 0713 77040000 		.4byte	.LASF301
  1513 0717 05       		.byte	0x5
  1514 0718 00       		.uleb128 0
- 1515 0719 70040000 		.4byte	.LASF302
+ 1515 0719 54040000 		.4byte	.LASF302
  1516 071d 05       		.byte	0x5
-ARM GAS  C:\Users\Bartek\AppData\Local\Temp\ccsqC3sf.s 			page 28
+ARM GAS  C:\Users\Bartek\AppData\Local\Temp\ccgdBRxL.s 			page 28
 
 
  1517 071e 00       		.uleb128 0
- 1518 071f 5B000000 		.4byte	.LASF303
+ 1518 071f 3F000000 		.4byte	.LASF303
  1519 0723 05       		.byte	0x5
  1520 0724 00       		.uleb128 0
- 1521 0725 B0140000 		.4byte	.LASF304
+ 1521 0725 AB140000 		.4byte	.LASF304
  1522 0729 05       		.byte	0x5
  1523 072a 00       		.uleb128 0
- 1524 072b B90B0000 		.4byte	.LASF305
+ 1524 072b 9C0B0000 		.4byte	.LASF305
  1525 072f 05       		.byte	0x5
  1526 0730 00       		.uleb128 0
- 1527 0731 11230000 		.4byte	.LASF306
+ 1527 0731 0A230000 		.4byte	.LASF306
  1528 0735 05       		.byte	0x5
  1529 0736 00       		.uleb128 0
- 1530 0737 4E160000 		.4byte	.LASF307
+ 1530 0737 49160000 		.4byte	.LASF307
  1531 073b 05       		.byte	0x5
  1532 073c 00       		.uleb128 0
- 1533 073d 5A1D0000 		.4byte	.LASF308
+ 1533 073d 531D0000 		.4byte	.LASF308
  1534 0741 05       		.byte	0x5
  1535 0742 00       		.uleb128 0
- 1536 0743 23130000 		.4byte	.LASF309
+ 1536 0743 1E130000 		.4byte	.LASF309
  1537 0747 05       		.byte	0x5
  1538 0748 00       		.uleb128 0
- 1539 0749 D8230000 		.4byte	.LASF310
+ 1539 0749 E9230000 		.4byte	.LASF310
  1540 074d 05       		.byte	0x5
  1541 074e 00       		.uleb128 0
- 1542 074f 06200000 		.4byte	.LASF311
+ 1542 074f FF1F0000 		.4byte	.LASF311
  1543 0753 05       		.byte	0x5
  1544 0754 00       		.uleb128 0
- 1545 0755 40120000 		.4byte	.LASF312
+ 1545 0755 3B120000 		.4byte	.LASF312
  1546 0759 05       		.byte	0x5
  1547 075a 00       		.uleb128 0
- 1548 075b 830D0000 		.4byte	.LASF313
+ 1548 075b 660D0000 		.4byte	.LASF313
  1549 075f 05       		.byte	0x5
  1550 0760 00       		.uleb128 0
- 1551 0761 59150000 		.4byte	.LASF314
+ 1551 0761 54150000 		.4byte	.LASF314
  1552 0765 05       		.byte	0x5
  1553 0766 00       		.uleb128 0
- 1554 0767 791E0000 		.4byte	.LASF315
+ 1554 0767 721E0000 		.4byte	.LASF315
  1555 076b 05       		.byte	0x5
  1556 076c 00       		.uleb128 0
- 1557 076d 5B0B0000 		.4byte	.LASF316
+ 1557 076d 3E0B0000 		.4byte	.LASF316
  1558 0771 05       		.byte	0x5
  1559 0772 00       		.uleb128 0
- 1560 0773 54080000 		.4byte	.LASF317
+ 1560 0773 38080000 		.4byte	.LASF317
  1561 0777 05       		.byte	0x5
  1562 0778 00       		.uleb128 0
- 1563 0779 8B180000 		.4byte	.LASF318
+ 1563 0779 8F180000 		.4byte	.LASF318
  1564 077d 05       		.byte	0x5
  1565 077e 00       		.uleb128 0
- 1566 077f F6110000 		.4byte	.LASF319
+ 1566 077f F1110000 		.4byte	.LASF319
  1567 0783 05       		.byte	0x5
  1568 0784 00       		.uleb128 0
- 1569 0785 87130000 		.4byte	.LASF320
+ 1569 0785 82130000 		.4byte	.LASF320
  1570 0789 05       		.byte	0x5
  1571 078a 00       		.uleb128 0
- 1572 078b 7D100000 		.4byte	.LASF321
+ 1572 078b 78100000 		.4byte	.LASF321
  1573 078f 05       		.byte	0x5
-ARM GAS  C:\Users\Bartek\AppData\Local\Temp\ccsqC3sf.s 			page 29
+ARM GAS  C:\Users\Bartek\AppData\Local\Temp\ccgdBRxL.s 			page 29
 
 
  1574 0790 00       		.uleb128 0
- 1575 0791 8D070000 		.4byte	.LASF322
+ 1575 0791 71070000 		.4byte	.LASF322
  1576 0795 05       		.byte	0x5
  1577 0796 00       		.uleb128 0
- 1578 0797 C9190000 		.4byte	.LASF323
+ 1578 0797 CD190000 		.4byte	.LASF323
  1579 079b 05       		.byte	0x5
  1580 079c 00       		.uleb128 0
- 1581 079d 060B0000 		.4byte	.LASF324
+ 1581 079d E90A0000 		.4byte	.LASF324
  1582 07a1 05       		.byte	0x5
  1583 07a2 00       		.uleb128 0
- 1584 07a3 E0080000 		.4byte	.LASF325
+ 1584 07a3 C4080000 		.4byte	.LASF325
  1585 07a7 05       		.byte	0x5
  1586 07a8 00       		.uleb128 0
- 1587 07a9 A3150000 		.4byte	.LASF326
+ 1587 07a9 9E150000 		.4byte	.LASF326
  1588 07ad 05       		.byte	0x5
  1589 07ae 00       		.uleb128 0
- 1590 07af 74030000 		.4byte	.LASF327
+ 1590 07af 58030000 		.4byte	.LASF327
  1591 07b3 05       		.byte	0x5
  1592 07b4 00       		.uleb128 0
- 1593 07b5 ED070000 		.4byte	.LASF328
+ 1593 07b5 D1070000 		.4byte	.LASF328
  1594 07b9 05       		.byte	0x5
  1595 07ba 00       		.uleb128 0
- 1596 07bb CB1F0000 		.4byte	.LASF329
+ 1596 07bb C41F0000 		.4byte	.LASF329
  1597 07bf 05       		.byte	0x5
  1598 07c0 00       		.uleb128 0
- 1599 07c1 000D0000 		.4byte	.LASF330
+ 1599 07c1 E30C0000 		.4byte	.LASF330
  1600 07c5 05       		.byte	0x5
  1601 07c6 00       		.uleb128 0
- 1602 07c7 94090000 		.4byte	.LASF331
+ 1602 07c7 78090000 		.4byte	.LASF331
  1603 07cb 05       		.byte	0x5
  1604 07cc 00       		.uleb128 0
- 1605 07cd 2B200000 		.4byte	.LASF332
+ 1605 07cd 24200000 		.4byte	.LASF332
  1606 07d1 05       		.byte	0x5
  1607 07d2 00       		.uleb128 0
- 1608 07d3 B8110000 		.4byte	.LASF333
+ 1608 07d3 B3110000 		.4byte	.LASF333
  1609 07d7 05       		.byte	0x5
  1610 07d8 00       		.uleb128 0
- 1611 07d9 760A0000 		.4byte	.LASF334
+ 1611 07d9 5A0A0000 		.4byte	.LASF334
  1612 07dd 05       		.byte	0x5
  1613 07de 00       		.uleb128 0
- 1614 07df 02160000 		.4byte	.LASF335
+ 1614 07df FD150000 		.4byte	.LASF335
  1615 07e3 05       		.byte	0x5
  1616 07e4 00       		.uleb128 0
- 1617 07e5 431D0000 		.4byte	.LASF336
+ 1617 07e5 3C1D0000 		.4byte	.LASF336
  1618 07e9 05       		.byte	0x5
  1619 07ea 00       		.uleb128 0
- 1620 07eb 3F000000 		.4byte	.LASF337
+ 1620 07eb 610F0000 		.4byte	.LASF337
  1621 07ef 05       		.byte	0x5
  1622 07f0 00       		.uleb128 0
- 1623 07f1 55240000 		.4byte	.LASF338
+ 1623 07f1 66240000 		.4byte	.LASF338
  1624 07f5 05       		.byte	0x5
  1625 07f6 00       		.uleb128 0
- 1626 07f7 B5040000 		.4byte	.LASF339
+ 1626 07f7 99040000 		.4byte	.LASF339
  1627 07fb 05       		.byte	0x5
  1628 07fc 00       		.uleb128 0
- 1629 07fd F5160000 		.4byte	.LASF340
+ 1629 07fd F0160000 		.4byte	.LASF340
  1630 0801 05       		.byte	0x5
-ARM GAS  C:\Users\Bartek\AppData\Local\Temp\ccsqC3sf.s 			page 30
+ARM GAS  C:\Users\Bartek\AppData\Local\Temp\ccgdBRxL.s 			page 30
 
 
  1631 0802 00       		.uleb128 0
- 1632 0803 37130000 		.4byte	.LASF341
+ 1632 0803 32130000 		.4byte	.LASF341
  1633 0807 05       		.byte	0x5
  1634 0808 00       		.uleb128 0
- 1635 0809 480F0000 		.4byte	.LASF342
+ 1635 0809 440F0000 		.4byte	.LASF342
  1636 080d 05       		.byte	0x5
  1637 080e 00       		.uleb128 0
- 1638 080f CF050000 		.4byte	.LASF343
+ 1638 080f B3050000 		.4byte	.LASF343
  1639 0813 05       		.byte	0x5
  1640 0814 00       		.uleb128 0
- 1641 0815 5A180000 		.4byte	.LASF344
+ 1641 0815 5E180000 		.4byte	.LASF344
  1642 0819 05       		.byte	0x5
  1643 081a 00       		.uleb128 0
- 1644 081b 07140000 		.4byte	.LASF345
+ 1644 081b 02140000 		.4byte	.LASF345
  1645 081f 05       		.byte	0x5
  1646 0820 00       		.uleb128 0
- 1647 0821 4F0B0000 		.4byte	.LASF346
+ 1647 0821 320B0000 		.4byte	.LASF346
  1648 0825 05       		.byte	0x5
  1649 0826 00       		.uleb128 0
- 1650 0827 A4030000 		.4byte	.LASF347
+ 1650 0827 88030000 		.4byte	.LASF347
  1651 082b 05       		.byte	0x5
  1652 082c 00       		.uleb128 0
- 1653 082d 67030000 		.4byte	.LASF348
+ 1653 082d 4B030000 		.4byte	.LASF348
  1654 0831 05       		.byte	0x5
  1655 0832 00       		.uleb128 0
- 1656 0833 051F0000 		.4byte	.LASF349
+ 1656 0833 FE1E0000 		.4byte	.LASF349
  1657 0837 05       		.byte	0x5
  1658 0838 00       		.uleb128 0
- 1659 0839 1B210000 		.4byte	.LASF350
+ 1659 0839 14210000 		.4byte	.LASF350
  1660 083d 05       		.byte	0x5
  1661 083e 00       		.uleb128 0
- 1662 083f 4F110000 		.4byte	.LASF351
+ 1662 083f 4A110000 		.4byte	.LASF351
  1663 0843 05       		.byte	0x5
  1664 0844 00       		.uleb128 0
- 1665 0845 1E240000 		.4byte	.LASF352
+ 1665 0845 2F240000 		.4byte	.LASF352
  1666 0849 05       		.byte	0x5
  1667 084a 00       		.uleb128 0
- 1668 084b 53070000 		.4byte	.LASF353
+ 1668 084b 37070000 		.4byte	.LASF353
  1669 084f 05       		.byte	0x5
  1670 0850 00       		.uleb128 0
- 1671 0851 981C0000 		.4byte	.LASF354
+ 1671 0851 911C0000 		.4byte	.LASF354
  1672 0855 05       		.byte	0x5
  1673 0856 00       		.uleb128 0
- 1674 0857 B2030000 		.4byte	.LASF355
+ 1674 0857 96030000 		.4byte	.LASF355
  1675 085b 05       		.byte	0x5
  1676 085c 00       		.uleb128 0
- 1677 085d 28180000 		.4byte	.LASF356
+ 1677 085d 2C180000 		.4byte	.LASF356
  1678 0861 05       		.byte	0x5
  1679 0862 00       		.uleb128 0
- 1680 0863 3D180000 		.4byte	.LASF357
+ 1680 0863 41180000 		.4byte	.LASF357
  1681 0867 05       		.byte	0x5
  1682 0868 00       		.uleb128 0
- 1683 0869 B90D0000 		.4byte	.LASF358
+ 1683 0869 9C0D0000 		.4byte	.LASF358
  1684 086d 05       		.byte	0x5
  1685 086e 00       		.uleb128 0
- 1686 086f D6080000 		.4byte	.LASF359
+ 1686 086f BA080000 		.4byte	.LASF359
  1687 0873 05       		.byte	0x5
-ARM GAS  C:\Users\Bartek\AppData\Local\Temp\ccsqC3sf.s 			page 31
+ARM GAS  C:\Users\Bartek\AppData\Local\Temp\ccgdBRxL.s 			page 31
 
 
  1688 0874 00       		.uleb128 0
- 1689 0875 7D0B0000 		.4byte	.LASF360
+ 1689 0875 600B0000 		.4byte	.LASF360
  1690 0879 05       		.byte	0x5
  1691 087a 00       		.uleb128 0
- 1692 087b 31240000 		.4byte	.LASF361
+ 1692 087b 42240000 		.4byte	.LASF361
  1693 087f 00       		.byte	0
  1694              		.section	.debug_line,"",%progbits
  1695              	.Ldebug_line0:
@@ -1831,1054 +1831,1054 @@ ARM GAS  C:\Users\Bartek\AppData\Local\Temp\ccsqC3sf.s 			page 1
  1702      49545F5F 
  1702      20313238 
  1702      00
- 1703              	.LASF337:
- 1704 003f 5F5F4152 		.ascii	"__ARM_SIZEOF_MINIMAL_ENUM 1\000"
- 1704      4D5F5349 
- 1704      5A454F46 
- 1704      5F4D494E 
- 1704      494D414C 
- 1705              	.LASF303:
- 1706 005b 5F5F5554 		.ascii	"__UTA_FBIT__ 64\000"
- 1706      415F4642 
+ 1703              	.LASF303:
+ 1704 003f 5F5F5554 		.ascii	"__UTA_FBIT__ 64\000"
+ 1704      415F4642 
+ 1704      49545F5F 
+ 1704      20363400 
+ 1705              	.LASF282:
+ 1706 004f 5F5F5548 		.ascii	"__UHQ_IBIT__ 0\000"
+ 1706      515F4942 
  1706      49545F5F 
- 1706      20363400 
- 1707              	.LASF282:
- 1708 006b 5F5F5548 		.ascii	"__UHQ_IBIT__ 0\000"
- 1708      515F4942 
+ 1706      203000
+ 1707              	.LASF298:
+ 1708 005e 5F5F5548 		.ascii	"__UHA_IBIT__ 8\000"
+ 1708      415F4942 
  1708      49545F5F 
- 1708      203000
- 1709              	.LASF298:
- 1710 007a 5F5F5548 		.ascii	"__UHA_IBIT__ 8\000"
- 1710      415F4942 
- 1710      49545F5F 
- 1710      203800
- 1711              	.LASF22:
- 1712 0089 5F5F5349 		.ascii	"__SIZEOF_SIZE_T__ 4\000"
- 1712      5A454F46 
- 1712      5F53495A 
- 1712      455F545F 
- 1712      5F203400 
-ARM GAS  C:\Users\Bartek\AppData\Local\Temp\ccsqC3sf.s 			page 32
+ 1708      203800
+ 1709              	.LASF22:
+ 1710 006d 5F5F5349 		.ascii	"__SIZEOF_SIZE_T__ 4\000"
+ 1710      5A454F46 
+ 1710      5F53495A 
+ 1710      455F545F 
+ 1710      5F203400 
+ 1711              	.LASF43:
+ 1712 0081 5F5F494E 		.ascii	"__INT64_TYPE__ long long int\000"
+ 1712      5436345F 
+ 1712      54595045 
+ 1712      5F5F206C 
+ 1712      6F6E6720 
+ARM GAS  C:\Users\Bartek\AppData\Local\Temp\ccgdBRxL.s 			page 32
 
 
- 1713              	.LASF43:
- 1714 009d 5F5F494E 		.ascii	"__INT64_TYPE__ long long int\000"
- 1714      5436345F 
- 1714      54595045 
- 1714      5F5F206C 
- 1714      6F6E6720 
- 1715              	.LASF366:
- 1716 00ba 474E5520 		.ascii	"GNU C89 5.2.1 20151202 (release) [ARM/embedded-5-br"
- 1716      43383920 
- 1716      352E322E 
- 1716      31203230 
- 1716      31353132 
- 1717 00ed 616E6368 		.ascii	"anch revision 231848] -mcpu=cortex-m4 -mthumb -mflo"
- 1717      20726576 
- 1717      6973696F 
- 1717      6E203233 
- 1717      31383438 
- 1718 0120 61742D61 		.ascii	"at-abi=hard -mfpu=fpv4-sp-d16 -g -ggdb3 -O0 -std=gn"
- 1718      62693D68 
- 1718      61726420 
- 1718      2D6D6670 
- 1718      753D6670 
- 1719 0153 75393020 		.ascii	"u90 -ffast-math -ffunction-sections -fdata-sections"
- 1719      2D666661 
- 1719      73742D6D 
- 1719      61746820 
- 1719      2D666675 
- 1720 0186 00       		.ascii	"\000"
- 1721              	.LASF264:
- 1722 0187 5F5F554C 		.ascii	"__ULLACCUM_FBIT__ 32\000"
- 1722      4C414343 
- 1722      554D5F46 
- 1722      4249545F 
- 1722      5F203332 
- 1723              	.LASF101:
- 1724 019c 5F5F494E 		.ascii	"__INT64_C(c) c ## LL\000"
- 1724      5436345F 
- 1724      43286329 
- 1724      20632023 
- 1724      23204C4C 
- 1725              	.LASF364:
- 1726 01b1 5F5F6D61 		.ascii	"__main_stack_end\000"
- 1726      696E5F73 
- 1726      7461636B 
- 1726      5F656E64 
- 1726      00
- 1727              	.LASF54:
- 1728 01c2 5F5F5549 		.ascii	"__UINT_LEAST32_TYPE__ long unsigned int\000"
- 1728      4E545F4C 
- 1728      45415354 
- 1728      33325F54 
- 1728      5950455F 
- 1729              	.LASF292:
- 1730 01ea 5F5F5341 		.ascii	"__SA_IBIT__ 16\000"
+ 1713              	.LASF366:
+ 1714 009e 474E5520 		.ascii	"GNU C89 5.2.1 20151202 (release) [ARM/embedded-5-br"
+ 1714      43383920 
+ 1714      352E322E 
+ 1714      31203230 
+ 1714      31353132 
+ 1715 00d1 616E6368 		.ascii	"anch revision 231848] -mcpu=cortex-m4 -mthumb -mflo"
+ 1715      20726576 
+ 1715      6973696F 
+ 1715      6E203233 
+ 1715      31383438 
+ 1716 0104 61742D61 		.ascii	"at-abi=hard -mfpu=fpv4-sp-d16 -g -ggdb3 -O0 -std=gn"
+ 1716      62693D68 
+ 1716      61726420 
+ 1716      2D6D6670 
+ 1716      753D6670 
+ 1717 0137 75393020 		.ascii	"u90 -ffast-math -ffunction-sections -fdata-sections"
+ 1717      2D666661 
+ 1717      73742D6D 
+ 1717      61746820 
+ 1717      2D666675 
+ 1718 016a 00       		.ascii	"\000"
+ 1719              	.LASF264:
+ 1720 016b 5F5F554C 		.ascii	"__ULLACCUM_FBIT__ 32\000"
+ 1720      4C414343 
+ 1720      554D5F46 
+ 1720      4249545F 
+ 1720      5F203332 
+ 1721              	.LASF101:
+ 1722 0180 5F5F494E 		.ascii	"__INT64_C(c) c ## LL\000"
+ 1722      5436345F 
+ 1722      43286329 
+ 1722      20632023 
+ 1722      23204C4C 
+ 1723              	.LASF364:
+ 1724 0195 5F5F6D61 		.ascii	"__main_stack_end\000"
+ 1724      696E5F73 
+ 1724      7461636B 
+ 1724      5F656E64 
+ 1724      00
+ 1725              	.LASF54:
+ 1726 01a6 5F5F5549 		.ascii	"__UINT_LEAST32_TYPE__ long unsigned int\000"
+ 1726      4E545F4C 
+ 1726      45415354 
+ 1726      33325F54 
+ 1726      5950455F 
+ 1727              	.LASF292:
+ 1728 01ce 5F5F5341 		.ascii	"__SA_IBIT__ 16\000"
+ 1728      5F494249 
+ 1728      545F5F20 
+ 1728      313600
+ 1729              	.LASF230:
+ 1730 01dd 5F5F5341 		.ascii	"__SACCUM_IBIT__ 8\000"
+ 1730      4343554D 
  1730      5F494249 
  1730      545F5F20 
- 1730      313600
-ARM GAS  C:\Users\Bartek\AppData\Local\Temp\ccsqC3sf.s 			page 33
+ 1730      3800
+ARM GAS  C:\Users\Bartek\AppData\Local\Temp\ccgdBRxL.s 			page 33
 
 
- 1731              	.LASF230:
- 1732 01f9 5F5F5341 		.ascii	"__SACCUM_IBIT__ 8\000"
- 1732      4343554D 
- 1732      5F494249 
- 1732      545F5F20 
- 1732      3800
- 1733              	.LASF198:
- 1734 020b 5F5F5553 		.ascii	"__USFRACT_EPSILON__ 0x1P-8UHR\000"
- 1734      46524143 
- 1734      545F4550 
- 1734      53494C4F 
- 1734      4E5F5F20 
- 1735              	.LASF281:
- 1736 0229 5F5F5548 		.ascii	"__UHQ_FBIT__ 16\000"
- 1736      515F4642 
- 1736      49545F5F 
- 1736      20313600 
- 1737              	.LASF147:
- 1738 0239 5F5F4442 		.ascii	"__DBL_MAX__ ((double)1.7976931348623157e+308L)\000"
- 1738      4C5F4D41 
- 1738      585F5F20 
- 1738      2828646F 
- 1738      75626C65 
- 1739              	.LASF175:
- 1740 0268 5F5F4445 		.ascii	"__DEC64_MANT_DIG__ 16\000"
- 1740      4336345F 
- 1740      4D414E54 
- 1740      5F444947 
- 1740      5F5F2031 
- 1741              	.LASF124:
- 1742 027e 5F5F464C 		.ascii	"__FLT_RADIX__ 2\000"
- 1742      545F5241 
- 1742      4449585F 
- 1742      5F203200 
- 1743              	.LASF83:
- 1744 028e 5F5F5549 		.ascii	"__UINTMAX_C(c) c ## ULL\000"
- 1744      4E544D41 
- 1744      585F4328 
- 1744      63292063 
- 1744      20232320 
- 1745              	.LASF110:
- 1746 02a6 5F5F494E 		.ascii	"__INT_FAST8_MAX__ 0x7fffffff\000"
- 1746      545F4641 
- 1746      5354385F 
- 1746      4D41585F 
- 1746      5F203078 
- 1747              	.LASF171:
- 1748 02c3 5F5F4445 		.ascii	"__DEC32_MIN__ 1E-95DF\000"
- 1748      4333325F 
- 1748      4D494E5F 
- 1748      5F203145 
- 1748      2D393544 
- 1749              	.LASF47:
- 1750 02d9 5F5F5549 		.ascii	"__UINT64_TYPE__ long long unsigned int\000"
- 1750      4E543634 
- 1750      5F545950 
- 1750      455F5F20 
-ARM GAS  C:\Users\Bartek\AppData\Local\Temp\ccsqC3sf.s 			page 34
+ 1731              	.LASF198:
+ 1732 01ef 5F5F5553 		.ascii	"__USFRACT_EPSILON__ 0x1P-8UHR\000"
+ 1732      46524143 
+ 1732      545F4550 
+ 1732      53494C4F 
+ 1732      4E5F5F20 
+ 1733              	.LASF281:
+ 1734 020d 5F5F5548 		.ascii	"__UHQ_FBIT__ 16\000"
+ 1734      515F4642 
+ 1734      49545F5F 
+ 1734      20313600 
+ 1735              	.LASF147:
+ 1736 021d 5F5F4442 		.ascii	"__DBL_MAX__ ((double)1.7976931348623157e+308L)\000"
+ 1736      4C5F4D41 
+ 1736      585F5F20 
+ 1736      2828646F 
+ 1736      75626C65 
+ 1737              	.LASF175:
+ 1738 024c 5F5F4445 		.ascii	"__DEC64_MANT_DIG__ 16\000"
+ 1738      4336345F 
+ 1738      4D414E54 
+ 1738      5F444947 
+ 1738      5F5F2031 
+ 1739              	.LASF124:
+ 1740 0262 5F5F464C 		.ascii	"__FLT_RADIX__ 2\000"
+ 1740      545F5241 
+ 1740      4449585F 
+ 1740      5F203200 
+ 1741              	.LASF83:
+ 1742 0272 5F5F5549 		.ascii	"__UINTMAX_C(c) c ## ULL\000"
+ 1742      4E544D41 
+ 1742      585F4328 
+ 1742      63292063 
+ 1742      20232320 
+ 1743              	.LASF110:
+ 1744 028a 5F5F494E 		.ascii	"__INT_FAST8_MAX__ 0x7fffffff\000"
+ 1744      545F4641 
+ 1744      5354385F 
+ 1744      4D41585F 
+ 1744      5F203078 
+ 1745              	.LASF171:
+ 1746 02a7 5F5F4445 		.ascii	"__DEC32_MIN__ 1E-95DF\000"
+ 1746      4333325F 
+ 1746      4D494E5F 
+ 1746      5F203145 
+ 1746      2D393544 
+ 1747              	.LASF47:
+ 1748 02bd 5F5F5549 		.ascii	"__UINT64_TYPE__ long long unsigned int\000"
+ 1748      4E543634 
+ 1748      5F545950 
+ 1748      455F5F20 
+ 1748      6C6F6E67 
+ 1749              	.LASF226:
+ 1750 02e4 5F5F554C 		.ascii	"__ULLFRACT_MIN__ 0.0ULLR\000"
+ 1750      4C465241 
+ 1750      43545F4D 
+ 1750      494E5F5F 
+ARM GAS  C:\Users\Bartek\AppData\Local\Temp\ccgdBRxL.s 			page 34
 
 
- 1750      6C6F6E67 
- 1751              	.LASF226:
- 1752 0300 5F5F554C 		.ascii	"__ULLFRACT_MIN__ 0.0ULLR\000"
- 1752      4C465241 
- 1752      43545F4D 
- 1752      494E5F5F 
- 1752      20302E30 
- 1753              	.LASF268:
- 1754 0319 5F5F554C 		.ascii	"__ULLACCUM_EPSILON__ 0x1P-32ULLK\000"
- 1754      4C414343 
- 1754      554D5F45 
- 1754      5053494C 
- 1754      4F4E5F5F 
- 1755              	.LASF7:
- 1756 033a 5F5F4154 		.ascii	"__ATOMIC_SEQ_CST 5\000"
- 1756      4F4D4943 
- 1756      5F534551 
- 1756      5F435354 
- 1756      203500
- 1757              	.LASF74:
- 1758 034d 5F5F5743 		.ascii	"__WCHAR_MAX__ 0xffffffffU\000"
- 1758      4841525F 
- 1758      4D41585F 
- 1758      5F203078 
- 1758      66666666 
- 1759              	.LASF348:
- 1760 0367 5F5F5646 		.ascii	"__VFP_FP__ 1\000"
- 1760      505F4650 
- 1760      5F5F2031 
- 1760      00
- 1761              	.LASF327:
- 1762 0374 5F5F5349 		.ascii	"__SIZEOF_WINT_T__ 4\000"
- 1762      5A454F46 
- 1762      5F57494E 
- 1762      545F545F 
- 1762      5F203400 
- 1763              	.LASF233:
- 1764 0388 5F5F5341 		.ascii	"__SACCUM_EPSILON__ 0x1P-7HK\000"
- 1764      4343554D 
- 1764      5F455053 
- 1764      494C4F4E 
- 1764      5F5F2030 
- 1765              	.LASF347:
- 1766 03a4 5F5F5448 		.ascii	"__THUMBEL__ 1\000"
- 1766      554D4245 
- 1766      4C5F5F20 
- 1766      3100
- 1767              	.LASF355:
- 1768 03b2 5F5F4152 		.ascii	"__ARM_ARCH_EXT_IDIV__ 1\000"
- 1768      4D5F4152 
- 1768      43485F45 
- 1768      58545F49 
- 1768      4449565F 
- 1769              	.LASF80:
- 1770 03ca 5F5F494E 		.ascii	"__INTMAX_MAX__ 0x7fffffffffffffffLL\000"
- 1770      544D4158 
- 1770      5F4D4158 
-ARM GAS  C:\Users\Bartek\AppData\Local\Temp\ccsqC3sf.s 			page 35
+ 1750      20302E30 
+ 1751              	.LASF268:
+ 1752 02fd 5F5F554C 		.ascii	"__ULLACCUM_EPSILON__ 0x1P-32ULLK\000"
+ 1752      4C414343 
+ 1752      554D5F45 
+ 1752      5053494C 
+ 1752      4F4E5F5F 
+ 1753              	.LASF7:
+ 1754 031e 5F5F4154 		.ascii	"__ATOMIC_SEQ_CST 5\000"
+ 1754      4F4D4943 
+ 1754      5F534551 
+ 1754      5F435354 
+ 1754      203500
+ 1755              	.LASF74:
+ 1756 0331 5F5F5743 		.ascii	"__WCHAR_MAX__ 0xffffffffU\000"
+ 1756      4841525F 
+ 1756      4D41585F 
+ 1756      5F203078 
+ 1756      66666666 
+ 1757              	.LASF348:
+ 1758 034b 5F5F5646 		.ascii	"__VFP_FP__ 1\000"
+ 1758      505F4650 
+ 1758      5F5F2031 
+ 1758      00
+ 1759              	.LASF327:
+ 1760 0358 5F5F5349 		.ascii	"__SIZEOF_WINT_T__ 4\000"
+ 1760      5A454F46 
+ 1760      5F57494E 
+ 1760      545F545F 
+ 1760      5F203400 
+ 1761              	.LASF233:
+ 1762 036c 5F5F5341 		.ascii	"__SACCUM_EPSILON__ 0x1P-7HK\000"
+ 1762      4343554D 
+ 1762      5F455053 
+ 1762      494C4F4E 
+ 1762      5F5F2030 
+ 1763              	.LASF347:
+ 1764 0388 5F5F5448 		.ascii	"__THUMBEL__ 1\000"
+ 1764      554D4245 
+ 1764      4C5F5F20 
+ 1764      3100
+ 1765              	.LASF355:
+ 1766 0396 5F5F4152 		.ascii	"__ARM_ARCH_EXT_IDIV__ 1\000"
+ 1766      4D5F4152 
+ 1766      43485F45 
+ 1766      58545F49 
+ 1766      4449565F 
+ 1767              	.LASF80:
+ 1768 03ae 5F5F494E 		.ascii	"__INTMAX_MAX__ 0x7fffffffffffffffLL\000"
+ 1768      544D4158 
+ 1768      5F4D4158 
+ 1768      5F5F2030 
+ 1768      78376666 
+ 1769              	.LASF38:
+ 1770 03d2 5F5F4348 		.ascii	"__CHAR32_TYPE__ long unsigned int\000"
+ 1770      41523332 
+ 1770      5F545950 
+ARM GAS  C:\Users\Bartek\AppData\Local\Temp\ccgdBRxL.s 			page 35
 
 
- 1770      5F5F2030 
- 1770      78376666 
- 1771              	.LASF38:
- 1772 03ee 5F5F4348 		.ascii	"__CHAR32_TYPE__ long unsigned int\000"
- 1772      41523332 
- 1772      5F545950 
- 1772      455F5F20 
- 1772      6C6F6E67 
- 1773              	.LASF254:
- 1774 0410 5F5F554C 		.ascii	"__ULACCUM_FBIT__ 32\000"
- 1774      41434355 
- 1774      4D5F4642 
- 1774      49545F5F 
- 1774      20333200 
- 1775              	.LASF193:
- 1776 0424 5F5F5346 		.ascii	"__SFRACT_EPSILON__ 0x1P-7HR\000"
- 1776      52414354 
- 1776      5F455053 
- 1776      494C4F4E 
- 1776      5F5F2030 
- 1777              	.LASF152:
- 1778 0440 5F5F4442 		.ascii	"__DBL_HAS_INFINITY__ 1\000"
- 1778      4C5F4841 
- 1778      535F494E 
- 1778      46494E49 
- 1778      54595F5F 
- 1779              	.LASF156:
- 1780 0457 5F5F4C44 		.ascii	"__LDBL_MIN_EXP__ (-1021)\000"
- 1780      424C5F4D 
- 1780      494E5F45 
- 1780      58505F5F 
- 1780      20282D31 
- 1781              	.LASF302:
- 1782 0470 5F5F5544 		.ascii	"__UDA_IBIT__ 32\000"
- 1782      415F4942 
- 1782      49545F5F 
- 1782      20333200 
- 1783              	.LASF250:
- 1784 0480 5F5F4C41 		.ascii	"__LACCUM_IBIT__ 32\000"
- 1784      4343554D 
- 1784      5F494249 
- 1784      545F5F20 
- 1784      333200
- 1785              	.LASF301:
- 1786 0493 5F5F5544 		.ascii	"__UDA_FBIT__ 32\000"
- 1786      415F4642 
- 1786      49545F5F 
- 1786      20333200 
- 1787              	.LASF1:
- 1788 04a3 5F5F5354 		.ascii	"__STDC_HOSTED__ 1\000"
- 1788      44435F48 
- 1788      4F535445 
- 1788      445F5F20 
- 1788      3100
- 1789              	.LASF339:
- 1790 04b5 5F5F4152 		.ascii	"__ARM_ARCH_PROFILE 77\000"
- 1790      4D5F4152 
-ARM GAS  C:\Users\Bartek\AppData\Local\Temp\ccsqC3sf.s 			page 36
+ 1770      455F5F20 
+ 1770      6C6F6E67 
+ 1771              	.LASF254:
+ 1772 03f4 5F5F554C 		.ascii	"__ULACCUM_FBIT__ 32\000"
+ 1772      41434355 
+ 1772      4D5F4642 
+ 1772      49545F5F 
+ 1772      20333200 
+ 1773              	.LASF193:
+ 1774 0408 5F5F5346 		.ascii	"__SFRACT_EPSILON__ 0x1P-7HR\000"
+ 1774      52414354 
+ 1774      5F455053 
+ 1774      494C4F4E 
+ 1774      5F5F2030 
+ 1775              	.LASF152:
+ 1776 0424 5F5F4442 		.ascii	"__DBL_HAS_INFINITY__ 1\000"
+ 1776      4C5F4841 
+ 1776      535F494E 
+ 1776      46494E49 
+ 1776      54595F5F 
+ 1777              	.LASF156:
+ 1778 043b 5F5F4C44 		.ascii	"__LDBL_MIN_EXP__ (-1021)\000"
+ 1778      424C5F4D 
+ 1778      494E5F45 
+ 1778      58505F5F 
+ 1778      20282D31 
+ 1779              	.LASF302:
+ 1780 0454 5F5F5544 		.ascii	"__UDA_IBIT__ 32\000"
+ 1780      415F4942 
+ 1780      49545F5F 
+ 1780      20333200 
+ 1781              	.LASF250:
+ 1782 0464 5F5F4C41 		.ascii	"__LACCUM_IBIT__ 32\000"
+ 1782      4343554D 
+ 1782      5F494249 
+ 1782      545F5F20 
+ 1782      333200
+ 1783              	.LASF301:
+ 1784 0477 5F5F5544 		.ascii	"__UDA_FBIT__ 32\000"
+ 1784      415F4642 
+ 1784      49545F5F 
+ 1784      20333200 
+ 1785              	.LASF1:
+ 1786 0487 5F5F5354 		.ascii	"__STDC_HOSTED__ 1\000"
+ 1786      44435F48 
+ 1786      4F535445 
+ 1786      445F5F20 
+ 1786      3100
+ 1787              	.LASF339:
+ 1788 0499 5F5F4152 		.ascii	"__ARM_ARCH_PROFILE 77\000"
+ 1788      4D5F4152 
+ 1788      43485F50 
+ 1788      524F4649 
+ 1788      4C452037 
+ 1789              	.LASF160:
+ 1790 04af 5F5F4445 		.ascii	"__DECIMAL_DIG__ 17\000"
+ 1790      43494D41 
+ARM GAS  C:\Users\Bartek\AppData\Local\Temp\ccgdBRxL.s 			page 36
 
 
- 1790      43485F50 
- 1790      524F4649 
- 1790      4C452037 
- 1791              	.LASF160:
- 1792 04cb 5F5F4445 		.ascii	"__DECIMAL_DIG__ 17\000"
- 1792      43494D41 
- 1792      4C5F4449 
- 1792      475F5F20 
- 1792      313700
- 1793              	.LASF194:
- 1794 04de 5F5F5553 		.ascii	"__USFRACT_FBIT__ 8\000"
- 1794      46524143 
- 1794      545F4642 
- 1794      49545F5F 
- 1794      203800
- 1795              	.LASF238:
- 1796 04f1 5F5F5553 		.ascii	"__USACCUM_EPSILON__ 0x1P-8UHK\000"
- 1796      41434355 
- 1796      4D5F4550 
- 1796      53494C4F 
- 1796      4E5F5F20 
- 1797              	.LASF93:
- 1798 050f 5F5F5549 		.ascii	"__UINT64_MAX__ 0xffffffffffffffffULL\000"
- 1798      4E543634 
- 1798      5F4D4158 
- 1798      5F5F2030 
- 1798      78666666 
- 1799              	.LASF76:
- 1800 0534 5F5F5749 		.ascii	"__WINT_MAX__ 0xffffffffU\000"
- 1800      4E545F4D 
- 1800      41585F5F 
- 1800      20307866 
- 1800      66666666 
- 1801              	.LASF190:
- 1802 054d 5F5F5346 		.ascii	"__SFRACT_IBIT__ 0\000"
- 1802      52414354 
- 1802      5F494249 
- 1802      545F5F20 
- 1802      3000
- 1803              	.LASF31:
- 1804 055f 5F5F5349 		.ascii	"__SIZE_TYPE__ unsigned int\000"
- 1804      5A455F54 
- 1804      5950455F 
- 1804      5F20756E 
- 1804      7369676E 
- 1805              	.LASF181:
- 1806 057a 5F5F4445 		.ascii	"__DEC64_SUBNORMAL_MIN__ 0.000000000000001E-383DD\000"
- 1806      4336345F 
- 1806      5355424E 
- 1806      4F524D41 
- 1806      4C5F4D49 
- 1807              	.LASF133:
- 1808 05ab 5F5F464C 		.ascii	"__FLT_MIN__ 1.1754943508222875e-38F\000"
- 1808      545F4D49 
- 1808      4E5F5F20 
- 1808      312E3137 
- 1808      35343934 
-ARM GAS  C:\Users\Bartek\AppData\Local\Temp\ccsqC3sf.s 			page 37
+ 1790      4C5F4449 
+ 1790      475F5F20 
+ 1790      313700
+ 1791              	.LASF194:
+ 1792 04c2 5F5F5553 		.ascii	"__USFRACT_FBIT__ 8\000"
+ 1792      46524143 
+ 1792      545F4642 
+ 1792      49545F5F 
+ 1792      203800
+ 1793              	.LASF238:
+ 1794 04d5 5F5F5553 		.ascii	"__USACCUM_EPSILON__ 0x1P-8UHK\000"
+ 1794      41434355 
+ 1794      4D5F4550 
+ 1794      53494C4F 
+ 1794      4E5F5F20 
+ 1795              	.LASF93:
+ 1796 04f3 5F5F5549 		.ascii	"__UINT64_MAX__ 0xffffffffffffffffULL\000"
+ 1796      4E543634 
+ 1796      5F4D4158 
+ 1796      5F5F2030 
+ 1796      78666666 
+ 1797              	.LASF76:
+ 1798 0518 5F5F5749 		.ascii	"__WINT_MAX__ 0xffffffffU\000"
+ 1798      4E545F4D 
+ 1798      41585F5F 
+ 1798      20307866 
+ 1798      66666666 
+ 1799              	.LASF190:
+ 1800 0531 5F5F5346 		.ascii	"__SFRACT_IBIT__ 0\000"
+ 1800      52414354 
+ 1800      5F494249 
+ 1800      545F5F20 
+ 1800      3000
+ 1801              	.LASF31:
+ 1802 0543 5F5F5349 		.ascii	"__SIZE_TYPE__ unsigned int\000"
+ 1802      5A455F54 
+ 1802      5950455F 
+ 1802      5F20756E 
+ 1802      7369676E 
+ 1803              	.LASF181:
+ 1804 055e 5F5F4445 		.ascii	"__DEC64_SUBNORMAL_MIN__ 0.000000000000001E-383DD\000"
+ 1804      4336345F 
+ 1804      5355424E 
+ 1804      4F524D41 
+ 1804      4C5F4D49 
+ 1805              	.LASF133:
+ 1806 058f 5F5F464C 		.ascii	"__FLT_MIN__ 1.1754943508222875e-38F\000"
+ 1806      545F4D49 
+ 1806      4E5F5F20 
+ 1806      312E3137 
+ 1806      35343934 
+ 1807              	.LASF343:
+ 1808 05b3 5F5F7468 		.ascii	"__thumb__ 1\000"
+ 1808      756D625F 
+ 1808      5F203100 
+ 1809              	.LASF140:
+ 1810 05bf 5F5F4442 		.ascii	"__DBL_MANT_DIG__ 53\000"
+ARM GAS  C:\Users\Bartek\AppData\Local\Temp\ccgdBRxL.s 			page 37
 
 
- 1809              	.LASF343:
- 1810 05cf 5F5F7468 		.ascii	"__thumb__ 1\000"
- 1810      756D625F 
- 1810      5F203100 
- 1811              	.LASF140:
- 1812 05db 5F5F4442 		.ascii	"__DBL_MANT_DIG__ 53\000"
- 1812      4C5F4D41 
- 1812      4E545F44 
- 1812      49475F5F 
- 1812      20353300 
- 1813              	.LASF210:
- 1814 05ef 5F5F4C46 		.ascii	"__LFRACT_IBIT__ 0\000"
- 1814      52414354 
- 1814      5F494249 
- 1814      545F5F20 
- 1814      3000
- 1815              	.LASF55:
- 1816 0601 5F5F5549 		.ascii	"__UINT_LEAST64_TYPE__ long long unsigned int\000"
- 1816      4E545F4C 
- 1816      45415354 
- 1816      36345F54 
- 1816      5950455F 
- 1817              	.LASF216:
- 1818 062e 5F5F554C 		.ascii	"__ULFRACT_MIN__ 0.0ULR\000"
- 1818      46524143 
- 1818      545F4D49 
- 1818      4E5F5F20 
- 1818      302E3055 
- 1819              	.LASF64:
- 1820 0645 5F5F494E 		.ascii	"__INTPTR_TYPE__ int\000"
- 1820      54505452 
- 1820      5F545950 
- 1820      455F5F20 
- 1820      696E7400 
- 1821              	.LASF100:
- 1822 0659 5F5F494E 		.ascii	"__INT_LEAST64_MAX__ 0x7fffffffffffffffLL\000"
- 1822      545F4C45 
- 1822      41535436 
- 1822      345F4D41 
- 1822      585F5F20 
- 1823              	.LASF365:
- 1824 0682 76656374 		.ascii	"vectors\000"
- 1824      6F727300 
- 1825              	.LASF44:
- 1826 068a 5F5F5549 		.ascii	"__UINT8_TYPE__ unsigned char\000"
- 1826      4E54385F 
- 1826      54595045 
- 1826      5F5F2075 
- 1826      6E736967 
- 1827              	.LASF170:
- 1828 06a7 5F5F4445 		.ascii	"__DEC32_MAX_EXP__ 97\000"
- 1828      4333325F 
- 1828      4D41585F 
- 1828      4558505F 
- 1828      5F203937 
- 1829              	.LASF158:
- 1830 06bc 5F5F4C44 		.ascii	"__LDBL_MAX_EXP__ 1024\000"
-ARM GAS  C:\Users\Bartek\AppData\Local\Temp\ccsqC3sf.s 			page 38
+ 1810      4C5F4D41 
+ 1810      4E545F44 
+ 1810      49475F5F 
+ 1810      20353300 
+ 1811              	.LASF210:
+ 1812 05d3 5F5F4C46 		.ascii	"__LFRACT_IBIT__ 0\000"
+ 1812      52414354 
+ 1812      5F494249 
+ 1812      545F5F20 
+ 1812      3000
+ 1813              	.LASF55:
+ 1814 05e5 5F5F5549 		.ascii	"__UINT_LEAST64_TYPE__ long long unsigned int\000"
+ 1814      4E545F4C 
+ 1814      45415354 
+ 1814      36345F54 
+ 1814      5950455F 
+ 1815              	.LASF216:
+ 1816 0612 5F5F554C 		.ascii	"__ULFRACT_MIN__ 0.0ULR\000"
+ 1816      46524143 
+ 1816      545F4D49 
+ 1816      4E5F5F20 
+ 1816      302E3055 
+ 1817              	.LASF64:
+ 1818 0629 5F5F494E 		.ascii	"__INTPTR_TYPE__ int\000"
+ 1818      54505452 
+ 1818      5F545950 
+ 1818      455F5F20 
+ 1818      696E7400 
+ 1819              	.LASF100:
+ 1820 063d 5F5F494E 		.ascii	"__INT_LEAST64_MAX__ 0x7fffffffffffffffLL\000"
+ 1820      545F4C45 
+ 1820      41535436 
+ 1820      345F4D41 
+ 1820      585F5F20 
+ 1821              	.LASF365:
+ 1822 0666 76656374 		.ascii	"vectors\000"
+ 1822      6F727300 
+ 1823              	.LASF44:
+ 1824 066e 5F5F5549 		.ascii	"__UINT8_TYPE__ unsigned char\000"
+ 1824      4E54385F 
+ 1824      54595045 
+ 1824      5F5F2075 
+ 1824      6E736967 
+ 1825              	.LASF170:
+ 1826 068b 5F5F4445 		.ascii	"__DEC32_MAX_EXP__ 97\000"
+ 1826      4333325F 
+ 1826      4D41585F 
+ 1826      4558505F 
+ 1826      5F203937 
+ 1827              	.LASF158:
+ 1828 06a0 5F5F4C44 		.ascii	"__LDBL_MAX_EXP__ 1024\000"
+ 1828      424C5F4D 
+ 1828      41585F45 
+ 1828      58505F5F 
+ 1828      20313032 
+ 1829              	.LASF39:
+ 1830 06b6 5F5F5349 		.ascii	"__SIG_ATOMIC_TYPE__ int\000"
+ARM GAS  C:\Users\Bartek\AppData\Local\Temp\ccgdBRxL.s 			page 38
 
 
- 1830      424C5F4D 
- 1830      41585F45 
- 1830      58505F5F 
- 1830      20313032 
- 1831              	.LASF39:
- 1832 06d2 5F5F5349 		.ascii	"__SIG_ATOMIC_TYPE__ int\000"
- 1832      475F4154 
- 1832      4F4D4943 
- 1832      5F545950 
- 1832      455F5F20 
- 1833              	.LASF219:
- 1834 06ea 5F5F4C4C 		.ascii	"__LLFRACT_FBIT__ 63\000"
- 1834      46524143 
- 1834      545F4642 
- 1834      49545F5F 
- 1834      20363300 
- 1835              	.LASF21:
- 1836 06fe 5F5F5349 		.ascii	"__SIZEOF_LONG_DOUBLE__ 8\000"
- 1836      5A454F46 
- 1836      5F4C4F4E 
- 1836      475F444F 
- 1836      55424C45 
- 1837              	.LASF199:
- 1838 0717 5F5F4652 		.ascii	"__FRACT_FBIT__ 15\000"
- 1838      4143545F 
- 1838      46424954 
- 1838      5F5F2031 
- 1838      3500
- 1839              	.LASF222:
- 1840 0729 5F5F4C4C 		.ascii	"__LLFRACT_MAX__ 0X7FFFFFFFFFFFFFFFP-63LLR\000"
- 1840      46524143 
- 1840      545F4D41 
- 1840      585F5F20 
- 1840      30583746 
- 1841              	.LASF353:
- 1842 0753 5F5F4152 		.ascii	"__ARM_PCS_VFP 1\000"
- 1842      4D5F5043 
- 1842      535F5646 
- 1842      50203100 
- 1843              	.LASF257:
- 1844 0763 5F5F554C 		.ascii	"__ULACCUM_MAX__ 0XFFFFFFFFFFFFFFFFP-32ULK\000"
- 1844      41434355 
- 1844      4D5F4D41 
- 1844      585F5F20 
- 1844      30584646 
- 1845              	.LASF322:
- 1846 078d 5F5F4743 		.ascii	"__GCC_ATOMIC_TEST_AND_SET_TRUEVAL 1\000"
- 1846      435F4154 
- 1846      4F4D4943 
- 1846      5F544553 
- 1846      545F414E 
- 1847              	.LASF296:
- 1848 07b1 5F5F5441 		.ascii	"__TA_IBIT__ 64\000"
- 1848      5F494249 
- 1848      545F5F20 
- 1848      363400
- 1849              	.LASF166:
-ARM GAS  C:\Users\Bartek\AppData\Local\Temp\ccsqC3sf.s 			page 39
+ 1830      475F4154 
+ 1830      4F4D4943 
+ 1830      5F545950 
+ 1830      455F5F20 
+ 1831              	.LASF219:
+ 1832 06ce 5F5F4C4C 		.ascii	"__LLFRACT_FBIT__ 63\000"
+ 1832      46524143 
+ 1832      545F4642 
+ 1832      49545F5F 
+ 1832      20363300 
+ 1833              	.LASF21:
+ 1834 06e2 5F5F5349 		.ascii	"__SIZEOF_LONG_DOUBLE__ 8\000"
+ 1834      5A454F46 
+ 1834      5F4C4F4E 
+ 1834      475F444F 
+ 1834      55424C45 
+ 1835              	.LASF199:
+ 1836 06fb 5F5F4652 		.ascii	"__FRACT_FBIT__ 15\000"
+ 1836      4143545F 
+ 1836      46424954 
+ 1836      5F5F2031 
+ 1836      3500
+ 1837              	.LASF222:
+ 1838 070d 5F5F4C4C 		.ascii	"__LLFRACT_MAX__ 0X7FFFFFFFFFFFFFFFP-63LLR\000"
+ 1838      46524143 
+ 1838      545F4D41 
+ 1838      585F5F20 
+ 1838      30583746 
+ 1839              	.LASF353:
+ 1840 0737 5F5F4152 		.ascii	"__ARM_PCS_VFP 1\000"
+ 1840      4D5F5043 
+ 1840      535F5646 
+ 1840      50203100 
+ 1841              	.LASF257:
+ 1842 0747 5F5F554C 		.ascii	"__ULACCUM_MAX__ 0XFFFFFFFFFFFFFFFFP-32ULK\000"
+ 1842      41434355 
+ 1842      4D5F4D41 
+ 1842      585F5F20 
+ 1842      30584646 
+ 1843              	.LASF322:
+ 1844 0771 5F5F4743 		.ascii	"__GCC_ATOMIC_TEST_AND_SET_TRUEVAL 1\000"
+ 1844      435F4154 
+ 1844      4F4D4943 
+ 1844      5F544553 
+ 1844      545F414E 
+ 1845              	.LASF296:
+ 1846 0795 5F5F5441 		.ascii	"__TA_IBIT__ 64\000"
+ 1846      5F494249 
+ 1846      545F5F20 
+ 1846      363400
+ 1847              	.LASF166:
+ 1848 07a4 5F5F4C44 		.ascii	"__LDBL_HAS_INFINITY__ 1\000"
+ 1848      424C5F48 
+ 1848      41535F49 
+ 1848      4E46494E 
+ 1848      4954595F 
+ 1849              	.LASF136:
+ARM GAS  C:\Users\Bartek\AppData\Local\Temp\ccgdBRxL.s 			page 39
 
 
- 1850 07c0 5F5F4C44 		.ascii	"__LDBL_HAS_INFINITY__ 1\000"
- 1850      424C5F48 
- 1850      41535F49 
- 1850      4E46494E 
- 1850      4954595F 
- 1851              	.LASF136:
- 1852 07d8 5F5F464C 		.ascii	"__FLT_HAS_DENORM__ 1\000"
- 1852      545F4841 
- 1852      535F4445 
- 1852      4E4F524D 
- 1852      5F5F2031 
- 1853              	.LASF328:
- 1854 07ed 5F5F5349 		.ascii	"__SIZEOF_PTRDIFF_T__ 4\000"
- 1854      5A454F46 
- 1854      5F505452 
- 1854      44494646 
- 1854      5F545F5F 
- 1855              	.LASF115:
- 1856 0804 5F5F5549 		.ascii	"__UINT_FAST16_MAX__ 0xffffffffU\000"
- 1856      4E545F46 
- 1856      41535431 
- 1856      365F4D41 
- 1856      585F5F20 
- 1857              	.LASF118:
- 1858 0824 5F5F494E 		.ascii	"__INTPTR_MAX__ 0x7fffffff\000"
- 1858      54505452 
+ 1850 07bc 5F5F464C 		.ascii	"__FLT_HAS_DENORM__ 1\000"
+ 1850      545F4841 
+ 1850      535F4445 
+ 1850      4E4F524D 
+ 1850      5F5F2031 
+ 1851              	.LASF328:
+ 1852 07d1 5F5F5349 		.ascii	"__SIZEOF_PTRDIFF_T__ 4\000"
+ 1852      5A454F46 
+ 1852      5F505452 
+ 1852      44494646 
+ 1852      5F545F5F 
+ 1853              	.LASF115:
+ 1854 07e8 5F5F5549 		.ascii	"__UINT_FAST16_MAX__ 0xffffffffU\000"
+ 1854      4E545F46 
+ 1854      41535431 
+ 1854      365F4D41 
+ 1854      585F5F20 
+ 1855              	.LASF118:
+ 1856 0808 5F5F494E 		.ascii	"__INTPTR_MAX__ 0x7fffffff\000"
+ 1856      54505452 
+ 1856      5F4D4158 
+ 1856      5F5F2030 
+ 1856      78376666 
+ 1857              	.LASF91:
+ 1858 0822 5F5F5549 		.ascii	"__UINT16_MAX__ 0xffff\000"
+ 1858      4E543136 
  1858      5F4D4158 
  1858      5F5F2030 
- 1858      78376666 
- 1859              	.LASF91:
- 1860 083e 5F5F5549 		.ascii	"__UINT16_MAX__ 0xffff\000"
- 1860      4E543136 
- 1860      5F4D4158 
- 1860      5F5F2030 
- 1860      78666666 
- 1861              	.LASF317:
- 1862 0854 5F5F4743 		.ascii	"__GCC_ATOMIC_WCHAR_T_LOCK_FREE 2\000"
- 1862      435F4154 
- 1862      4F4D4943 
- 1862      5F574348 
- 1862      41525F54 
- 1863              	.LASF40:
- 1864 0875 5F5F494E 		.ascii	"__INT8_TYPE__ signed char\000"
- 1864      54385F54 
- 1864      5950455F 
- 1864      5F207369 
- 1864      676E6564 
- 1865              	.LASF28:
- 1866 088f 5F5F4259 		.ascii	"__BYTE_ORDER__ __ORDER_LITTLE_ENDIAN__\000"
- 1866      54455F4F 
- 1866      52444552 
- 1866      5F5F205F 
- 1866      5F4F5244 
- 1867              	.LASF212:
- 1868 08b6 5F5F4C46 		.ascii	"__LFRACT_MAX__ 0X7FFFFFFFP-31LR\000"
- 1868      52414354 
- 1868      5F4D4158 
-ARM GAS  C:\Users\Bartek\AppData\Local\Temp\ccsqC3sf.s 			page 40
+ 1858      78666666 
+ 1859              	.LASF317:
+ 1860 0838 5F5F4743 		.ascii	"__GCC_ATOMIC_WCHAR_T_LOCK_FREE 2\000"
+ 1860      435F4154 
+ 1860      4F4D4943 
+ 1860      5F574348 
+ 1860      41525F54 
+ 1861              	.LASF40:
+ 1862 0859 5F5F494E 		.ascii	"__INT8_TYPE__ signed char\000"
+ 1862      54385F54 
+ 1862      5950455F 
+ 1862      5F207369 
+ 1862      676E6564 
+ 1863              	.LASF28:
+ 1864 0873 5F5F4259 		.ascii	"__BYTE_ORDER__ __ORDER_LITTLE_ENDIAN__\000"
+ 1864      54455F4F 
+ 1864      52444552 
+ 1864      5F5F205F 
+ 1864      5F4F5244 
+ 1865              	.LASF212:
+ 1866 089a 5F5F4C46 		.ascii	"__LFRACT_MAX__ 0X7FFFFFFFP-31LR\000"
+ 1866      52414354 
+ 1866      5F4D4158 
+ 1866      5F5F2030 
+ 1866      58374646 
+ 1867              	.LASF359:
+ 1868 08ba 5F5F454C 		.ascii	"__ELF__ 1\000"
+ 1868      465F5F20 
+ 1868      3100
+ARM GAS  C:\Users\Bartek\AppData\Local\Temp\ccgdBRxL.s 			page 40
 
 
- 1868      5F5F2030 
- 1868      58374646 
- 1869              	.LASF359:
- 1870 08d6 5F5F454C 		.ascii	"__ELF__ 1\000"
- 1870      465F5F20 
- 1870      3100
- 1871              	.LASF325:
- 1872 08e0 5F5F5052 		.ascii	"__PRAGMA_REDEFINE_EXTNAME 1\000"
- 1872      41474D41 
- 1872      5F524544 
- 1872      4546494E 
- 1872      455F4558 
- 1873              	.LASF29:
- 1874 08fc 5F5F464C 		.ascii	"__FLOAT_WORD_ORDER__ __ORDER_LITTLE_ENDIAN__\000"
- 1874      4F41545F 
- 1874      574F5244 
- 1874      5F4F5244 
- 1874      45525F5F 
- 1875              	.LASF104:
- 1876 0929 5F5F5549 		.ascii	"__UINT_LEAST16_MAX__ 0xffff\000"
- 1876      4E545F4C 
- 1876      45415354 
- 1876      31365F4D 
- 1876      41585F5F 
- 1877              	.LASF42:
- 1878 0945 5F5F494E 		.ascii	"__INT32_TYPE__ long int\000"
- 1878      5433325F 
- 1878      54595045 
- 1878      5F5F206C 
- 1878      6F6E6720 
- 1879              	.LASF49:
- 1880 095d 5F5F494E 		.ascii	"__INT_LEAST16_TYPE__ short int\000"
- 1880      545F4C45 
- 1880      41535431 
- 1880      365F5459 
- 1880      50455F5F 
- 1881              	.LASF57:
- 1882 097c 5F5F494E 		.ascii	"__INT_FAST16_TYPE__ int\000"
- 1882      545F4641 
- 1882      53543136 
- 1882      5F545950 
- 1882      455F5F20 
- 1883              	.LASF331:
- 1884 0994 5F5F4152 		.ascii	"__ARM_FEATURE_SAT 1\000"
- 1884      4D5F4645 
- 1884      41545552 
- 1884      455F5341 
- 1884      54203100 
- 1885              	.LASF240:
- 1886 09a8 5F5F4143 		.ascii	"__ACCUM_IBIT__ 16\000"
- 1886      43554D5F 
- 1886      49424954 
- 1886      5F5F2031 
- 1886      3600
- 1887              	.LASF67:
- 1888 09ba 5F5F6861 		.ascii	"__has_include_next(STR) __has_include_next__(STR)\000"
- 1888      735F696E 
-ARM GAS  C:\Users\Bartek\AppData\Local\Temp\ccsqC3sf.s 			page 41
+ 1869              	.LASF325:
+ 1870 08c4 5F5F5052 		.ascii	"__PRAGMA_REDEFINE_EXTNAME 1\000"
+ 1870      41474D41 
+ 1870      5F524544 
+ 1870      4546494E 
+ 1870      455F4558 
+ 1871              	.LASF29:
+ 1872 08e0 5F5F464C 		.ascii	"__FLOAT_WORD_ORDER__ __ORDER_LITTLE_ENDIAN__\000"
+ 1872      4F41545F 
+ 1872      574F5244 
+ 1872      5F4F5244 
+ 1872      45525F5F 
+ 1873              	.LASF104:
+ 1874 090d 5F5F5549 		.ascii	"__UINT_LEAST16_MAX__ 0xffff\000"
+ 1874      4E545F4C 
+ 1874      45415354 
+ 1874      31365F4D 
+ 1874      41585F5F 
+ 1875              	.LASF42:
+ 1876 0929 5F5F494E 		.ascii	"__INT32_TYPE__ long int\000"
+ 1876      5433325F 
+ 1876      54595045 
+ 1876      5F5F206C 
+ 1876      6F6E6720 
+ 1877              	.LASF49:
+ 1878 0941 5F5F494E 		.ascii	"__INT_LEAST16_TYPE__ short int\000"
+ 1878      545F4C45 
+ 1878      41535431 
+ 1878      365F5459 
+ 1878      50455F5F 
+ 1879              	.LASF57:
+ 1880 0960 5F5F494E 		.ascii	"__INT_FAST16_TYPE__ int\000"
+ 1880      545F4641 
+ 1880      53543136 
+ 1880      5F545950 
+ 1880      455F5F20 
+ 1881              	.LASF331:
+ 1882 0978 5F5F4152 		.ascii	"__ARM_FEATURE_SAT 1\000"
+ 1882      4D5F4645 
+ 1882      41545552 
+ 1882      455F5341 
+ 1882      54203100 
+ 1883              	.LASF240:
+ 1884 098c 5F5F4143 		.ascii	"__ACCUM_IBIT__ 16\000"
+ 1884      43554D5F 
+ 1884      49424954 
+ 1884      5F5F2031 
+ 1884      3600
+ 1885              	.LASF67:
+ 1886 099e 5F5F6861 		.ascii	"__has_include_next(STR) __has_include_next__(STR)\000"
+ 1886      735F696E 
+ 1886      636C7564 
+ 1886      655F6E65 
+ 1886      78742853 
+ 1887              	.LASF56:
+ 1888 09d0 5F5F494E 		.ascii	"__INT_FAST8_TYPE__ int\000"
+ 1888      545F4641 
+ARM GAS  C:\Users\Bartek\AppData\Local\Temp\ccgdBRxL.s 			page 41
 
 
- 1888      636C7564 
- 1888      655F6E65 
- 1888      78742853 
- 1889              	.LASF56:
- 1890 09ec 5F5F494E 		.ascii	"__INT_FAST8_TYPE__ int\000"
- 1890      545F4641 
- 1890      5354385F 
- 1890      54595045 
- 1890      5F5F2069 
- 1891              	.LASF288:
- 1892 0a03 5F5F5554 		.ascii	"__UTQ_IBIT__ 0\000"
- 1892      515F4942 
- 1892      49545F5F 
- 1892      203000
- 1893              	.LASF247:
- 1894 0a12 5F5F5541 		.ascii	"__UACCUM_MAX__ 0XFFFFFFFFP-16UK\000"
- 1894      4343554D 
- 1894      5F4D4158 
- 1894      5F5F2030 
- 1894      58464646 
- 1895              	.LASF369:
- 1896 0a32 5F5F4465 		.ascii	"__Default_Handler\000"
- 1896      6661756C 
- 1896      745F4861 
- 1896      6E646C65 
- 1896      7200
- 1897              	.LASF41:
- 1898 0a44 5F5F494E 		.ascii	"__INT16_TYPE__ short int\000"
- 1898      5431365F 
- 1898      54595045 
- 1898      5F5F2073 
- 1898      686F7274 
- 1899              	.LASF167:
- 1900 0a5d 5F5F4C44 		.ascii	"__LDBL_HAS_QUIET_NAN__ 1\000"
- 1900      424C5F48 
- 1900      41535F51 
- 1900      55494554 
- 1900      5F4E414E 
- 1901              	.LASF334:
- 1902 0a76 5F5F4152 		.ascii	"__ARM_FEATURE_LDREX 7\000"
- 1902      4D5F4645 
- 1902      41545552 
- 1902      455F4C44 
- 1902      52455820 
- 1903              	.LASF20:
- 1904 0a8c 5F5F5349 		.ascii	"__SIZEOF_DOUBLE__ 8\000"
- 1904      5A454F46 
- 1904      5F444F55 
- 1904      424C455F 
- 1904      5F203800 
- 1905              	.LASF191:
- 1906 0aa0 5F5F5346 		.ascii	"__SFRACT_MIN__ (-0.5HR-0.5HR)\000"
- 1906      52414354 
- 1906      5F4D494E 
- 1906      5F5F2028 
- 1906      2D302E35 
- 1907              	.LASF90:
-ARM GAS  C:\Users\Bartek\AppData\Local\Temp\ccsqC3sf.s 			page 42
+ 1888      5354385F 
+ 1888      54595045 
+ 1888      5F5F2069 
+ 1889              	.LASF288:
+ 1890 09e7 5F5F5554 		.ascii	"__UTQ_IBIT__ 0\000"
+ 1890      515F4942 
+ 1890      49545F5F 
+ 1890      203000
+ 1891              	.LASF247:
+ 1892 09f6 5F5F5541 		.ascii	"__UACCUM_MAX__ 0XFFFFFFFFP-16UK\000"
+ 1892      4343554D 
+ 1892      5F4D4158 
+ 1892      5F5F2030 
+ 1892      58464646 
+ 1893              	.LASF369:
+ 1894 0a16 5F5F4465 		.ascii	"__Default_Handler\000"
+ 1894      6661756C 
+ 1894      745F4861 
+ 1894      6E646C65 
+ 1894      7200
+ 1895              	.LASF41:
+ 1896 0a28 5F5F494E 		.ascii	"__INT16_TYPE__ short int\000"
+ 1896      5431365F 
+ 1896      54595045 
+ 1896      5F5F2073 
+ 1896      686F7274 
+ 1897              	.LASF167:
+ 1898 0a41 5F5F4C44 		.ascii	"__LDBL_HAS_QUIET_NAN__ 1\000"
+ 1898      424C5F48 
+ 1898      41535F51 
+ 1898      55494554 
+ 1898      5F4E414E 
+ 1899              	.LASF334:
+ 1900 0a5a 5F5F4152 		.ascii	"__ARM_FEATURE_LDREX 7\000"
+ 1900      4D5F4645 
+ 1900      41545552 
+ 1900      455F4C44 
+ 1900      52455820 
+ 1901              	.LASF20:
+ 1902 0a70 5F5F5349 		.ascii	"__SIZEOF_DOUBLE__ 8\000"
+ 1902      5A454F46 
+ 1902      5F444F55 
+ 1902      424C455F 
+ 1902      5F203800 
+ 1903              	.LASF237:
+ 1904 0a84 5F5F5553 		.ascii	"__USACCUM_MAX__ 0XFFFFP-8UHK\000"
+ 1904      41434355 
+ 1904      4D5F4D41 
+ 1904      585F5F20 
+ 1904      30584646 
+ 1905              	.LASF90:
+ 1906 0aa1 5F5F5549 		.ascii	"__UINT8_MAX__ 0xff\000"
+ 1906      4E54385F 
+ 1906      4D41585F 
+ 1906      5F203078 
+ 1906      666600
+ 1907              	.LASF278:
+ARM GAS  C:\Users\Bartek\AppData\Local\Temp\ccgdBRxL.s 			page 42
 
 
- 1908 0abe 5F5F5549 		.ascii	"__UINT8_MAX__ 0xff\000"
- 1908      4E54385F 
- 1908      4D41585F 
- 1908      5F203078 
- 1908      666600
- 1909              	.LASF278:
- 1910 0ad1 5F5F5451 		.ascii	"__TQ_IBIT__ 0\000"
- 1910      5F494249 
- 1910      545F5F20 
- 1910      3000
- 1911              	.LASF79:
- 1912 0adf 5F5F5349 		.ascii	"__SIZE_MAX__ 0xffffffffU\000"
- 1912      5A455F4D 
- 1912      41585F5F 
- 1912      20307866 
- 1912      66666666 
- 1913              	.LASF274:
- 1914 0af8 5F5F5351 		.ascii	"__SQ_IBIT__ 0\000"
- 1914      5F494249 
- 1914      545F5F20 
- 1914      3000
- 1915              	.LASF324:
- 1916 0b06 5F5F4743 		.ascii	"__GCC_HAVE_DWARF2_CFI_ASM 1\000"
- 1916      435F4841 
- 1916      56455F44 
- 1916      57415246 
- 1916      325F4346 
- 1917              	.LASF192:
- 1918 0b22 5F5F5346 		.ascii	"__SFRACT_MAX__ 0X7FP-7HR\000"
- 1918      52414354 
- 1918      5F4D4158 
- 1918      5F5F2030 
- 1918      58374650 
- 1919              	.LASF99:
- 1920 0b3b 5F5F494E 		.ascii	"__INT32_C(c) c ## L\000"
- 1920      5433325F 
- 1920      43286329 
- 1920      20632023 
- 1920      23204C00 
- 1921              	.LASF346:
- 1922 0b4f 5F5F4152 		.ascii	"__ARMEL__ 1\000"
- 1922      4D454C5F 
- 1922      5F203100 
- 1923              	.LASF316:
- 1924 0b5b 5F5F4743 		.ascii	"__GCC_ATOMIC_CHAR32_T_LOCK_FREE 2\000"
- 1924      435F4154 
- 1924      4F4D4943 
- 1924      5F434841 
- 1924      5233325F 
- 1925              	.LASF360:
- 1926 0b7d 5F5F5553 		.ascii	"__USES_INITFINI__ 1\000"
- 1926      45535F49 
- 1926      4E495446 
- 1926      494E495F 
- 1926      5F203100 
- 1927              	.LASF36:
- 1928 0b91 5F5F5549 		.ascii	"__UINTMAX_TYPE__ long long unsigned int\000"
-ARM GAS  C:\Users\Bartek\AppData\Local\Temp\ccsqC3sf.s 			page 43
+ 1908 0ab4 5F5F5451 		.ascii	"__TQ_IBIT__ 0\000"
+ 1908      5F494249 
+ 1908      545F5F20 
+ 1908      3000
+ 1909              	.LASF79:
+ 1910 0ac2 5F5F5349 		.ascii	"__SIZE_MAX__ 0xffffffffU\000"
+ 1910      5A455F4D 
+ 1910      41585F5F 
+ 1910      20307866 
+ 1910      66666666 
+ 1911              	.LASF274:
+ 1912 0adb 5F5F5351 		.ascii	"__SQ_IBIT__ 0\000"
+ 1912      5F494249 
+ 1912      545F5F20 
+ 1912      3000
+ 1913              	.LASF324:
+ 1914 0ae9 5F5F4743 		.ascii	"__GCC_HAVE_DWARF2_CFI_ASM 1\000"
+ 1914      435F4841 
+ 1914      56455F44 
+ 1914      57415246 
+ 1914      325F4346 
+ 1915              	.LASF192:
+ 1916 0b05 5F5F5346 		.ascii	"__SFRACT_MAX__ 0X7FP-7HR\000"
+ 1916      52414354 
+ 1916      5F4D4158 
+ 1916      5F5F2030 
+ 1916      58374650 
+ 1917              	.LASF99:
+ 1918 0b1e 5F5F494E 		.ascii	"__INT32_C(c) c ## L\000"
+ 1918      5433325F 
+ 1918      43286329 
+ 1918      20632023 
+ 1918      23204C00 
+ 1919              	.LASF346:
+ 1920 0b32 5F5F4152 		.ascii	"__ARMEL__ 1\000"
+ 1920      4D454C5F 
+ 1920      5F203100 
+ 1921              	.LASF316:
+ 1922 0b3e 5F5F4743 		.ascii	"__GCC_ATOMIC_CHAR32_T_LOCK_FREE 2\000"
+ 1922      435F4154 
+ 1922      4F4D4943 
+ 1922      5F434841 
+ 1922      5233325F 
+ 1923              	.LASF360:
+ 1924 0b60 5F5F5553 		.ascii	"__USES_INITFINI__ 1\000"
+ 1924      45535F49 
+ 1924      4E495446 
+ 1924      494E495F 
+ 1924      5F203100 
+ 1925              	.LASF36:
+ 1926 0b74 5F5F5549 		.ascii	"__UINTMAX_TYPE__ long long unsigned int\000"
+ 1926      4E544D41 
+ 1926      585F5459 
+ 1926      50455F5F 
+ 1926      206C6F6E 
+ 1927              	.LASF305:
+ 1928 0b9c 5F5F5245 		.ascii	"__REGISTER_PREFIX__ \000"
+ARM GAS  C:\Users\Bartek\AppData\Local\Temp\ccgdBRxL.s 			page 43
 
 
- 1928      4E544D41 
- 1928      585F5459 
- 1928      50455F5F 
- 1928      206C6F6E 
- 1929              	.LASF305:
- 1930 0bb9 5F5F5245 		.ascii	"__REGISTER_PREFIX__ \000"
- 1930      47495354 
- 1930      45525F50 
- 1930      52454649 
+ 1928      47495354 
+ 1928      45525F50 
+ 1928      52454649 
+ 1928      585F5F20 
+ 1929              	.LASF117:
+ 1930 0bb1 5F5F5549 		.ascii	"__UINT_FAST64_MAX__ 0xffffffffffffffffULL\000"
+ 1930      4E545F46 
+ 1930      41535436 
+ 1930      345F4D41 
  1930      585F5F20 
- 1931              	.LASF117:
- 1932 0bce 5F5F5549 		.ascii	"__UINT_FAST64_MAX__ 0xffffffffffffffffULL\000"
- 1932      4E545F46 
- 1932      41535436 
- 1932      345F4D41 
- 1932      585F5F20 
- 1933              	.LASF223:
- 1934 0bf8 5F5F4C4C 		.ascii	"__LLFRACT_EPSILON__ 0x1P-63LLR\000"
- 1934      46524143 
- 1934      545F4550 
- 1934      53494C4F 
- 1934      4E5F5F20 
- 1935              	.LASF17:
- 1936 0c17 5F5F5349 		.ascii	"__SIZEOF_LONG_LONG__ 8\000"
- 1936      5A454F46 
- 1936      5F4C4F4E 
- 1936      475F4C4F 
- 1936      4E475F5F 
- 1937              	.LASF126:
- 1938 0c2e 5F5F464C 		.ascii	"__FLT_DIG__ 6\000"
- 1938      545F4449 
- 1938      475F5F20 
- 1938      3600
- 1939              	.LASF218:
- 1940 0c3c 5F5F554C 		.ascii	"__ULFRACT_EPSILON__ 0x1P-32ULR\000"
- 1940      46524143 
- 1940      545F4550 
- 1940      53494C4F 
- 1940      4E5F5F20 
- 1941              	.LASF205:
- 1942 0c5b 5F5F5546 		.ascii	"__UFRACT_IBIT__ 0\000"
- 1942      52414354 
- 1942      5F494249 
- 1942      545F5F20 
- 1942      3000
- 1943              	.LASF9:
- 1944 0c6d 5F5F4154 		.ascii	"__ATOMIC_RELEASE 3\000"
- 1944      4F4D4943 
- 1944      5F52454C 
- 1944      45415345 
- 1944      203300
- 1945              	.LASF130:
- 1946 0c80 5F5F464C 		.ascii	"__FLT_MAX_10_EXP__ 38\000"
- 1946      545F4D41 
- 1946      585F3130 
- 1946      5F455850 
- 1946      5F5F2033 
-ARM GAS  C:\Users\Bartek\AppData\Local\Temp\ccsqC3sf.s 			page 44
+ 1931              	.LASF223:
+ 1932 0bdb 5F5F4C4C 		.ascii	"__LLFRACT_EPSILON__ 0x1P-63LLR\000"
+ 1932      46524143 
+ 1932      545F4550 
+ 1932      53494C4F 
+ 1932      4E5F5F20 
+ 1933              	.LASF17:
+ 1934 0bfa 5F5F5349 		.ascii	"__SIZEOF_LONG_LONG__ 8\000"
+ 1934      5A454F46 
+ 1934      5F4C4F4E 
+ 1934      475F4C4F 
+ 1934      4E475F5F 
+ 1935              	.LASF126:
+ 1936 0c11 5F5F464C 		.ascii	"__FLT_DIG__ 6\000"
+ 1936      545F4449 
+ 1936      475F5F20 
+ 1936      3600
+ 1937              	.LASF218:
+ 1938 0c1f 5F5F554C 		.ascii	"__ULFRACT_EPSILON__ 0x1P-32ULR\000"
+ 1938      46524143 
+ 1938      545F4550 
+ 1938      53494C4F 
+ 1938      4E5F5F20 
+ 1939              	.LASF205:
+ 1940 0c3e 5F5F5546 		.ascii	"__UFRACT_IBIT__ 0\000"
+ 1940      52414354 
+ 1940      5F494249 
+ 1940      545F5F20 
+ 1940      3000
+ 1941              	.LASF9:
+ 1942 0c50 5F5F4154 		.ascii	"__ATOMIC_RELEASE 3\000"
+ 1942      4F4D4943 
+ 1942      5F52454C 
+ 1942      45415345 
+ 1942      203300
+ 1943              	.LASF130:
+ 1944 0c63 5F5F464C 		.ascii	"__FLT_MAX_10_EXP__ 38\000"
+ 1944      545F4D41 
+ 1944      585F3130 
+ 1944      5F455850 
+ 1944      5F5F2033 
+ 1945              	.LASF112:
+ 1946 0c79 5F5F494E 		.ascii	"__INT_FAST32_MAX__ 0x7fffffff\000"
+ 1946      545F4641 
+ 1946      53543332 
+ 1946      5F4D4158 
+ 1946      5F5F2030 
+ARM GAS  C:\Users\Bartek\AppData\Local\Temp\ccgdBRxL.s 			page 44
 
 
- 1947              	.LASF112:
- 1948 0c96 5F5F494E 		.ascii	"__INT_FAST32_MAX__ 0x7fffffff\000"
- 1948      545F4641 
- 1948      53543332 
- 1948      5F4D4158 
- 1948      5F5F2030 
- 1949              	.LASF77:
- 1950 0cb4 5F5F5749 		.ascii	"__WINT_MIN__ 0U\000"
- 1950      4E545F4D 
- 1950      494E5F5F 
- 1950      20305500 
- 1951              	.LASF30:
- 1952 0cc4 5F5F5349 		.ascii	"__SIZEOF_POINTER__ 4\000"
- 1952      5A454F46 
- 1952      5F504F49 
- 1952      4E544552 
- 1952      5F5F2034 
- 1953              	.LASF261:
- 1954 0cd9 5F5F4C4C 		.ascii	"__LLACCUM_MIN__ (-0X1P31LLK-0X1P31LLK)\000"
- 1954      41434355 
- 1954      4D5F4D49 
- 1954      4E5F5F20 
- 1954      282D3058 
- 1955              	.LASF330:
- 1956 0d00 5F5F4152 		.ascii	"__ARM_FEATURE_QBIT 1\000"
- 1956      4D5F4645 
- 1956      41545552 
- 1956      455F5142 
- 1956      49542031 
- 1957              	.LASF95:
- 1958 0d15 5F5F494E 		.ascii	"__INT8_C(c) c\000"
- 1958      54385F43 
- 1958      28632920 
- 1958      6300
- 1959              	.LASF3:
- 1960 0d23 5F5F474E 		.ascii	"__GNUC_MINOR__ 2\000"
- 1960      55435F4D 
- 1960      494E4F52 
- 1960      5F5F2032 
- 1960      00
- 1961              	.LASF215:
- 1962 0d34 5F5F554C 		.ascii	"__ULFRACT_IBIT__ 0\000"
- 1962      46524143 
- 1962      545F4942 
- 1962      49545F5F 
- 1962      203000
- 1963              	.LASF123:
- 1964 0d47 5F5F4445 		.ascii	"__DEC_EVAL_METHOD__ 2\000"
- 1964      435F4556 
- 1964      414C5F4D 
- 1964      4554484F 
- 1964      445F5F20 
- 1965              	.LASF172:
- 1966 0d5d 5F5F4445 		.ascii	"__DEC32_MAX__ 9.999999E96DF\000"
- 1966      4333325F 
- 1966      4D41585F 
- 1966      5F20392E 
-ARM GAS  C:\Users\Bartek\AppData\Local\Temp\ccsqC3sf.s 			page 45
+ 1947              	.LASF77:
+ 1948 0c97 5F5F5749 		.ascii	"__WINT_MIN__ 0U\000"
+ 1948      4E545F4D 
+ 1948      494E5F5F 
+ 1948      20305500 
+ 1949              	.LASF30:
+ 1950 0ca7 5F5F5349 		.ascii	"__SIZEOF_POINTER__ 4\000"
+ 1950      5A454F46 
+ 1950      5F504F49 
+ 1950      4E544552 
+ 1950      5F5F2034 
+ 1951              	.LASF261:
+ 1952 0cbc 5F5F4C4C 		.ascii	"__LLACCUM_MIN__ (-0X1P31LLK-0X1P31LLK)\000"
+ 1952      41434355 
+ 1952      4D5F4D49 
+ 1952      4E5F5F20 
+ 1952      282D3058 
+ 1953              	.LASF330:
+ 1954 0ce3 5F5F4152 		.ascii	"__ARM_FEATURE_QBIT 1\000"
+ 1954      4D5F4645 
+ 1954      41545552 
+ 1954      455F5142 
+ 1954      49542031 
+ 1955              	.LASF95:
+ 1956 0cf8 5F5F494E 		.ascii	"__INT8_C(c) c\000"
+ 1956      54385F43 
+ 1956      28632920 
+ 1956      6300
+ 1957              	.LASF3:
+ 1958 0d06 5F5F474E 		.ascii	"__GNUC_MINOR__ 2\000"
+ 1958      55435F4D 
+ 1958      494E4F52 
+ 1958      5F5F2032 
+ 1958      00
+ 1959              	.LASF215:
+ 1960 0d17 5F5F554C 		.ascii	"__ULFRACT_IBIT__ 0\000"
+ 1960      46524143 
+ 1960      545F4942 
+ 1960      49545F5F 
+ 1960      203000
+ 1961              	.LASF123:
+ 1962 0d2a 5F5F4445 		.ascii	"__DEC_EVAL_METHOD__ 2\000"
+ 1962      435F4556 
+ 1962      414C5F4D 
+ 1962      4554484F 
+ 1962      445F5F20 
+ 1963              	.LASF172:
+ 1964 0d40 5F5F4445 		.ascii	"__DEC32_MAX__ 9.999999E96DF\000"
+ 1964      4333325F 
+ 1964      4D41585F 
+ 1964      5F20392E 
+ 1964      39393939 
+ 1965              	.LASF367:
+ 1966 0d5c 76656374 		.ascii	"vectors.c\000"
+ 1966      6F72732E 
+ 1966      6300
+ 1967              	.LASF313:
+ARM GAS  C:\Users\Bartek\AppData\Local\Temp\ccgdBRxL.s 			page 45
 
 
- 1966      39393939 
- 1967              	.LASF367:
- 1968 0d79 76656374 		.ascii	"vectors.c\000"
- 1968      6F72732E 
- 1968      6300
- 1969              	.LASF313:
- 1970 0d83 5F5F4743 		.ascii	"__GCC_ATOMIC_BOOL_LOCK_FREE 2\000"
- 1970      435F4154 
- 1970      4F4D4943 
- 1970      5F424F4F 
- 1970      4C5F4C4F 
- 1971              	.LASF138:
- 1972 0da1 5F5F464C 		.ascii	"__FLT_HAS_QUIET_NAN__ 1\000"
- 1972      545F4841 
- 1972      535F5155 
- 1972      4945545F 
- 1972      4E414E5F 
- 1973              	.LASF358:
- 1974 0db9 5F5F4758 		.ascii	"__GXX_TYPEINFO_EQUALITY_INLINE 0\000"
- 1974      585F5459 
- 1974      5045494E 
- 1974      464F5F45 
- 1974      5155414C 
- 1975              	.LASF245:
- 1976 0dda 5F5F5541 		.ascii	"__UACCUM_IBIT__ 16\000"
- 1976      4343554D 
- 1976      5F494249 
- 1976      545F5F20 
- 1976      313600
- 1977              	.LASF139:
- 1978 0ded 5F5F4650 		.ascii	"__FP_FAST_FMAF 1\000"
- 1978      5F464153 
- 1978      545F464D 
- 1978      41462031 
- 1978      00
- 1979              	.LASF162:
- 1980 0dfe 5F5F4C44 		.ascii	"__LDBL_MIN__ 2.2250738585072014e-308L\000"
- 1980      424C5F4D 
- 1980      494E5F5F 
- 1980      20322E32 
- 1980      32353037 
- 1981              	.LASF89:
- 1982 0e24 5F5F494E 		.ascii	"__INT64_MAX__ 0x7fffffffffffffffLL\000"
- 1982      5436345F 
- 1982      4D41585F 
- 1982      5F203078 
- 1982      37666666 
- 1983              	.LASF127:
- 1984 0e47 5F5F464C 		.ascii	"__FLT_MIN_EXP__ (-125)\000"
- 1984      545F4D49 
- 1984      4E5F4558 
- 1984      505F5F20 
- 1984      282D3132 
- 1985              	.LASF207:
- 1986 0e5e 5F5F5546 		.ascii	"__UFRACT_MAX__ 0XFFFFP-16UR\000"
- 1986      52414354 
- 1986      5F4D4158 
-ARM GAS  C:\Users\Bartek\AppData\Local\Temp\ccsqC3sf.s 			page 46
+ 1968 0d66 5F5F4743 		.ascii	"__GCC_ATOMIC_BOOL_LOCK_FREE 2\000"
+ 1968      435F4154 
+ 1968      4F4D4943 
+ 1968      5F424F4F 
+ 1968      4C5F4C4F 
+ 1969              	.LASF138:
+ 1970 0d84 5F5F464C 		.ascii	"__FLT_HAS_QUIET_NAN__ 1\000"
+ 1970      545F4841 
+ 1970      535F5155 
+ 1970      4945545F 
+ 1970      4E414E5F 
+ 1971              	.LASF358:
+ 1972 0d9c 5F5F4758 		.ascii	"__GXX_TYPEINFO_EQUALITY_INLINE 0\000"
+ 1972      585F5459 
+ 1972      5045494E 
+ 1972      464F5F45 
+ 1972      5155414C 
+ 1973              	.LASF245:
+ 1974 0dbd 5F5F5541 		.ascii	"__UACCUM_IBIT__ 16\000"
+ 1974      4343554D 
+ 1974      5F494249 
+ 1974      545F5F20 
+ 1974      313600
+ 1975              	.LASF139:
+ 1976 0dd0 5F5F4650 		.ascii	"__FP_FAST_FMAF 1\000"
+ 1976      5F464153 
+ 1976      545F464D 
+ 1976      41462031 
+ 1976      00
+ 1977              	.LASF162:
+ 1978 0de1 5F5F4C44 		.ascii	"__LDBL_MIN__ 2.2250738585072014e-308L\000"
+ 1978      424C5F4D 
+ 1978      494E5F5F 
+ 1978      20322E32 
+ 1978      32353037 
+ 1979              	.LASF89:
+ 1980 0e07 5F5F494E 		.ascii	"__INT64_MAX__ 0x7fffffffffffffffLL\000"
+ 1980      5436345F 
+ 1980      4D41585F 
+ 1980      5F203078 
+ 1980      37666666 
+ 1981              	.LASF127:
+ 1982 0e2a 5F5F464C 		.ascii	"__FLT_MIN_EXP__ (-125)\000"
+ 1982      545F4D49 
+ 1982      4E5F4558 
+ 1982      505F5F20 
+ 1982      282D3132 
+ 1983              	.LASF207:
+ 1984 0e41 5F5F5546 		.ascii	"__UFRACT_MAX__ 0XFFFFP-16UR\000"
+ 1984      52414354 
+ 1984      5F4D4158 
+ 1984      5F5F2030 
+ 1984      58464646 
+ 1985              	.LASF197:
+ 1986 0e5d 5F5F5553 		.ascii	"__USFRACT_MAX__ 0XFFP-8UHR\000"
+ 1986      46524143 
+ 1986      545F4D41 
+ARM GAS  C:\Users\Bartek\AppData\Local\Temp\ccgdBRxL.s 			page 46
 
 
- 1986      5F5F2030 
- 1986      58464646 
- 1987              	.LASF197:
- 1988 0e7a 5F5F5553 		.ascii	"__USFRACT_MAX__ 0XFFP-8UHR\000"
- 1988      46524143 
- 1988      545F4D41 
- 1988      585F5F20 
- 1988      30584646 
- 1989              	.LASF26:
- 1990 0e95 5F5F4F52 		.ascii	"__ORDER_BIG_ENDIAN__ 4321\000"
- 1990      4445525F 
- 1990      4249475F 
- 1990      454E4449 
- 1990      414E5F5F 
- 1991              	.LASF37:
- 1992 0eaf 5F5F4348 		.ascii	"__CHAR16_TYPE__ short unsigned int\000"
- 1992      41523136 
- 1992      5F545950 
- 1992      455F5F20 
- 1992      73686F72 
- 1993              	.LASF196:
- 1994 0ed2 5F5F5553 		.ascii	"__USFRACT_MIN__ 0.0UHR\000"
- 1994      46524143 
- 1994      545F4D49 
- 1994      4E5F5F20 
- 1994      302E3055 
- 1995              	.LASF283:
- 1996 0ee9 5F5F5553 		.ascii	"__USQ_FBIT__ 32\000"
- 1996      515F4642 
- 1996      49545F5F 
- 1996      20333200 
+ 1986      585F5F20 
+ 1986      30584646 
+ 1987              	.LASF26:
+ 1988 0e78 5F5F4F52 		.ascii	"__ORDER_BIG_ENDIAN__ 4321\000"
+ 1988      4445525F 
+ 1988      4249475F 
+ 1988      454E4449 
+ 1988      414E5F5F 
+ 1989              	.LASF37:
+ 1990 0e92 5F5F4348 		.ascii	"__CHAR16_TYPE__ short unsigned int\000"
+ 1990      41523136 
+ 1990      5F545950 
+ 1990      455F5F20 
+ 1990      73686F72 
+ 1991              	.LASF196:
+ 1992 0eb5 5F5F5553 		.ascii	"__USFRACT_MIN__ 0.0UHR\000"
+ 1992      46524143 
+ 1992      545F4D49 
+ 1992      4E5F5F20 
+ 1992      302E3055 
+ 1993              	.LASF283:
+ 1994 0ecc 5F5F5553 		.ascii	"__USQ_FBIT__ 32\000"
+ 1994      515F4642 
+ 1994      49545F5F 
+ 1994      20333200 
+ 1995              	.LASF185:
+ 1996 0edc 5F5F4445 		.ascii	"__DEC128_MIN__ 1E-6143DL\000"
+ 1996      43313238 
+ 1996      5F4D494E 
+ 1996      5F5F2031 
+ 1996      452D3631 
  1997              	.LASF35:
- 1998 0ef9 5F5F494E 		.ascii	"__INTMAX_TYPE__ long long int\000"
+ 1998 0ef5 5F5F494E 		.ascii	"__INTMAX_TYPE__ long long int\000"
  1998      544D4158 
  1998      5F545950 
  1998      455F5F20 
  1998      6C6F6E67 
  1999              	.LASF18:
- 2000 0f17 5F5F5349 		.ascii	"__SIZEOF_SHORT__ 2\000"
+ 2000 0f13 5F5F5349 		.ascii	"__SIZEOF_SHORT__ 2\000"
  2000      5A454F46 
  2000      5F53484F 
  2000      52545F5F 
  2000      203200
  2001              	.LASF273:
- 2002 0f2a 5F5F5351 		.ascii	"__SQ_FBIT__ 31\000"
+ 2002 0f26 5F5F5351 		.ascii	"__SQ_FBIT__ 31\000"
  2002      5F464249 
  2002      545F5F20 
  2002      333100
  2003              	.LASF293:
- 2004 0f39 5F5F4441 		.ascii	"__DA_FBIT__ 31\000"
+ 2004 0f35 5F5F4441 		.ascii	"__DA_FBIT__ 31\000"
  2004      5F464249 
  2004      545F5F20 
  2004      333100
  2005              	.LASF342:
- 2006 0f48 5F5F4150 		.ascii	"__APCS_32__ 1\000"
+ 2006 0f44 5F5F4150 		.ascii	"__APCS_32__ 1\000"
  2006      43535F33 
  2006      325F5F20 
-ARM GAS  C:\Users\Bartek\AppData\Local\Temp\ccsqC3sf.s 			page 47
+ARM GAS  C:\Users\Bartek\AppData\Local\Temp\ccgdBRxL.s 			page 47
 
 
  2006      3100
  2007              	.LASF97:
- 2008 0f56 5F5F494E 		.ascii	"__INT16_C(c) c\000"
+ 2008 0f52 5F5F494E 		.ascii	"__INT16_C(c) c\000"
  2008      5431365F 
  2008      43286329 
  2008      206300
- 2009              	.LASF237:
- 2010 0f65 5F5F5553 		.ascii	"__USACCUM_MAX__ 0XFFFFP-8UHK\000"
- 2010      41434355 
- 2010      4D5F4D41 
- 2010      585F5F20 
- 2010      30584646 
+ 2009              	.LASF337:
+ 2010 0f61 5F5F4152 		.ascii	"__ARM_SIZEOF_MINIMAL_ENUM 1\000"
+ 2010      4D5F5349 
+ 2010      5A454F46 
+ 2010      5F4D494E 
+ 2010      494D414C 
  2011              	.LASF251:
- 2012 0f82 5F5F4C41 		.ascii	"__LACCUM_MIN__ (-0X1P31LK-0X1P31LK)\000"
+ 2012 0f7d 5F5F4C41 		.ascii	"__LACCUM_MIN__ (-0X1P31LK-0X1P31LK)\000"
  2012      4343554D 
  2012      5F4D494E 
  2012      5F5F2028 
  2012      2D305831 
  2013              	.LASF243:
- 2014 0fa6 5F5F4143 		.ascii	"__ACCUM_EPSILON__ 0x1P-15K\000"
+ 2014 0fa1 5F5F4143 		.ascii	"__ACCUM_EPSILON__ 0x1P-15K\000"
  2014      43554D5F 
  2014      45505349 
  2014      4C4F4E5F 
  2014      5F203078 
  2015              	.LASF129:
- 2016 0fc1 5F5F464C 		.ascii	"__FLT_MAX_EXP__ 128\000"
+ 2016 0fbc 5F5F464C 		.ascii	"__FLT_MAX_EXP__ 128\000"
  2016      545F4D41 
  2016      585F4558 
  2016      505F5F20 
  2016      31323800 
  2017              	.LASF262:
- 2018 0fd5 5F5F4C4C 		.ascii	"__LLACCUM_MAX__ 0X7FFFFFFFFFFFFFFFP-31LLK\000"
+ 2018 0fd0 5F5F4C4C 		.ascii	"__LLACCUM_MAX__ 0X7FFFFFFFFFFFFFFFP-31LLK\000"
  2018      41434355 
  2018      4D5F4D41 
  2018      585F5F20 
  2018      30583746 
  2019              	.LASF300:
- 2020 0fff 5F5F5553 		.ascii	"__USA_IBIT__ 16\000"
+ 2020 0ffa 5F5F5553 		.ascii	"__USA_IBIT__ 16\000"
  2020      415F4942 
  2020      49545F5F 
  2020      20313600 
  2021              	.LASF179:
- 2022 100f 5F5F4445 		.ascii	"__DEC64_MAX__ 9.999999999999999E384DD\000"
+ 2022 100a 5F5F4445 		.ascii	"__DEC64_MAX__ 9.999999999999999E384DD\000"
  2022      4336345F 
  2022      4D41585F 
  2022      5F20392E 
  2022      39393939 
  2023              	.LASF204:
- 2024 1035 5F5F5546 		.ascii	"__UFRACT_FBIT__ 16\000"
+ 2024 1030 5F5F5546 		.ascii	"__UFRACT_FBIT__ 16\000"
  2024      52414354 
  2024      5F464249 
  2024      545F5F20 
  2024      313600
  2025              	.LASF111:
- 2026 1048 5F5F494E 		.ascii	"__INT_FAST16_MAX__ 0x7fffffff\000"
+ 2026 1043 5F5F494E 		.ascii	"__INT_FAST16_MAX__ 0x7fffffff\000"
  2026      545F4641 
  2026      53543136 
-ARM GAS  C:\Users\Bartek\AppData\Local\Temp\ccsqC3sf.s 			page 48
+ARM GAS  C:\Users\Bartek\AppData\Local\Temp\ccgdBRxL.s 			page 48
 
 
  2026      5F4D4158 
  2026      5F5F2030 
  2027              	.LASF71:
- 2028 1066 5F5F494E 		.ascii	"__INT_MAX__ 0x7fffffff\000"
+ 2028 1061 5F5F494E 		.ascii	"__INT_MAX__ 0x7fffffff\000"
  2028      545F4D41 
  2028      585F5F20 
  2028      30783766 
  2028      66666666 
  2029              	.LASF321:
- 2030 107d 5F5F4743 		.ascii	"__GCC_ATOMIC_LLONG_LOCK_FREE 1\000"
+ 2030 1078 5F5F4743 		.ascii	"__GCC_ATOMIC_LLONG_LOCK_FREE 1\000"
  2030      435F4154 
  2030      4F4D4943 
  2030      5F4C4C4F 
  2030      4E475F4C 
  2031              	.LASF270:
- 2032 109c 5F5F5151 		.ascii	"__QQ_IBIT__ 0\000"
+ 2032 1097 5F5F5151 		.ascii	"__QQ_IBIT__ 0\000"
  2032      5F494249 
  2032      545F5F20 
  2032      3000
  2033              	.LASF69:
- 2034 10aa 5F5F5343 		.ascii	"__SCHAR_MAX__ 0x7f\000"
+ 2034 10a5 5F5F5343 		.ascii	"__SCHAR_MAX__ 0x7f\000"
  2034      4841525F 
  2034      4D41585F 
  2034      5F203078 
  2034      376600
  2035              	.LASF214:
- 2036 10bd 5F5F554C 		.ascii	"__ULFRACT_FBIT__ 32\000"
+ 2036 10b8 5F5F554C 		.ascii	"__ULFRACT_FBIT__ 32\000"
  2036      46524143 
  2036      545F4642 
  2036      49545F5F 
  2036      20333200 
  2037              	.LASF183:
- 2038 10d1 5F5F4445 		.ascii	"__DEC128_MIN_EXP__ (-6142)\000"
+ 2038 10cc 5F5F4445 		.ascii	"__DEC128_MIN_EXP__ (-6142)\000"
  2038      43313238 
  2038      5F4D494E 
  2038      5F455850 
  2038      5F5F2028 
  2039              	.LASF4:
- 2040 10ec 5F5F474E 		.ascii	"__GNUC_PATCHLEVEL__ 1\000"
+ 2040 10e7 5F5F474E 		.ascii	"__GNUC_PATCHLEVEL__ 1\000"
  2040      55435F50 
  2040      41544348 
  2040      4C455645 
  2040      4C5F5F20 
  2041              	.LASF265:
- 2042 1102 5F5F554C 		.ascii	"__ULLACCUM_IBIT__ 32\000"
+ 2042 10fd 5F5F554C 		.ascii	"__ULLACCUM_IBIT__ 32\000"
  2042      4C414343 
  2042      554D5F49 
  2042      4249545F 
  2042      5F203332 
  2043              	.LASF189:
- 2044 1117 5F5F5346 		.ascii	"__SFRACT_FBIT__ 7\000"
+ 2044 1112 5F5F5346 		.ascii	"__SFRACT_FBIT__ 7\000"
  2044      52414354 
  2044      5F464249 
  2044      545F5F20 
  2044      3700
  2045              	.LASF146:
- 2046 1129 5F5F4442 		.ascii	"__DBL_DECIMAL_DIG__ 17\000"
-ARM GAS  C:\Users\Bartek\AppData\Local\Temp\ccsqC3sf.s 			page 49
+ 2046 1124 5F5F4442 		.ascii	"__DBL_DECIMAL_DIG__ 17\000"
+ARM GAS  C:\Users\Bartek\AppData\Local\Temp\ccgdBRxL.s 			page 49
 
 
  2046      4C5F4445 
@@ -2886,299 +2886,299 @@ ARM GAS  C:\Users\Bartek\AppData\Local\Temp\ccsqC3sf.s 			page 1
  2046      4C5F4449 
  2046      475F5F20 
  2047              	.LASF141:
- 2048 1140 5F5F4442 		.ascii	"__DBL_DIG__ 15\000"
+ 2048 113b 5F5F4442 		.ascii	"__DBL_DIG__ 15\000"
  2048      4C5F4449 
  2048      475F5F20 
  2048      313500
  2049              	.LASF351:
- 2050 114f 5F5F5448 		.ascii	"__THUMB_INTERWORK__ 1\000"
+ 2050 114a 5F5F5448 		.ascii	"__THUMB_INTERWORK__ 1\000"
  2050      554D425F 
  2050      494E5445 
  2050      52574F52 
  2050      4B5F5F20 
  2051              	.LASF131:
- 2052 1165 5F5F464C 		.ascii	"__FLT_DECIMAL_DIG__ 9\000"
+ 2052 1160 5F5F464C 		.ascii	"__FLT_DECIMAL_DIG__ 9\000"
  2052      545F4445 
  2052      43494D41 
  2052      4C5F4449 
  2052      475F5F20 
  2053              	.LASF59:
- 2054 117b 5F5F494E 		.ascii	"__INT_FAST64_TYPE__ long long int\000"
+ 2054 1176 5F5F494E 		.ascii	"__INT_FAST64_TYPE__ long long int\000"
  2054      545F4641 
  2054      53543634 
  2054      5F545950 
  2054      455F5F20 
  2055              	.LASF157:
- 2056 119d 5F5F4C44 		.ascii	"__LDBL_MIN_10_EXP__ (-307)\000"
+ 2056 1198 5F5F4C44 		.ascii	"__LDBL_MIN_10_EXP__ (-307)\000"
  2056      424C5F4D 
  2056      494E5F31 
  2056      305F4558 
  2056      505F5F20 
  2057              	.LASF333:
- 2058 11b8 5F5F4152 		.ascii	"__ARM_32BIT_STATE 1\000"
+ 2058 11b3 5F5F4152 		.ascii	"__ARM_32BIT_STATE 1\000"
  2058      4D5F3332 
  2058      4249545F 
  2058      53544154 
  2058      45203100 
  2059              	.LASF15:
- 2060 11cc 5F5F5349 		.ascii	"__SIZEOF_INT__ 4\000"
+ 2060 11c7 5F5F5349 		.ascii	"__SIZEOF_INT__ 4\000"
  2060      5A454F46 
  2060      5F494E54 
  2060      5F5F2034 
  2060      00
  2061              	.LASF102:
- 2062 11dd 5F5F5549 		.ascii	"__UINT_LEAST8_MAX__ 0xff\000"
+ 2062 11d8 5F5F5549 		.ascii	"__UINT_LEAST8_MAX__ 0xff\000"
  2062      4E545F4C 
  2062      45415354 
  2062      385F4D41 
  2062      585F5F20 
  2063              	.LASF319:
- 2064 11f6 5F5F4743 		.ascii	"__GCC_ATOMIC_INT_LOCK_FREE 2\000"
+ 2064 11f1 5F5F4743 		.ascii	"__GCC_ATOMIC_INT_LOCK_FREE 2\000"
  2064      435F4154 
  2064      4F4D4943 
  2064      5F494E54 
  2064      5F4C4F43 
-ARM GAS  C:\Users\Bartek\AppData\Local\Temp\ccsqC3sf.s 			page 50
+ARM GAS  C:\Users\Bartek\AppData\Local\Temp\ccgdBRxL.s 			page 50
 
 
  2065              	.LASF184:
- 2066 1213 5F5F4445 		.ascii	"__DEC128_MAX_EXP__ 6145\000"
+ 2066 120e 5F5F4445 		.ascii	"__DEC128_MAX_EXP__ 6145\000"
  2066      43313238 
  2066      5F4D4158 
  2066      5F455850 
  2066      5F5F2036 
  2067              	.LASF87:
- 2068 122b 5F5F494E 		.ascii	"__INT16_MAX__ 0x7fff\000"
+ 2068 1226 5F5F494E 		.ascii	"__INT16_MAX__ 0x7fff\000"
  2068      5431365F 
  2068      4D41585F 
  2068      5F203078 
  2068      37666666 
  2069              	.LASF312:
- 2070 1240 5F5F4743 		.ascii	"__GCC_HAVE_SYNC_COMPARE_AND_SWAP_4 1\000"
+ 2070 123b 5F5F4743 		.ascii	"__GCC_HAVE_SYNC_COMPARE_AND_SWAP_4 1\000"
  2070      435F4841 
  2070      56455F53 
  2070      594E435F 
  2070      434F4D50 
  2071              	.LASF363:
- 2072 1265 73697A65 		.ascii	"sizetype\000"
+ 2072 1260 73697A65 		.ascii	"sizetype\000"
  2072      74797065 
  2072      00
  2073              	.LASF213:
- 2074 126e 5F5F4C46 		.ascii	"__LFRACT_EPSILON__ 0x1P-31LR\000"
+ 2074 1269 5F5F4C46 		.ascii	"__LFRACT_EPSILON__ 0x1P-31LR\000"
  2074      52414354 
  2074      5F455053 
  2074      494C4F4E 
  2074      5F5F2030 
  2075              	.LASF164:
- 2076 128b 5F5F4C44 		.ascii	"__LDBL_DENORM_MIN__ 4.9406564584124654e-324L\000"
+ 2076 1286 5F5F4C44 		.ascii	"__LDBL_DENORM_MIN__ 4.9406564584124654e-324L\000"
  2076      424C5F44 
  2076      454E4F52 
  2076      4D5F4D49 
  2076      4E5F5F20 
  2077              	.LASF177:
- 2078 12b8 5F5F4445 		.ascii	"__DEC64_MAX_EXP__ 385\000"
+ 2078 12b3 5F5F4445 		.ascii	"__DEC64_MAX_EXP__ 385\000"
  2078      4336345F 
  2078      4D41585F 
  2078      4558505F 
  2078      5F203338 
  2079              	.LASF150:
- 2080 12ce 5F5F4442 		.ascii	"__DBL_DENORM_MIN__ ((double)4.9406564584124654e-324"
+ 2080 12c9 5F5F4442 		.ascii	"__DBL_DENORM_MIN__ ((double)4.9406564584124654e-324"
  2080      4C5F4445 
  2080      4E4F524D 
  2080      5F4D494E 
  2080      5F5F2028 
- 2081 1301 4C2900   		.ascii	"L)\000"
+ 2081 12fc 4C2900   		.ascii	"L)\000"
  2082              	.LASF125:
- 2083 1304 5F5F464C 		.ascii	"__FLT_MANT_DIG__ 24\000"
+ 2083 12ff 5F5F464C 		.ascii	"__FLT_MANT_DIG__ 24\000"
  2083      545F4D41 
  2083      4E545F44 
  2083      49475F5F 
  2083      20323400 
  2084              	.LASF2:
- 2085 1318 5F5F474E 		.ascii	"__GNUC__ 5\000"
+ 2085 1313 5F5F474E 		.ascii	"__GNUC__ 5\000"
  2085      55435F5F 
  2085      203500
-ARM GAS  C:\Users\Bartek\AppData\Local\Temp\ccsqC3sf.s 			page 51
+ARM GAS  C:\Users\Bartek\AppData\Local\Temp\ccgdBRxL.s 			page 51
 
 
  2086              	.LASF309:
- 2087 1323 5F5F4348 		.ascii	"__CHAR_UNSIGNED__ 1\000"
+ 2087 131e 5F5F4348 		.ascii	"__CHAR_UNSIGNED__ 1\000"
  2087      41525F55 
  2087      4E534947 
  2087      4E45445F 
  2087      5F203100 
  2088              	.LASF341:
- 2089 1337 5F5F4152 		.ascii	"__ARM_ARCH 7\000"
+ 2089 1332 5F5F4152 		.ascii	"__ARM_ARCH 7\000"
  2089      4D5F4152 
  2089      43482037 
  2089      00
  2090              	.LASF24:
- 2091 1344 5F5F4249 		.ascii	"__BIGGEST_ALIGNMENT__ 8\000"
+ 2091 133f 5F5F4249 		.ascii	"__BIGGEST_ALIGNMENT__ 8\000"
  2091      47474553 
  2091      545F414C 
  2091      49474E4D 
  2091      454E545F 
  2092              	.LASF92:
- 2093 135c 5F5F5549 		.ascii	"__UINT32_MAX__ 0xffffffffUL\000"
+ 2093 1357 5F5F5549 		.ascii	"__UINT32_MAX__ 0xffffffffUL\000"
  2093      4E543332 
  2093      5F4D4158 
  2093      5F5F2030 
  2093      78666666 
  2094              	.LASF279:
- 2095 1378 5F5F5551 		.ascii	"__UQQ_FBIT__ 8\000"
+ 2095 1373 5F5F5551 		.ascii	"__UQQ_FBIT__ 8\000"
  2095      515F4642 
  2095      49545F5F 
  2095      203800
  2096              	.LASF320:
- 2097 1387 5F5F4743 		.ascii	"__GCC_ATOMIC_LONG_LOCK_FREE 2\000"
+ 2097 1382 5F5F4743 		.ascii	"__GCC_ATOMIC_LONG_LOCK_FREE 2\000"
  2097      435F4154 
  2097      4F4D4943 
  2097      5F4C4F4E 
  2097      475F4C4F 
  2098              	.LASF113:
- 2099 13a5 5F5F494E 		.ascii	"__INT_FAST64_MAX__ 0x7fffffffffffffffLL\000"
+ 2099 13a0 5F5F494E 		.ascii	"__INT_FAST64_MAX__ 0x7fffffffffffffffLL\000"
  2099      545F4641 
  2099      53543634 
  2099      5F4D4158 
  2099      5F5F2030 
  2100              	.LASF186:
- 2101 13cd 5F5F4445 		.ascii	"__DEC128_MAX__ 9.999999999999999999999999999999999E"
+ 2101 13c8 5F5F4445 		.ascii	"__DEC128_MAX__ 9.999999999999999999999999999999999E"
  2101      43313238 
  2101      5F4D4158 
  2101      5F5F2039 
  2101      2E393939 
- 2102 1400 36313434 		.ascii	"6144DL\000"
+ 2102 13fb 36313434 		.ascii	"6144DL\000"
  2102      444C00
  2103              	.LASF345:
- 2104 1407 5F5F4152 		.ascii	"__ARM_ARCH_ISA_THUMB 2\000"
+ 2104 1402 5F5F4152 		.ascii	"__ARM_ARCH_ISA_THUMB 2\000"
  2104      4D5F4152 
  2104      43485F49 
  2104      53415F54 
  2104      48554D42 
  2105              	.LASF53:
- 2106 141e 5F5F5549 		.ascii	"__UINT_LEAST16_TYPE__ short unsigned int\000"
+ 2106 1419 5F5F5549 		.ascii	"__UINT_LEAST16_TYPE__ short unsigned int\000"
  2106      4E545F4C 
-ARM GAS  C:\Users\Bartek\AppData\Local\Temp\ccsqC3sf.s 			page 52
+ARM GAS  C:\Users\Bartek\AppData\Local\Temp\ccgdBRxL.s 			page 52
 
 
  2106      45415354 
  2106      31365F54 
  2106      5950455F 
  2107              	.LASF144:
- 2108 1447 5F5F4442 		.ascii	"__DBL_MAX_EXP__ 1024\000"
+ 2108 1442 5F5F4442 		.ascii	"__DBL_MAX_EXP__ 1024\000"
  2108      4C5F4D41 
  2108      585F4558 
  2108      505F5F20 
  2108      31303234 
  2109              	.LASF0:
- 2110 145c 5F5F5354 		.ascii	"__STDC__ 1\000"
+ 2110 1457 5F5F5354 		.ascii	"__STDC__ 1\000"
  2110      44435F5F 
  2110      203100
  2111              	.LASF119:
- 2112 1467 5F5F5549 		.ascii	"__UINTPTR_MAX__ 0xffffffffU\000"
+ 2112 1462 5F5F5549 		.ascii	"__UINTPTR_MAX__ 0xffffffffU\000"
  2112      4E545054 
  2112      525F4D41 
  2112      585F5F20 
  2112      30786666 
  2113              	.LASF154:
- 2114 1483 5F5F4C44 		.ascii	"__LDBL_MANT_DIG__ 53\000"
+ 2114 147e 5F5F4C44 		.ascii	"__LDBL_MANT_DIG__ 53\000"
  2114      424C5F4D 
  2114      414E545F 
  2114      4449475F 
  2114      5F203533 
  2115              	.LASF121:
- 2116 1498 5F5F4743 		.ascii	"__GCC_IEC_559_COMPLEX 0\000"
+ 2116 1493 5F5F4743 		.ascii	"__GCC_IEC_559_COMPLEX 0\000"
  2116      435F4945 
  2116      435F3535 
  2116      395F434F 
  2116      4D504C45 
  2117              	.LASF304:
- 2118 14b0 5F5F5554 		.ascii	"__UTA_IBIT__ 64\000"
+ 2118 14ab 5F5F5554 		.ascii	"__UTA_IBIT__ 64\000"
  2118      415F4942 
  2118      49545F5F 
  2118      20363400 
  2119              	.LASF8:
- 2120 14c0 5F5F4154 		.ascii	"__ATOMIC_ACQUIRE 2\000"
+ 2120 14bb 5F5F4154 		.ascii	"__ATOMIC_ACQUIRE 2\000"
  2120      4F4D4943 
  2120      5F414351 
  2120      55495245 
  2120      203200
  2121              	.LASF180:
- 2122 14d3 5F5F4445 		.ascii	"__DEC64_EPSILON__ 1E-15DD\000"
+ 2122 14ce 5F5F4445 		.ascii	"__DEC64_EPSILON__ 1E-15DD\000"
  2122      4336345F 
  2122      45505349 
  2122      4C4F4E5F 
  2122      5F203145 
  2123              	.LASF258:
- 2124 14ed 5F5F554C 		.ascii	"__ULACCUM_EPSILON__ 0x1P-32ULK\000"
+ 2124 14e8 5F5F554C 		.ascii	"__ULACCUM_EPSILON__ 0x1P-32ULK\000"
  2124      41434355 
  2124      4D5F4550 
  2124      53494C4F 
  2124      4E5F5F20 
  2125              	.LASF73:
- 2126 150c 5F5F4C4F 		.ascii	"__LONG_LONG_MAX__ 0x7fffffffffffffffLL\000"
+ 2126 1507 5F5F4C4F 		.ascii	"__LONG_LONG_MAX__ 0x7fffffffffffffffLL\000"
  2126      4E475F4C 
-ARM GAS  C:\Users\Bartek\AppData\Local\Temp\ccsqC3sf.s 			page 53
+ARM GAS  C:\Users\Bartek\AppData\Local\Temp\ccgdBRxL.s 			page 53
 
 
  2126      4F4E475F 
  2126      4D41585F 
  2126      5F203078 
  2127              	.LASF82:
- 2128 1533 5F5F5549 		.ascii	"__UINTMAX_MAX__ 0xffffffffffffffffULL\000"
+ 2128 152e 5F5F5549 		.ascii	"__UINTMAX_MAX__ 0xffffffffffffffffULL\000"
  2128      4E544D41 
  2128      585F4D41 
  2128      585F5F20 
  2128      30786666 
  2129              	.LASF314:
- 2130 1559 5F5F4743 		.ascii	"__GCC_ATOMIC_CHAR_LOCK_FREE 2\000"
+ 2130 1554 5F5F4743 		.ascii	"__GCC_ATOMIC_CHAR_LOCK_FREE 2\000"
  2130      435F4154 
  2130      4F4D4943 
  2130      5F434841 
  2130      525F4C4F 
  2131              	.LASF253:
- 2132 1577 5F5F4C41 		.ascii	"__LACCUM_EPSILON__ 0x1P-31LK\000"
+ 2132 1572 5F5F4C41 		.ascii	"__LACCUM_EPSILON__ 0x1P-31LK\000"
  2132      4343554D 
  2132      5F455053 
  2132      494C4F4E 
  2132      5F5F2030 
  2133              	.LASF286:
- 2134 1594 5F5F5544 		.ascii	"__UDQ_IBIT__ 0\000"
+ 2134 158f 5F5F5544 		.ascii	"__UDQ_IBIT__ 0\000"
  2134      515F4942 
  2134      49545F5F 
  2134      203000
  2135              	.LASF326:
- 2136 15a3 5F5F5349 		.ascii	"__SIZEOF_WCHAR_T__ 4\000"
+ 2136 159e 5F5F5349 		.ascii	"__SIZEOF_WCHAR_T__ 4\000"
  2136      5A454F46 
  2136      5F574348 
  2136      41525F54 
  2136      5F5F2034 
  2137              	.LASF169:
- 2138 15b8 5F5F4445 		.ascii	"__DEC32_MIN_EXP__ (-94)\000"
+ 2138 15b3 5F5F4445 		.ascii	"__DEC32_MIN_EXP__ (-94)\000"
  2138      4333325F 
  2138      4D494E5F 
  2138      4558505F 
  2138      5F20282D 
  2139              	.LASF62:
- 2140 15d0 5F5F5549 		.ascii	"__UINT_FAST32_TYPE__ unsigned int\000"
+ 2140 15cb 5F5F5549 		.ascii	"__UINT_FAST32_TYPE__ unsigned int\000"
  2140      4E545F46 
  2140      41535433 
  2140      325F5459 
  2140      50455F5F 
  2141              	.LASF155:
- 2142 15f2 5F5F4C44 		.ascii	"__LDBL_DIG__ 15\000"
+ 2142 15ed 5F5F4C44 		.ascii	"__LDBL_DIG__ 15\000"
  2142      424C5F44 
  2142      49475F5F 
  2142      20313500 
  2143              	.LASF335:
- 2144 1602 5F5F4152 		.ascii	"__ARM_FEATURE_CLZ 1\000"
+ 2144 15fd 5F5F4152 		.ascii	"__ARM_FEATURE_CLZ 1\000"
  2144      4D5F4645 
  2144      41545552 
  2144      455F434C 
  2144      5A203100 
  2145              	.LASF163:
- 2146 1616 5F5F4C44 		.ascii	"__LDBL_EPSILON__ 2.2204460492503131e-16L\000"
-ARM GAS  C:\Users\Bartek\AppData\Local\Temp\ccsqC3sf.s 			page 54
+ 2146 1611 5F5F4C44 		.ascii	"__LDBL_EPSILON__ 2.2204460492503131e-16L\000"
+ARM GAS  C:\Users\Bartek\AppData\Local\Temp\ccgdBRxL.s 			page 54
 
 
  2146      424C5F45 
@@ -3186,119 +3186,119 @@ ARM GAS  C:\Users\Bartek\AppData\Local\Temp\ccsqC3sf.s 			page 1
  2146      4F4E5F5F 
  2146      20322E32 
  2147              	.LASF284:
- 2148 163f 5F5F5553 		.ascii	"__USQ_IBIT__ 0\000"
+ 2148 163a 5F5F5553 		.ascii	"__USQ_IBIT__ 0\000"
  2148      515F4942 
  2148      49545F5F 
  2148      203000
  2149              	.LASF307:
- 2150 164e 5F5F474E 		.ascii	"__GNUC_GNU_INLINE__ 1\000"
+ 2150 1649 5F5F474E 		.ascii	"__GNUC_GNU_INLINE__ 1\000"
  2150      55435F47 
  2150      4E555F49 
  2150      4E4C494E 
  2150      455F5F20 
  2151              	.LASF280:
- 2152 1664 5F5F5551 		.ascii	"__UQQ_IBIT__ 0\000"
+ 2152 165f 5F5F5551 		.ascii	"__UQQ_IBIT__ 0\000"
  2152      515F4942 
  2152      49545F5F 
  2152      203000
  2153              	.LASF269:
- 2154 1673 5F5F5151 		.ascii	"__QQ_FBIT__ 7\000"
+ 2154 166e 5F5F5151 		.ascii	"__QQ_FBIT__ 7\000"
  2154      5F464249 
  2154      545F5F20 
  2154      3700
  2155              	.LASF290:
- 2156 1681 5F5F4841 		.ascii	"__HA_IBIT__ 8\000"
+ 2156 167c 5F5F4841 		.ascii	"__HA_IBIT__ 8\000"
  2156      5F494249 
  2156      545F5F20 
  2156      3800
  2157              	.LASF46:
- 2158 168f 5F5F5549 		.ascii	"__UINT32_TYPE__ long unsigned int\000"
+ 2158 168a 5F5F5549 		.ascii	"__UINT32_TYPE__ long unsigned int\000"
  2158      4E543332 
  2158      5F545950 
  2158      455F5F20 
  2158      6C6F6E67 
  2159              	.LASF148:
- 2160 16b1 5F5F4442 		.ascii	"__DBL_MIN__ ((double)2.2250738585072014e-308L)\000"
+ 2160 16ac 5F5F4442 		.ascii	"__DBL_MIN__ ((double)2.2250738585072014e-308L)\000"
  2160      4C5F4D49 
  2160      4E5F5F20 
  2160      2828646F 
  2160      75626C65 
  2161              	.LASF206:
- 2162 16e0 5F5F5546 		.ascii	"__UFRACT_MIN__ 0.0UR\000"
+ 2162 16db 5F5F5546 		.ascii	"__UFRACT_MIN__ 0.0UR\000"
  2162      52414354 
  2162      5F4D494E 
  2162      5F5F2030 
  2162      2E305552 
  2163              	.LASF340:
- 2164 16f5 5F5F6172 		.ascii	"__arm__ 1\000"
+ 2164 16f0 5F5F6172 		.ascii	"__arm__ 1\000"
  2164      6D5F5F20 
  2164      3100
  2165              	.LASF50:
- 2166 16ff 5F5F494E 		.ascii	"__INT_LEAST32_TYPE__ long int\000"
+ 2166 16fa 5F5F494E 		.ascii	"__INT_LEAST32_TYPE__ long int\000"
  2166      545F4C45 
  2166      41535433 
  2166      325F5459 
-ARM GAS  C:\Users\Bartek\AppData\Local\Temp\ccsqC3sf.s 			page 55
+ARM GAS  C:\Users\Bartek\AppData\Local\Temp\ccgdBRxL.s 			page 55
 
 
  2166      50455F5F 
  2167              	.LASF96:
- 2168 171d 5F5F494E 		.ascii	"__INT_LEAST16_MAX__ 0x7fff\000"
+ 2168 1718 5F5F494E 		.ascii	"__INT_LEAST16_MAX__ 0x7fff\000"
  2168      545F4C45 
  2168      41535431 
  2168      365F4D41 
  2168      585F5F20 
  2169              	.LASF182:
- 2170 1738 5F5F4445 		.ascii	"__DEC128_MANT_DIG__ 34\000"
+ 2170 1733 5F5F4445 		.ascii	"__DEC128_MANT_DIG__ 34\000"
  2170      43313238 
  2170      5F4D414E 
  2170      545F4449 
  2170      475F5F20 
  2171              	.LASF227:
- 2172 174f 5F5F554C 		.ascii	"__ULLFRACT_MAX__ 0XFFFFFFFFFFFFFFFFP-64ULLR\000"
+ 2172 174a 5F5F554C 		.ascii	"__ULLFRACT_MAX__ 0XFFFFFFFFFFFFFFFFP-64ULLR\000"
  2172      4C465241 
  2172      43545F4D 
  2172      41585F5F 
  2172      20305846 
  2173              	.LASF176:
- 2174 177b 5F5F4445 		.ascii	"__DEC64_MIN_EXP__ (-382)\000"
+ 2174 1776 5F5F4445 		.ascii	"__DEC64_MIN_EXP__ (-382)\000"
  2174      4336345F 
  2174      4D494E5F 
  2174      4558505F 
  2174      5F20282D 
  2175              	.LASF108:
- 2176 1794 5F5F5549 		.ascii	"__UINT_LEAST64_MAX__ 0xffffffffffffffffULL\000"
+ 2176 178f 5F5F5549 		.ascii	"__UINT_LEAST64_MAX__ 0xffffffffffffffffULL\000"
  2176      4E545F4C 
  2176      45415354 
  2176      36345F4D 
  2176      41585F5F 
  2177              	.LASF132:
- 2178 17bf 5F5F464C 		.ascii	"__FLT_MAX__ 3.4028234663852886e+38F\000"
+ 2178 17ba 5F5F464C 		.ascii	"__FLT_MAX__ 3.4028234663852886e+38F\000"
  2178      545F4D41 
  2178      585F5F20 
  2178      332E3430 
  2178      32383233 
  2179              	.LASF244:
- 2180 17e3 5F5F5541 		.ascii	"__UACCUM_FBIT__ 16\000"
+ 2180 17de 5F5F5541 		.ascii	"__UACCUM_FBIT__ 16\000"
  2180      4343554D 
  2180      5F464249 
  2180      545F5F20 
  2180      313600
  2181              	.LASF248:
- 2182 17f6 5F5F5541 		.ascii	"__UACCUM_EPSILON__ 0x1P-16UK\000"
+ 2182 17f1 5F5F5541 		.ascii	"__UACCUM_EPSILON__ 0x1P-16UK\000"
  2182      4343554D 
  2182      5F455053 
  2182      494C4F4E 
  2182      5F5F2030 
- 2183              	.LASF168:
- 2184 1813 5F5F4445 		.ascii	"__DEC32_MANT_DIG__ 7\000"
- 2184      4333325F 
- 2184      4D414E54 
- 2184      5F444947 
- 2184      5F5F2037 
+ 2183              	.LASF191:
+ 2184 180e 5F5F5346 		.ascii	"__SFRACT_MIN__ (-0.5HR-0.5HR)\000"
+ 2184      52414354 
+ 2184      5F4D494E 
+ 2184      5F5F2028 
+ 2184      2D302E35 
  2185              	.LASF356:
- 2186 1828 5F5F4152 		.ascii	"__ARM_FEATURE_IDIV 1\000"
-ARM GAS  C:\Users\Bartek\AppData\Local\Temp\ccsqC3sf.s 			page 56
+ 2186 182c 5F5F4152 		.ascii	"__ARM_FEATURE_IDIV 1\000"
+ARM GAS  C:\Users\Bartek\AppData\Local\Temp\ccgdBRxL.s 			page 56
 
 
  2186      4D5F4645 
@@ -3306,599 +3306,599 @@ ARM GAS  C:\Users\Bartek\AppData\Local\Temp\ccsqC3sf.s 			page 1
  2186      455F4944 
  2186      49562031 
  2187              	.LASF357:
- 2188 183d 5F5F4152 		.ascii	"__ARM_ASM_SYNTAX_UNIFIED__ 1\000"
+ 2188 1841 5F5F4152 		.ascii	"__ARM_ASM_SYNTAX_UNIFIED__ 1\000"
  2188      4D5F4153 
  2188      4D5F5359 
  2188      4E544158 
  2188      5F554E49 
  2189              	.LASF344:
- 2190 185a 5F5F7468 		.ascii	"__thumb2__ 1\000"
+ 2190 185e 5F5F7468 		.ascii	"__thumb2__ 1\000"
  2190      756D6232 
  2190      5F5F2031 
  2190      00
  2191              	.LASF276:
- 2192 1867 5F5F4451 		.ascii	"__DQ_IBIT__ 0\000"
+ 2192 186b 5F5F4451 		.ascii	"__DQ_IBIT__ 0\000"
  2192      5F494249 
  2192      545F5F20 
  2192      3000
  2193              	.LASF81:
- 2194 1875 5F5F494E 		.ascii	"__INTMAX_C(c) c ## LL\000"
+ 2194 1879 5F5F494E 		.ascii	"__INTMAX_C(c) c ## LL\000"
  2194      544D4158 
  2194      5F432863 
  2194      29206320 
  2194      2323204C 
  2195              	.LASF318:
- 2196 188b 5F5F4743 		.ascii	"__GCC_ATOMIC_SHORT_LOCK_FREE 2\000"
+ 2196 188f 5F5F4743 		.ascii	"__GCC_ATOMIC_SHORT_LOCK_FREE 2\000"
  2196      435F4154 
  2196      4F4D4943 
  2196      5F53484F 
  2196      52545F4C 
  2197              	.LASF78:
- 2198 18aa 5F5F5054 		.ascii	"__PTRDIFF_MAX__ 0x7fffffff\000"
+ 2198 18ae 5F5F5054 		.ascii	"__PTRDIFF_MAX__ 0x7fffffff\000"
  2198      52444946 
  2198      465F4D41 
  2198      585F5F20 
  2198      30783766 
  2199              	.LASF225:
- 2200 18c5 5F5F554C 		.ascii	"__ULLFRACT_IBIT__ 0\000"
+ 2200 18c9 5F5F554C 		.ascii	"__ULLFRACT_IBIT__ 0\000"
  2200      4C465241 
  2200      43545F49 
  2200      4249545F 
  2200      5F203000 
  2201              	.LASF122:
- 2202 18d9 5F5F464C 		.ascii	"__FLT_EVAL_METHOD__ 0\000"
+ 2202 18dd 5F5F464C 		.ascii	"__FLT_EVAL_METHOD__ 0\000"
  2202      545F4556 
  2202      414C5F4D 
  2202      4554484F 
  2202      445F5F20 
  2203              	.LASF48:
- 2204 18ef 5F5F494E 		.ascii	"__INT_LEAST8_TYPE__ signed char\000"
+ 2204 18f3 5F5F494E 		.ascii	"__INT_LEAST8_TYPE__ signed char\000"
  2204      545F4C45 
  2204      41535438 
  2204      5F545950 
  2204      455F5F20 
  2205              	.LASF105:
-ARM GAS  C:\Users\Bartek\AppData\Local\Temp\ccsqC3sf.s 			page 57
+ARM GAS  C:\Users\Bartek\AppData\Local\Temp\ccgdBRxL.s 			page 57
 
 
- 2206 190f 5F5F5549 		.ascii	"__UINT16_C(c) c\000"
+ 2206 1913 5F5F5549 		.ascii	"__UINT16_C(c) c\000"
  2206      4E543136 
  2206      5F432863 
  2206      29206300 
  2207              	.LASF70:
- 2208 191f 5F5F5348 		.ascii	"__SHRT_MAX__ 0x7fff\000"
+ 2208 1923 5F5F5348 		.ascii	"__SHRT_MAX__ 0x7fff\000"
  2208      52545F4D 
  2208      41585F5F 
  2208      20307837 
  2208      66666600 
  2209              	.LASF19:
- 2210 1933 5F5F5349 		.ascii	"__SIZEOF_FLOAT__ 4\000"
+ 2210 1937 5F5F5349 		.ascii	"__SIZEOF_FLOAT__ 4\000"
  2210      5A454F46 
  2210      5F464C4F 
  2210      41545F5F 
  2210      203400
  2211              	.LASF145:
- 2212 1946 5F5F4442 		.ascii	"__DBL_MAX_10_EXP__ 308\000"
+ 2212 194a 5F5F4442 		.ascii	"__DBL_MAX_10_EXP__ 308\000"
  2212      4C5F4D41 
  2212      585F3130 
  2212      5F455850 
  2212      5F5F2033 
  2213              	.LASF135:
- 2214 195d 5F5F464C 		.ascii	"__FLT_DENORM_MIN__ 1.4012984643248171e-45F\000"
+ 2214 1961 5F5F464C 		.ascii	"__FLT_DENORM_MIN__ 1.4012984643248171e-45F\000"
  2214      545F4445 
  2214      4E4F524D 
  2214      5F4D494E 
  2214      5F5F2031 
  2215              	.LASF134:
- 2216 1988 5F5F464C 		.ascii	"__FLT_EPSILON__ 1.1920928955078125e-7F\000"
+ 2216 198c 5F5F464C 		.ascii	"__FLT_EPSILON__ 1.1920928955078125e-7F\000"
  2216      545F4550 
  2216      53494C4F 
  2216      4E5F5F20 
  2216      312E3139 
  2217              	.LASF27:
- 2218 19af 5F5F4F52 		.ascii	"__ORDER_PDP_ENDIAN__ 3412\000"
+ 2218 19b3 5F5F4F52 		.ascii	"__ORDER_PDP_ENDIAN__ 3412\000"
  2218      4445525F 
  2218      5044505F 
  2218      454E4449 
  2218      414E5F5F 
  2219              	.LASF323:
- 2220 19c9 5F5F4743 		.ascii	"__GCC_ATOMIC_POINTER_LOCK_FREE 2\000"
+ 2220 19cd 5F5F4743 		.ascii	"__GCC_ATOMIC_POINTER_LOCK_FREE 2\000"
  2220      435F4154 
  2220      4F4D4943 
  2220      5F504F49 
  2220      4E544552 
  2221              	.LASF235:
- 2222 19ea 5F5F5553 		.ascii	"__USACCUM_IBIT__ 8\000"
+ 2222 19ee 5F5F5553 		.ascii	"__USACCUM_IBIT__ 8\000"
  2222      41434355 
  2222      4D5F4942 
  2222      49545F5F 
  2222      203800
  2223              	.LASF25:
- 2224 19fd 5F5F4F52 		.ascii	"__ORDER_LITTLE_ENDIAN__ 1234\000"
+ 2224 1a01 5F5F4F52 		.ascii	"__ORDER_LITTLE_ENDIAN__ 1234\000"
  2224      4445525F 
  2224      4C495454 
  2224      4C455F45 
-ARM GAS  C:\Users\Bartek\AppData\Local\Temp\ccsqC3sf.s 			page 58
+ARM GAS  C:\Users\Bartek\AppData\Local\Temp\ccgdBRxL.s 			page 58
 
 
  2224      4E444941 
  2225              	.LASF34:
- 2226 1a1a 5F5F5749 		.ascii	"__WINT_TYPE__ unsigned int\000"
+ 2226 1a1e 5F5F5749 		.ascii	"__WINT_TYPE__ unsigned int\000"
  2226      4E545F54 
  2226      5950455F 
  2226      5F20756E 
  2226      7369676E 
  2227              	.LASF72:
- 2228 1a35 5F5F4C4F 		.ascii	"__LONG_MAX__ 0x7fffffffL\000"
+ 2228 1a39 5F5F4C4F 		.ascii	"__LONG_MAX__ 0x7fffffffL\000"
  2228      4E475F4D 
  2228      41585F5F 
  2228      20307837 
  2228      66666666 
  2229              	.LASF51:
- 2230 1a4e 5F5F494E 		.ascii	"__INT_LEAST64_TYPE__ long long int\000"
+ 2230 1a52 5F5F494E 		.ascii	"__INT_LEAST64_TYPE__ long long int\000"
  2230      545F4C45 
  2230      41535436 
  2230      345F5459 
  2230      50455F5F 
  2231              	.LASF6:
- 2232 1a71 5F5F4154 		.ascii	"__ATOMIC_RELAXED 0\000"
+ 2232 1a75 5F5F4154 		.ascii	"__ATOMIC_RELAXED 0\000"
  2232      4F4D4943 
  2232      5F52454C 
  2232      41584544 
  2232      203000
  2233              	.LASF294:
- 2234 1a84 5F5F4441 		.ascii	"__DA_IBIT__ 32\000"
+ 2234 1a88 5F5F4441 		.ascii	"__DA_IBIT__ 32\000"
  2234      5F494249 
  2234      545F5F20 
  2234      333200
  2235              	.LASF252:
- 2236 1a93 5F5F4C41 		.ascii	"__LACCUM_MAX__ 0X7FFFFFFFFFFFFFFFP-31LK\000"
+ 2236 1a97 5F5F4C41 		.ascii	"__LACCUM_MAX__ 0X7FFFFFFFFFFFFFFFP-31LK\000"
  2236      4343554D 
  2236      5F4D4158 
  2236      5F5F2030 
  2236      58374646 
  2237              	.LASF266:
- 2238 1abb 5F5F554C 		.ascii	"__ULLACCUM_MIN__ 0.0ULLK\000"
+ 2238 1abf 5F5F554C 		.ascii	"__ULLACCUM_MIN__ 0.0ULLK\000"
  2238      4C414343 
  2238      554D5F4D 
  2238      494E5F5F 
  2238      20302E30 
  2239              	.LASF98:
- 2240 1ad4 5F5F494E 		.ascii	"__INT_LEAST32_MAX__ 0x7fffffffL\000"
+ 2240 1ad8 5F5F494E 		.ascii	"__INT_LEAST32_MAX__ 0x7fffffffL\000"
  2240      545F4C45 
  2240      41535433 
  2240      325F4D41 
  2240      585F5F20 
- 2241              	.LASF368:
- 2242 1af4 473A5C45 		.ascii	"G:\\Eclipse_projects\\stm32F4-LCD\000"
- 2242      636C6970 
- 2242      73655F70 
- 2242      726F6A65 
- 2242      6374735C 
+ 2241              	.LASF168:
+ 2242 1af8 5F5F4445 		.ascii	"__DEC32_MANT_DIG__ 7\000"
+ 2242      4333325F 
+ 2242      4D414E54 
+ 2242      5F444947 
+ 2242      5F5F2037 
  2243              	.LASF120:
- 2244 1b14 5F5F4743 		.ascii	"__GCC_IEC_559 0\000"
+ 2244 1b0d 5F5F4743 		.ascii	"__GCC_IEC_559 0\000"
  2244      435F4945 
-ARM GAS  C:\Users\Bartek\AppData\Local\Temp\ccsqC3sf.s 			page 59
+ARM GAS  C:\Users\Bartek\AppData\Local\Temp\ccgdBRxL.s 			page 59
 
 
  2244      435F3535 
  2244      39203000 
  2245              	.LASF242:
- 2246 1b24 5F5F4143 		.ascii	"__ACCUM_MAX__ 0X7FFFFFFFP-15K\000"
+ 2246 1b1d 5F5F4143 		.ascii	"__ACCUM_MAX__ 0X7FFFFFFFP-15K\000"
  2246      43554D5F 
  2246      4D41585F 
  2246      5F203058 
  2246      37464646 
  2247              	.LASF12:
- 2248 1b42 5F5F4641 		.ascii	"__FAST_MATH__ 1\000"
+ 2248 1b3b 5F5F4641 		.ascii	"__FAST_MATH__ 1\000"
  2248      53545F4D 
  2248      4154485F 
  2248      5F203100 
  2249              	.LASF232:
- 2250 1b52 5F5F5341 		.ascii	"__SACCUM_MAX__ 0X7FFFP-7HK\000"
+ 2250 1b4b 5F5F5341 		.ascii	"__SACCUM_MAX__ 0X7FFFP-7HK\000"
  2250      4343554D 
  2250      5F4D4158 
  2250      5F5F2030 
  2250      58374646 
  2251              	.LASF239:
- 2252 1b6d 5F5F4143 		.ascii	"__ACCUM_FBIT__ 15\000"
+ 2252 1b66 5F5F4143 		.ascii	"__ACCUM_FBIT__ 15\000"
  2252      43554D5F 
  2252      46424954 
  2252      5F5F2031 
  2252      3500
  2253              	.LASF195:
- 2254 1b7f 5F5F5553 		.ascii	"__USFRACT_IBIT__ 0\000"
+ 2254 1b78 5F5F5553 		.ascii	"__USFRACT_IBIT__ 0\000"
  2254      46524143 
  2254      545F4942 
  2254      49545F5F 
  2254      203000
  2255              	.LASF291:
- 2256 1b92 5F5F5341 		.ascii	"__SA_FBIT__ 15\000"
+ 2256 1b8b 5F5F5341 		.ascii	"__SA_FBIT__ 15\000"
  2256      5F464249 
  2256      545F5F20 
  2256      313500
  2257              	.LASF255:
- 2258 1ba1 5F5F554C 		.ascii	"__ULACCUM_IBIT__ 32\000"
+ 2258 1b9a 5F5F554C 		.ascii	"__ULACCUM_IBIT__ 32\000"
  2258      41434355 
  2258      4D5F4942 
  2258      49545F5F 
  2258      20333200 
  2259              	.LASF275:
- 2260 1bb5 5F5F4451 		.ascii	"__DQ_FBIT__ 63\000"
+ 2260 1bae 5F5F4451 		.ascii	"__DQ_FBIT__ 63\000"
  2260      5F464249 
  2260      545F5F20 
  2260      363300
  2261              	.LASF68:
- 2262 1bc4 5F5F4758 		.ascii	"__GXX_ABI_VERSION 1009\000"
+ 2262 1bbd 5F5F4758 		.ascii	"__GXX_ABI_VERSION 1009\000"
  2262      585F4142 
  2262      495F5645 
  2262      5253494F 
  2262      4E203130 
  2263              	.LASF84:
- 2264 1bdb 5F5F5349 		.ascii	"__SIG_ATOMIC_MAX__ 0x7fffffff\000"
+ 2264 1bd4 5F5F5349 		.ascii	"__SIG_ATOMIC_MAX__ 0x7fffffff\000"
  2264      475F4154 
  2264      4F4D4943 
-ARM GAS  C:\Users\Bartek\AppData\Local\Temp\ccsqC3sf.s 			page 60
+ARM GAS  C:\Users\Bartek\AppData\Local\Temp\ccgdBRxL.s 			page 60
 
 
  2264      5F4D4158 
  2264      5F5F2030 
  2265              	.LASF285:
- 2266 1bf9 5F5F5544 		.ascii	"__UDQ_FBIT__ 64\000"
+ 2266 1bf2 5F5F5544 		.ascii	"__UDQ_FBIT__ 64\000"
  2266      515F4642 
  2266      49545F5F 
  2266      20363400 
  2267              	.LASF272:
- 2268 1c09 5F5F4851 		.ascii	"__HQ_IBIT__ 0\000"
+ 2268 1c02 5F5F4851 		.ascii	"__HQ_IBIT__ 0\000"
  2268      5F494249 
  2268      545F5F20 
  2268      3000
  2269              	.LASF142:
- 2270 1c17 5F5F4442 		.ascii	"__DBL_MIN_EXP__ (-1021)\000"
+ 2270 1c10 5F5F4442 		.ascii	"__DBL_MIN_EXP__ (-1021)\000"
  2270      4C5F4D49 
  2270      4E5F4558 
  2270      505F5F20 
  2270      282D3130 
  2271              	.LASF203:
- 2272 1c2f 5F5F4652 		.ascii	"__FRACT_EPSILON__ 0x1P-15R\000"
+ 2272 1c28 5F5F4652 		.ascii	"__FRACT_EPSILON__ 0x1P-15R\000"
  2272      4143545F 
  2272      45505349 
  2272      4C4F4E5F 
  2272      5F203078 
  2273              	.LASF289:
- 2274 1c4a 5F5F4841 		.ascii	"__HA_FBIT__ 7\000"
+ 2274 1c43 5F5F4841 		.ascii	"__HA_FBIT__ 7\000"
  2274      5F464249 
  2274      545F5F20 
  2274      3700
  2275              	.LASF362:
- 2276 1c58 63686172 		.ascii	"char\000"
+ 2276 1c51 63686172 		.ascii	"char\000"
  2276      00
  2277              	.LASF208:
- 2278 1c5d 5F5F5546 		.ascii	"__UFRACT_EPSILON__ 0x1P-16UR\000"
+ 2278 1c56 5F5F5546 		.ascii	"__UFRACT_EPSILON__ 0x1P-16UR\000"
  2278      52414354 
  2278      5F455053 
  2278      494C4F4E 
  2278      5F5F2030 
  2279              	.LASF65:
- 2280 1c7a 5F5F5549 		.ascii	"__UINTPTR_TYPE__ unsigned int\000"
+ 2280 1c73 5F5F5549 		.ascii	"__UINTPTR_TYPE__ unsigned int\000"
  2280      4E545054 
  2280      525F5459 
  2280      50455F5F 
  2280      20756E73 
  2281              	.LASF354:
- 2282 1c98 5F5F4152 		.ascii	"__ARM_EABI__ 1\000"
+ 2282 1c91 5F5F4152 		.ascii	"__ARM_EABI__ 1\000"
  2282      4D5F4541 
  2282      42495F5F 
  2282      203100
  2283              	.LASF109:
- 2284 1ca7 5F5F5549 		.ascii	"__UINT64_C(c) c ## ULL\000"
+ 2284 1ca0 5F5F5549 		.ascii	"__UINT64_C(c) c ## ULL\000"
  2284      4E543634 
  2284      5F432863 
  2284      29206320 
  2284      23232055 
  2285              	.LASF277:
- 2286 1cbe 5F5F5451 		.ascii	"__TQ_FBIT__ 127\000"
-ARM GAS  C:\Users\Bartek\AppData\Local\Temp\ccsqC3sf.s 			page 61
+ 2286 1cb7 5F5F5451 		.ascii	"__TQ_FBIT__ 127\000"
+ARM GAS  C:\Users\Bartek\AppData\Local\Temp\ccgdBRxL.s 			page 61
 
 
  2286      5F464249 
  2286      545F5F20 
  2286      31323700 
  2287              	.LASF231:
- 2288 1cce 5F5F5341 		.ascii	"__SACCUM_MIN__ (-0X1P7HK-0X1P7HK)\000"
+ 2288 1cc7 5F5F5341 		.ascii	"__SACCUM_MIN__ (-0X1P7HK-0X1P7HK)\000"
  2288      4343554D 
  2288      5F4D494E 
  2288      5F5F2028 
  2288      2D305831 
  2289              	.LASF137:
- 2290 1cf0 5F5F464C 		.ascii	"__FLT_HAS_INFINITY__ 1\000"
+ 2290 1ce9 5F5F464C 		.ascii	"__FLT_HAS_INFINITY__ 1\000"
  2290      545F4841 
  2290      535F494E 
  2290      46494E49 
  2290      54595F5F 
  2291              	.LASF75:
- 2292 1d07 5F5F5743 		.ascii	"__WCHAR_MIN__ 0U\000"
+ 2292 1d00 5F5F5743 		.ascii	"__WCHAR_MIN__ 0U\000"
  2292      4841525F 
  2292      4D494E5F 
  2292      5F203055 
  2292      00
  2293              	.LASF234:
- 2294 1d18 5F5F5553 		.ascii	"__USACCUM_FBIT__ 8\000"
+ 2294 1d11 5F5F5553 		.ascii	"__USACCUM_FBIT__ 8\000"
  2294      41434355 
  2294      4D5F4642 
  2294      49545F5F 
  2294      203800
  2295              	.LASF159:
- 2296 1d2b 5F5F4C44 		.ascii	"__LDBL_MAX_10_EXP__ 308\000"
+ 2296 1d24 5F5F4C44 		.ascii	"__LDBL_MAX_10_EXP__ 308\000"
  2296      424C5F4D 
  2296      41585F31 
  2296      305F4558 
  2296      505F5F20 
  2297              	.LASF336:
- 2298 1d43 5F5F4152 		.ascii	"__ARM_FEATURE_SIMD32 1\000"
+ 2298 1d3c 5F5F4152 		.ascii	"__ARM_FEATURE_SIMD32 1\000"
  2298      4D5F4645 
  2298      41545552 
  2298      455F5349 
  2298      4D443332 
  2299              	.LASF308:
- 2300 1d5a 5F5F4E4F 		.ascii	"__NO_INLINE__ 1\000"
+ 2300 1d53 5F5F4E4F 		.ascii	"__NO_INLINE__ 1\000"
  2300      5F494E4C 
  2300      494E455F 
  2300      5F203100 
  2301              	.LASF13:
- 2302 1d6a 5F5F4E4F 		.ascii	"__NO_MATH_ERRNO__ 1\000"
+ 2302 1d63 5F5F4E4F 		.ascii	"__NO_MATH_ERRNO__ 1\000"
  2302      5F4D4154 
  2302      485F4552 
  2302      524E4F5F 
  2302      5F203100 
  2303              	.LASF228:
- 2304 1d7e 5F5F554C 		.ascii	"__ULLFRACT_EPSILON__ 0x1P-64ULLR\000"
+ 2304 1d77 5F5F554C 		.ascii	"__ULLFRACT_EPSILON__ 0x1P-64ULLR\000"
  2304      4C465241 
  2304      43545F45 
  2304      5053494C 
  2304      4F4E5F5F 
  2305              	.LASF16:
-ARM GAS  C:\Users\Bartek\AppData\Local\Temp\ccsqC3sf.s 			page 62
+ARM GAS  C:\Users\Bartek\AppData\Local\Temp\ccgdBRxL.s 			page 62
 
 
- 2306 1d9f 5F5F5349 		.ascii	"__SIZEOF_LONG__ 4\000"
+ 2306 1d98 5F5F5349 		.ascii	"__SIZEOF_LONG__ 4\000"
  2306      5A454F46 
  2306      5F4C4F4E 
  2306      475F5F20 
  2306      3400
  2307              	.LASF116:
- 2308 1db1 5F5F5549 		.ascii	"__UINT_FAST32_MAX__ 0xffffffffU\000"
+ 2308 1daa 5F5F5549 		.ascii	"__UINT_FAST32_MAX__ 0xffffffffU\000"
  2308      4E545F46 
  2308      41535433 
  2308      325F4D41 
  2308      585F5F20 
  2309              	.LASF211:
- 2310 1dd1 5F5F4C46 		.ascii	"__LFRACT_MIN__ (-0.5LR-0.5LR)\000"
+ 2310 1dca 5F5F4C46 		.ascii	"__LFRACT_MIN__ (-0.5LR-0.5LR)\000"
  2310      52414354 
  2310      5F4D494E 
  2310      5F5F2028 
  2310      2D302E35 
  2311              	.LASF60:
- 2312 1def 5F5F5549 		.ascii	"__UINT_FAST8_TYPE__ unsigned int\000"
+ 2312 1de8 5F5F5549 		.ascii	"__UINT_FAST8_TYPE__ unsigned int\000"
  2312      4E545F46 
  2312      41535438 
  2312      5F545950 
  2312      455F5F20 
  2313              	.LASF32:
- 2314 1e10 5F5F5054 		.ascii	"__PTRDIFF_TYPE__ int\000"
+ 2314 1e09 5F5F5054 		.ascii	"__PTRDIFF_TYPE__ int\000"
  2314      52444946 
  2314      465F5459 
  2314      50455F5F 
  2314      20696E74 
  2315              	.LASF165:
- 2316 1e25 5F5F4C44 		.ascii	"__LDBL_HAS_DENORM__ 1\000"
+ 2316 1e1e 5F5F4C44 		.ascii	"__LDBL_HAS_DENORM__ 1\000"
  2316      424C5F48 
  2316      41535F44 
  2316      454E4F52 
  2316      4D5F5F20 
  2317              	.LASF106:
- 2318 1e3b 5F5F5549 		.ascii	"__UINT_LEAST32_MAX__ 0xffffffffUL\000"
+ 2318 1e34 5F5F5549 		.ascii	"__UINT_LEAST32_MAX__ 0xffffffffUL\000"
  2318      4E545F4C 
  2318      45415354 
  2318      33325F4D 
  2318      41585F5F 
  2319              	.LASF33:
- 2320 1e5d 5F5F5743 		.ascii	"__WCHAR_TYPE__ unsigned int\000"
+ 2320 1e56 5F5F5743 		.ascii	"__WCHAR_TYPE__ unsigned int\000"
  2320      4841525F 
  2320      54595045 
  2320      5F5F2075 
  2320      6E736967 
  2321              	.LASF315:
- 2322 1e79 5F5F4743 		.ascii	"__GCC_ATOMIC_CHAR16_T_LOCK_FREE 2\000"
+ 2322 1e72 5F5F4743 		.ascii	"__GCC_ATOMIC_CHAR16_T_LOCK_FREE 2\000"
  2322      435F4154 
  2322      4F4D4943 
  2322      5F434841 
  2322      5231365F 
  2323              	.LASF149:
- 2324 1e9b 5F5F4442 		.ascii	"__DBL_EPSILON__ ((double)2.2204460492503131e-16L)\000"
+ 2324 1e94 5F5F4442 		.ascii	"__DBL_EPSILON__ ((double)2.2204460492503131e-16L)\000"
  2324      4C5F4550 
  2324      53494C4F 
-ARM GAS  C:\Users\Bartek\AppData\Local\Temp\ccsqC3sf.s 			page 63
+ARM GAS  C:\Users\Bartek\AppData\Local\Temp\ccgdBRxL.s 			page 63
 
 
  2324      4E5F5F20 
  2324      2828646F 
  2325              	.LASF107:
- 2326 1ecd 5F5F5549 		.ascii	"__UINT32_C(c) c ## UL\000"
+ 2326 1ec6 5F5F5549 		.ascii	"__UINT32_C(c) c ## UL\000"
  2326      4E543332 
  2326      5F432863 
  2326      29206320 
  2326      23232055 
  2327              	.LASF297:
- 2328 1ee3 5F5F5548 		.ascii	"__UHA_FBIT__ 8\000"
+ 2328 1edc 5F5F5548 		.ascii	"__UHA_FBIT__ 8\000"
  2328      415F4642 
  2328      49545F5F 
  2328      203800
  2329              	.LASF11:
- 2330 1ef2 5F5F4154 		.ascii	"__ATOMIC_CONSUME 1\000"
+ 2330 1eeb 5F5F4154 		.ascii	"__ATOMIC_CONSUME 1\000"
  2330      4F4D4943 
  2330      5F434F4E 
  2330      53554D45 
  2330      203100
  2331              	.LASF349:
- 2332 1f05 5F5F4152 		.ascii	"__ARM_FP 4\000"
+ 2332 1efe 5F5F4152 		.ascii	"__ARM_FP 4\000"
  2332      4D5F4650 
  2332      203400
  2333              	.LASF188:
- 2334 1f10 5F5F4445 		.ascii	"__DEC128_SUBNORMAL_MIN__ 0.000000000000000000000000"
+ 2334 1f09 5F5F4445 		.ascii	"__DEC128_SUBNORMAL_MIN__ 0.000000000000000000000000"
  2334      43313238 
  2334      5F535542 
  2334      4E4F524D 
  2334      414C5F4D 
- 2335 1f43 30303030 		.ascii	"000000001E-6143DL\000"
+ 2335 1f3c 30303030 		.ascii	"000000001E-6143DL\000"
  2335      30303030 
  2335      31452D36 
  2335      31343344 
  2335      4C00
  2336              	.LASF187:
- 2337 1f55 5F5F4445 		.ascii	"__DEC128_EPSILON__ 1E-33DL\000"
+ 2337 1f4e 5F5F4445 		.ascii	"__DEC128_EPSILON__ 1E-33DL\000"
  2337      43313238 
  2337      5F455053 
  2337      494C4F4E 
  2337      5F5F2031 
  2338              	.LASF45:
- 2339 1f70 5F5F5549 		.ascii	"__UINT16_TYPE__ short unsigned int\000"
+ 2339 1f69 5F5F5549 		.ascii	"__UINT16_TYPE__ short unsigned int\000"
  2339      4E543136 
  2339      5F545950 
  2339      455F5F20 
  2339      73686F72 
  2340              	.LASF161:
- 2341 1f93 5F5F4C44 		.ascii	"__LDBL_MAX__ 1.7976931348623157e+308L\000"
+ 2341 1f8c 5F5F4C44 		.ascii	"__LDBL_MAX__ 1.7976931348623157e+308L\000"
  2341      424C5F4D 
  2341      41585F5F 
  2341      20312E37 
  2341      39373639 
  2342              	.LASF229:
- 2343 1fb9 5F5F5341 		.ascii	"__SACCUM_FBIT__ 7\000"
+ 2343 1fb2 5F5F5341 		.ascii	"__SACCUM_FBIT__ 7\000"
  2343      4343554D 
  2343      5F464249 
  2343      545F5F20 
-ARM GAS  C:\Users\Bartek\AppData\Local\Temp\ccsqC3sf.s 			page 64
+ARM GAS  C:\Users\Bartek\AppData\Local\Temp\ccgdBRxL.s 			page 64
 
 
  2343      3700
  2344              	.LASF329:
- 2345 1fcb 5F5F4152 		.ascii	"__ARM_FEATURE_DSP 1\000"
+ 2345 1fc4 5F5F4152 		.ascii	"__ARM_FEATURE_DSP 1\000"
  2345      4D5F4645 
  2345      41545552 
  2345      455F4453 
  2345      50203100 
  2346              	.LASF174:
- 2347 1fdf 5F5F4445 		.ascii	"__DEC32_SUBNORMAL_MIN__ 0.000001E-95DF\000"
+ 2347 1fd8 5F5F4445 		.ascii	"__DEC32_SUBNORMAL_MIN__ 0.000001E-95DF\000"
  2347      4333325F 
  2347      5355424E 
  2347      4F524D41 
  2347      4C5F4D49 
  2348              	.LASF311:
- 2349 2006 5F5F4743 		.ascii	"__GCC_HAVE_SYNC_COMPARE_AND_SWAP_2 1\000"
+ 2349 1fff 5F5F4743 		.ascii	"__GCC_HAVE_SYNC_COMPARE_AND_SWAP_2 1\000"
  2349      435F4841 
  2349      56455F53 
  2349      594E435F 
  2349      434F4D50 
  2350              	.LASF332:
- 2351 202b 5F5F4152 		.ascii	"__ARM_FEATURE_UNALIGNED 1\000"
+ 2351 2024 5F5F4152 		.ascii	"__ARM_FEATURE_UNALIGNED 1\000"
  2351      4D5F4645 
  2351      41545552 
  2351      455F554E 
  2351      414C4947 
  2352              	.LASF66:
- 2353 2045 5F5F6861 		.ascii	"__has_include(STR) __has_include__(STR)\000"
+ 2353 203e 5F5F6861 		.ascii	"__has_include(STR) __has_include__(STR)\000"
  2353      735F696E 
  2353      636C7564 
  2353      65285354 
  2353      5229205F 
  2354              	.LASF23:
- 2355 206d 5F5F4348 		.ascii	"__CHAR_BIT__ 8\000"
+ 2355 2066 5F5F4348 		.ascii	"__CHAR_BIT__ 8\000"
  2355      41525F42 
  2355      49545F5F 
  2355      203800
  2356              	.LASF85:
- 2357 207c 5F5F5349 		.ascii	"__SIG_ATOMIC_MIN__ (-__SIG_ATOMIC_MAX__ - 1)\000"
+ 2357 2075 5F5F5349 		.ascii	"__SIG_ATOMIC_MIN__ (-__SIG_ATOMIC_MAX__ - 1)\000"
  2357      475F4154 
  2357      4F4D4943 
  2357      5F4D494E 
  2357      5F5F2028 
  2358              	.LASF256:
- 2359 20a9 5F5F554C 		.ascii	"__ULACCUM_MIN__ 0.0ULK\000"
+ 2359 20a2 5F5F554C 		.ascii	"__ULACCUM_MIN__ 0.0ULK\000"
  2359      41434355 
  2359      4D5F4D49 
  2359      4E5F5F20 
  2359      302E3055 
  2360              	.LASF295:
- 2361 20c0 5F5F5441 		.ascii	"__TA_FBIT__ 63\000"
+ 2361 20b9 5F5F5441 		.ascii	"__TA_FBIT__ 63\000"
  2361      5F464249 
  2361      545F5F20 
  2361      363300
  2362              	.LASF173:
- 2363 20cf 5F5F4445 		.ascii	"__DEC32_EPSILON__ 1E-6DF\000"
+ 2363 20c8 5F5F4445 		.ascii	"__DEC32_EPSILON__ 1E-6DF\000"
  2363      4333325F 
  2363      45505349 
-ARM GAS  C:\Users\Bartek\AppData\Local\Temp\ccsqC3sf.s 			page 65
+ARM GAS  C:\Users\Bartek\AppData\Local\Temp\ccgdBRxL.s 			page 65
 
 
  2363      4C4F4E5F 
  2363      5F203145 
  2364              	.LASF201:
- 2365 20e8 5F5F4652 		.ascii	"__FRACT_MIN__ (-0.5R-0.5R)\000"
+ 2365 20e1 5F5F4652 		.ascii	"__FRACT_MIN__ (-0.5R-0.5R)\000"
  2365      4143545F 
  2365      4D494E5F 
  2365      5F20282D 
  2365      302E3552 
  2366              	.LASF58:
- 2367 2103 5F5F494E 		.ascii	"__INT_FAST32_TYPE__ int\000"
+ 2367 20fc 5F5F494E 		.ascii	"__INT_FAST32_TYPE__ int\000"
  2367      545F4641 
  2367      53543332 
  2367      5F545950 
  2367      455F5F20 
  2368              	.LASF350:
- 2369 211b 5F5F4152 		.ascii	"__ARM_FEATURE_FMA 1\000"
+ 2369 2114 5F5F4152 		.ascii	"__ARM_FEATURE_FMA 1\000"
  2369      4D5F4645 
  2369      41545552 
  2369      455F464D 
  2369      41203100 
  2370              	.LASF61:
- 2371 212f 5F5F5549 		.ascii	"__UINT_FAST16_TYPE__ unsigned int\000"
+ 2371 2128 5F5F5549 		.ascii	"__UINT_FAST16_TYPE__ unsigned int\000"
  2371      4E545F46 
  2371      41535431 
  2371      365F5459 
  2371      50455F5F 
  2372              	.LASF200:
- 2373 2151 5F5F4652 		.ascii	"__FRACT_IBIT__ 0\000"
+ 2373 214a 5F5F4652 		.ascii	"__FRACT_IBIT__ 0\000"
  2373      4143545F 
  2373      49424954 
  2373      5F5F2030 
  2373      00
  2374              	.LASF5:
- 2375 2162 5F5F5645 		.ascii	"__VERSION__ \"5.2.1 20151202 (release) [ARM/embedde"
+ 2375 215b 5F5F5645 		.ascii	"__VERSION__ \"5.2.1 20151202 (release) [ARM/embedde"
  2375      5253494F 
  2375      4E5F5F20 
  2375      22352E32 
  2375      2E312032 
- 2376 2194 642D352D 		.ascii	"d-5-branch revision 231848]\"\000"
+ 2376 218d 642D352D 		.ascii	"d-5-branch revision 231848]\"\000"
  2376      6272616E 
  2376      63682072 
  2376      65766973 
  2376      696F6E20 
  2377              	.LASF202:
- 2378 21b1 5F5F4652 		.ascii	"__FRACT_MAX__ 0X7FFFP-15R\000"
+ 2378 21aa 5F5F4652 		.ascii	"__FRACT_MAX__ 0X7FFFP-15R\000"
  2378      4143545F 
  2378      4D41585F 
  2378      5F203058 
  2378      37464646 
  2379              	.LASF86:
- 2380 21cb 5F5F494E 		.ascii	"__INT8_MAX__ 0x7f\000"
+ 2380 21c4 5F5F494E 		.ascii	"__INT8_MAX__ 0x7f\000"
  2380      54385F4D 
  2380      41585F5F 
  2380      20307837 
  2380      6600
  2381              	.LASF259:
- 2382 21dd 5F5F4C4C 		.ascii	"__LLACCUM_FBIT__ 31\000"
-ARM GAS  C:\Users\Bartek\AppData\Local\Temp\ccsqC3sf.s 			page 66
+ 2382 21d6 5F5F4C4C 		.ascii	"__LLACCUM_FBIT__ 31\000"
+ARM GAS  C:\Users\Bartek\AppData\Local\Temp\ccgdBRxL.s 			page 66
 
 
  2382      41434355 
@@ -3906,305 +3906,306 @@ ARM GAS  C:\Users\Bartek\AppData\Local\Temp\ccsqC3sf.s 			page 1
  2382      49545F5F 
  2382      20333100 
  2383              	.LASF153:
- 2384 21f1 5F5F4442 		.ascii	"__DBL_HAS_QUIET_NAN__ 1\000"
+ 2384 21ea 5F5F4442 		.ascii	"__DBL_HAS_QUIET_NAN__ 1\000"
  2384      4C5F4841 
  2384      535F5155 
  2384      4945545F 
  2384      4E414E5F 
  2385              	.LASF128:
- 2386 2209 5F5F464C 		.ascii	"__FLT_MIN_10_EXP__ (-37)\000"
+ 2386 2202 5F5F464C 		.ascii	"__FLT_MIN_10_EXP__ (-37)\000"
  2386      545F4D49 
  2386      4E5F3130 
  2386      5F455850 
  2386      5F5F2028 
  2387              	.LASF224:
- 2388 2222 5F5F554C 		.ascii	"__ULLFRACT_FBIT__ 64\000"
+ 2388 221b 5F5F554C 		.ascii	"__ULLFRACT_FBIT__ 64\000"
  2388      4C465241 
  2388      43545F46 
  2388      4249545F 
  2388      5F203634 
  2389              	.LASF10:
- 2390 2237 5F5F4154 		.ascii	"__ATOMIC_ACQ_REL 4\000"
+ 2390 2230 5F5F4154 		.ascii	"__ATOMIC_ACQ_REL 4\000"
  2390      4F4D4943 
  2390      5F414351 
  2390      5F52454C 
  2390      203400
  2391              	.LASF221:
- 2392 224a 5F5F4C4C 		.ascii	"__LLFRACT_MIN__ (-0.5LLR-0.5LLR)\000"
+ 2392 2243 5F5F4C4C 		.ascii	"__LLFRACT_MIN__ (-0.5LLR-0.5LLR)\000"
  2392      46524143 
  2392      545F4D49 
  2392      4E5F5F20 
  2392      282D302E 
  2393              	.LASF260:
- 2394 226b 5F5F4C4C 		.ascii	"__LLACCUM_IBIT__ 32\000"
+ 2394 2264 5F5F4C4C 		.ascii	"__LLACCUM_IBIT__ 32\000"
  2394      41434355 
  2394      4D5F4942 
  2394      49545F5F 
  2394      20333200 
  2395              	.LASF249:
- 2396 227f 5F5F4C41 		.ascii	"__LACCUM_FBIT__ 31\000"
+ 2396 2278 5F5F4C41 		.ascii	"__LACCUM_FBIT__ 31\000"
  2396      4343554D 
  2396      5F464249 
  2396      545F5F20 
  2396      333100
  2397              	.LASF267:
- 2398 2292 5F5F554C 		.ascii	"__ULLACCUM_MAX__ 0XFFFFFFFFFFFFFFFFP-32ULLK\000"
+ 2398 228b 5F5F554C 		.ascii	"__ULLACCUM_MAX__ 0XFFFFFFFFFFFFFFFFP-32ULLK\000"
  2398      4C414343 
  2398      554D5F4D 
  2398      41585F5F 
  2398      20305846 
  2399              	.LASF236:
- 2400 22be 5F5F5553 		.ascii	"__USACCUM_MIN__ 0.0UHK\000"
+ 2400 22b7 5F5F5553 		.ascii	"__USACCUM_MIN__ 0.0UHK\000"
  2400      41434355 
  2400      4D5F4D49 
  2400      4E5F5F20 
-ARM GAS  C:\Users\Bartek\AppData\Local\Temp\ccsqC3sf.s 			page 67
+ARM GAS  C:\Users\Bartek\AppData\Local\Temp\ccgdBRxL.s 			page 67
 
 
  2400      302E3055 
  2401              	.LASF14:
- 2402 22d5 5F5F4649 		.ascii	"__FINITE_MATH_ONLY__ 1\000"
+ 2402 22ce 5F5F4649 		.ascii	"__FINITE_MATH_ONLY__ 1\000"
  2402      4E495445 
  2402      5F4D4154 
  2402      485F4F4E 
  2402      4C595F5F 
  2403              	.LASF246:
- 2404 22ec 5F5F5541 		.ascii	"__UACCUM_MIN__ 0.0UK\000"
+ 2404 22e5 5F5F5541 		.ascii	"__UACCUM_MIN__ 0.0UK\000"
  2404      4343554D 
  2404      5F4D494E 
  2404      5F5F2030 
  2404      2E30554B 
  2405              	.LASF299:
- 2406 2301 5F5F5553 		.ascii	"__USA_FBIT__ 16\000"
+ 2406 22fa 5F5F5553 		.ascii	"__USA_FBIT__ 16\000"
  2406      415F4642 
  2406      49545F5F 
  2406      20313600 
  2407              	.LASF306:
- 2408 2311 5F5F5553 		.ascii	"__USER_LABEL_PREFIX__ \000"
+ 2408 230a 5F5F5553 		.ascii	"__USER_LABEL_PREFIX__ \000"
  2408      45525F4C 
  2408      4142454C 
  2408      5F505245 
  2408      4649585F 
- 2409              	.LASF185:
- 2410 2328 5F5F4445 		.ascii	"__DEC128_MIN__ 1E-6143DL\000"
- 2410      43313238 
- 2410      5F4D494E 
- 2410      5F5F2031 
- 2410      452D3631 
- 2411              	.LASF263:
- 2412 2341 5F5F4C4C 		.ascii	"__LLACCUM_EPSILON__ 0x1P-31LLK\000"
- 2412      41434355 
- 2412      4D5F4550 
- 2412      53494C4F 
- 2412      4E5F5F20 
- 2413              	.LASF63:
- 2414 2360 5F5F5549 		.ascii	"__UINT_FAST64_TYPE__ long long unsigned int\000"
- 2414      4E545F46 
- 2414      41535436 
- 2414      345F5459 
- 2414      50455F5F 
- 2415              	.LASF103:
- 2416 238c 5F5F5549 		.ascii	"__UINT8_C(c) c\000"
- 2416      4E54385F 
- 2416      43286329 
- 2416      206300
- 2417              	.LASF52:
- 2418 239b 5F5F5549 		.ascii	"__UINT_LEAST8_TYPE__ unsigned char\000"
- 2418      4E545F4C 
- 2418      45415354 
- 2418      385F5459 
- 2418      50455F5F 
- 2419              	.LASF88:
- 2420 23be 5F5F494E 		.ascii	"__INT32_MAX__ 0x7fffffffL\000"
- 2420      5433325F 
- 2420      4D41585F 
-ARM GAS  C:\Users\Bartek\AppData\Local\Temp\ccsqC3sf.s 			page 68
+ 2409              	.LASF368:
+ 2410 2321 473A5C45 		.ascii	"G:\\Eclipse_projects\\STM32F429I-DISCO\\stm32F4-LCD"
+ 2410      636C6970 
+ 2410      73655F70 
+ 2410      726F6A65 
+ 2410      6374735C 
+ 2411 2351 00       		.ascii	"\000"
+ 2412              	.LASF263:
+ 2413 2352 5F5F4C4C 		.ascii	"__LLACCUM_EPSILON__ 0x1P-31LLK\000"
+ 2413      41434355 
+ 2413      4D5F4550 
+ 2413      53494C4F 
+ 2413      4E5F5F20 
+ 2414              	.LASF63:
+ 2415 2371 5F5F5549 		.ascii	"__UINT_FAST64_TYPE__ long long unsigned int\000"
+ 2415      4E545F46 
+ 2415      41535436 
+ 2415      345F5459 
+ 2415      50455F5F 
+ 2416              	.LASF103:
+ 2417 239d 5F5F5549 		.ascii	"__UINT8_C(c) c\000"
+ 2417      4E54385F 
+ 2417      43286329 
+ 2417      206300
+ 2418              	.LASF52:
+ 2419 23ac 5F5F5549 		.ascii	"__UINT_LEAST8_TYPE__ unsigned char\000"
+ 2419      4E545F4C 
+ 2419      45415354 
+ 2419      385F5459 
+ 2419      50455F5F 
+ 2420              	.LASF88:
+ 2421 23cf 5F5F494E 		.ascii	"__INT32_MAX__ 0x7fffffffL\000"
+ 2421      5433325F 
+ARM GAS  C:\Users\Bartek\AppData\Local\Temp\ccgdBRxL.s 			page 68
 
 
- 2420      5F203078 
- 2420      37666666 
- 2421              	.LASF310:
- 2422 23d8 5F5F4743 		.ascii	"__GCC_HAVE_SYNC_COMPARE_AND_SWAP_1 1\000"
- 2422      435F4841 
- 2422      56455F53 
- 2422      594E435F 
- 2422      434F4D50 
- 2423              	.LASF241:
- 2424 23fd 5F5F4143 		.ascii	"__ACCUM_MIN__ (-0X1P15K-0X1P15K)\000"
- 2424      43554D5F 
- 2424      4D494E5F 
- 2424      5F20282D 
- 2424      30583150 
- 2425              	.LASF352:
- 2426 241e 5F5F4152 		.ascii	"__ARM_ARCH_7EM__ 1\000"
- 2426      4D5F4152 
- 2426      43485F37 
- 2426      454D5F5F 
- 2426      203100
- 2427              	.LASF361:
- 2428 2431 53544D33 		.ascii	"STM32F4XX 1\000"
- 2428      32463458 
- 2428      58203100 
- 2429              	.LASF94:
- 2430 243d 5F5F494E 		.ascii	"__INT_LEAST8_MAX__ 0x7f\000"
- 2430      545F4C45 
- 2430      41535438 
- 2430      5F4D4158 
- 2430      5F5F2030 
- 2431              	.LASF338:
- 2432 2455 5F5F4152 		.ascii	"__ARM_SIZEOF_WCHAR_T 4\000"
- 2432      4D5F5349 
- 2432      5A454F46 
- 2432      5F574348 
- 2432      41525F54 
- 2433              	.LASF178:
- 2434 246c 5F5F4445 		.ascii	"__DEC64_MIN__ 1E-383DD\000"
- 2434      4336345F 
- 2434      4D494E5F 
- 2434      5F203145 
- 2434      2D333833 
- 2435              	.LASF143:
- 2436 2483 5F5F4442 		.ascii	"__DBL_MIN_10_EXP__ (-307)\000"
- 2436      4C5F4D49 
- 2436      4E5F3130 
- 2436      5F455850 
- 2436      5F5F2028 
- 2437              	.LASF209:
- 2438 249d 5F5F4C46 		.ascii	"__LFRACT_FBIT__ 31\000"
- 2438      52414354 
- 2438      5F464249 
- 2438      545F5F20 
- 2438      333100
- 2439              	.LASF151:
- 2440 24b0 5F5F4442 		.ascii	"__DBL_HAS_DENORM__ 1\000"
- 2440      4C5F4841 
-ARM GAS  C:\Users\Bartek\AppData\Local\Temp\ccsqC3sf.s 			page 69
+ 2421      4D41585F 
+ 2421      5F203078 
+ 2421      37666666 
+ 2422              	.LASF310:
+ 2423 23e9 5F5F4743 		.ascii	"__GCC_HAVE_SYNC_COMPARE_AND_SWAP_1 1\000"
+ 2423      435F4841 
+ 2423      56455F53 
+ 2423      594E435F 
+ 2423      434F4D50 
+ 2424              	.LASF241:
+ 2425 240e 5F5F4143 		.ascii	"__ACCUM_MIN__ (-0X1P15K-0X1P15K)\000"
+ 2425      43554D5F 
+ 2425      4D494E5F 
+ 2425      5F20282D 
+ 2425      30583150 
+ 2426              	.LASF352:
+ 2427 242f 5F5F4152 		.ascii	"__ARM_ARCH_7EM__ 1\000"
+ 2427      4D5F4152 
+ 2427      43485F37 
+ 2427      454D5F5F 
+ 2427      203100
+ 2428              	.LASF361:
+ 2429 2442 53544D33 		.ascii	"STM32F4XX 1\000"
+ 2429      32463458 
+ 2429      58203100 
+ 2430              	.LASF94:
+ 2431 244e 5F5F494E 		.ascii	"__INT_LEAST8_MAX__ 0x7f\000"
+ 2431      545F4C45 
+ 2431      41535438 
+ 2431      5F4D4158 
+ 2431      5F5F2030 
+ 2432              	.LASF338:
+ 2433 2466 5F5F4152 		.ascii	"__ARM_SIZEOF_WCHAR_T 4\000"
+ 2433      4D5F5349 
+ 2433      5A454F46 
+ 2433      5F574348 
+ 2433      41525F54 
+ 2434              	.LASF178:
+ 2435 247d 5F5F4445 		.ascii	"__DEC64_MIN__ 1E-383DD\000"
+ 2435      4336345F 
+ 2435      4D494E5F 
+ 2435      5F203145 
+ 2435      2D333833 
+ 2436              	.LASF143:
+ 2437 2494 5F5F4442 		.ascii	"__DBL_MIN_10_EXP__ (-307)\000"
+ 2437      4C5F4D49 
+ 2437      4E5F3130 
+ 2437      5F455850 
+ 2437      5F5F2028 
+ 2438              	.LASF209:
+ 2439 24ae 5F5F4C46 		.ascii	"__LFRACT_FBIT__ 31\000"
+ 2439      52414354 
+ 2439      5F464249 
+ 2439      545F5F20 
+ 2439      333100
+ 2440              	.LASF151:
+ 2441 24c1 5F5F4442 		.ascii	"__DBL_HAS_DENORM__ 1\000"
+ARM GAS  C:\Users\Bartek\AppData\Local\Temp\ccgdBRxL.s 			page 69
 
 
- 2440      535F4445 
- 2440      4E4F524D 
- 2440      5F5F2031 
- 2441              	.LASF220:
- 2442 24c5 5F5F4C4C 		.ascii	"__LLFRACT_IBIT__ 0\000"
- 2442      46524143 
- 2442      545F4942 
- 2442      49545F5F 
- 2442      203000
- 2443              	.LASF217:
- 2444 24d8 5F5F554C 		.ascii	"__ULFRACT_MAX__ 0XFFFFFFFFP-32ULR\000"
- 2444      46524143 
- 2444      545F4D41 
- 2444      585F5F20 
- 2444      30584646 
- 2445              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 5.2.1 20151202 (release) [ARM/embedded-5-bran
-ARM GAS  C:\Users\Bartek\AppData\Local\Temp\ccsqC3sf.s 			page 70
+ 2441      4C5F4841 
+ 2441      535F4445 
+ 2441      4E4F524D 
+ 2441      5F5F2031 
+ 2442              	.LASF220:
+ 2443 24d6 5F5F4C4C 		.ascii	"__LLFRACT_IBIT__ 0\000"
+ 2443      46524143 
+ 2443      545F4942 
+ 2443      49545F5F 
+ 2443      203000
+ 2444              	.LASF217:
+ 2445 24e9 5F5F554C 		.ascii	"__ULFRACT_MAX__ 0XFFFFFFFFP-32ULR\000"
+ 2445      46524143 
+ 2445      545F4D41 
+ 2445      585F5F20 
+ 2445      30584646 
+ 2446              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 5.2.1 20151202 (release) [ARM/embedded-5-bran
+ARM GAS  C:\Users\Bartek\AppData\Local\Temp\ccgdBRxL.s 			page 70
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 vectors.c
-C:\Users\Bartek\AppData\Local\Temp\ccsqC3sf.s:55     .text.__Default_Handler:00000000 $t
-C:\Users\Bartek\AppData\Local\Temp\ccsqC3sf.s:59     .text.__Default_Handler:00000000 __Default_Handler
-C:\Users\Bartek\AppData\Local\Temp\ccsqC3sf.s:59     .text.__Default_Handler:00000000 FPU_IRQHandler
-C:\Users\Bartek\AppData\Local\Temp\ccsqC3sf.s:59     .text.__Default_Handler:00000000 HASH_RNG_IRQHandler
-C:\Users\Bartek\AppData\Local\Temp\ccsqC3sf.s:59     .text.__Default_Handler:00000000 CRYP_IRQHandler
-C:\Users\Bartek\AppData\Local\Temp\ccsqC3sf.s:59     .text.__Default_Handler:00000000 DCMI_IRQHandler
-C:\Users\Bartek\AppData\Local\Temp\ccsqC3sf.s:59     .text.__Default_Handler:00000000 OTG_HS_IRQHandler
-C:\Users\Bartek\AppData\Local\Temp\ccsqC3sf.s:59     .text.__Default_Handler:00000000 OTG_HS_WKUP_IRQHandler
-C:\Users\Bartek\AppData\Local\Temp\ccsqC3sf.s:59     .text.__Default_Handler:00000000 OTG_HS_EP1_IN_IRQHandler
-C:\Users\Bartek\AppData\Local\Temp\ccsqC3sf.s:59     .text.__Default_Handler:00000000 OTG_HS_EP1_OUT_IRQHandler
-C:\Users\Bartek\AppData\Local\Temp\ccsqC3sf.s:59     .text.__Default_Handler:00000000 I2C3_ER_IRQHandler
-C:\Users\Bartek\AppData\Local\Temp\ccsqC3sf.s:59     .text.__Default_Handler:00000000 I2C3_EV_IRQHandler
-C:\Users\Bartek\AppData\Local\Temp\ccsqC3sf.s:59     .text.__Default_Handler:00000000 USART6_IRQHandler
-C:\Users\Bartek\AppData\Local\Temp\ccsqC3sf.s:59     .text.__Default_Handler:00000000 DMA2_Stream7_IRQHandler
-C:\Users\Bartek\AppData\Local\Temp\ccsqC3sf.s:59     .text.__Default_Handler:00000000 DMA2_Stream6_IRQHandler
-C:\Users\Bartek\AppData\Local\Temp\ccsqC3sf.s:59     .text.__Default_Handler:00000000 DMA2_Stream5_IRQHandler
-C:\Users\Bartek\AppData\Local\Temp\ccsqC3sf.s:59     .text.__Default_Handler:00000000 OTG_FS_IRQHandler
-C:\Users\Bartek\AppData\Local\Temp\ccsqC3sf.s:59     .text.__Default_Handler:00000000 CAN2_SCE_IRQHandler
-C:\Users\Bartek\AppData\Local\Temp\ccsqC3sf.s:59     .text.__Default_Handler:00000000 CAN2_RX1_IRQHandler
-C:\Users\Bartek\AppData\Local\Temp\ccsqC3sf.s:59     .text.__Default_Handler:00000000 CAN2_RX0_IRQHandler
-C:\Users\Bartek\AppData\Local\Temp\ccsqC3sf.s:59     .text.__Default_Handler:00000000 CAN2_TX_IRQHandler
-C:\Users\Bartek\AppData\Local\Temp\ccsqC3sf.s:59     .text.__Default_Handler:00000000 ETH_WKUP_IRQHandler
-C:\Users\Bartek\AppData\Local\Temp\ccsqC3sf.s:59     .text.__Default_Handler:00000000 ETH_IRQHandler
-C:\Users\Bartek\AppData\Local\Temp\ccsqC3sf.s:59     .text.__Default_Handler:00000000 DMA2_Stream4_IRQHandler
-C:\Users\Bartek\AppData\Local\Temp\ccsqC3sf.s:59     .text.__Default_Handler:00000000 DMA2_Stream3_IRQHandler
-C:\Users\Bartek\AppData\Local\Temp\ccsqC3sf.s:59     .text.__Default_Handler:00000000 DMA2_Stream2_IRQHandler
-C:\Users\Bartek\AppData\Local\Temp\ccsqC3sf.s:59     .text.__Default_Handler:00000000 DMA2_Stream1_IRQHandler
-C:\Users\Bartek\AppData\Local\Temp\ccsqC3sf.s:59     .text.__Default_Handler:00000000 DMA2_Stream0_IRQHandler
-C:\Users\Bartek\AppData\Local\Temp\ccsqC3sf.s:59     .text.__Default_Handler:00000000 TIM7_IRQHandler
-C:\Users\Bartek\AppData\Local\Temp\ccsqC3sf.s:59     .text.__Default_Handler:00000000 TIM6_DAC_IRQHandler
-C:\Users\Bartek\AppData\Local\Temp\ccsqC3sf.s:59     .text.__Default_Handler:00000000 UART5_IRQHandler
-C:\Users\Bartek\AppData\Local\Temp\ccsqC3sf.s:59     .text.__Default_Handler:00000000 UART4_IRQHandler
-C:\Users\Bartek\AppData\Local\Temp\ccsqC3sf.s:59     .text.__Default_Handler:00000000 SPI3_IRQHandler
-C:\Users\Bartek\AppData\Local\Temp\ccsqC3sf.s:59     .text.__Default_Handler:00000000 TIM5_IRQHandler
-C:\Users\Bartek\AppData\Local\Temp\ccsqC3sf.s:59     .text.__Default_Handler:00000000 SDIO_IRQHandler
-C:\Users\Bartek\AppData\Local\Temp\ccsqC3sf.s:59     .text.__Default_Handler:00000000 FSMC_IRQHandler
-C:\Users\Bartek\AppData\Local\Temp\ccsqC3sf.s:59     .text.__Default_Handler:00000000 DMA1_Stream7_IRQHandler
-C:\Users\Bartek\AppData\Local\Temp\ccsqC3sf.s:59     .text.__Default_Handler:00000000 TIM8_CC_IRQHandler
-C:\Users\Bartek\AppData\Local\Temp\ccsqC3sf.s:59     .text.__Default_Handler:00000000 TIM8_TRG_COM_TIM14_IRQHandler
-C:\Users\Bartek\AppData\Local\Temp\ccsqC3sf.s:59     .text.__Default_Handler:00000000 TIM8_UP_TIM13_IRQHandler
-C:\Users\Bartek\AppData\Local\Temp\ccsqC3sf.s:59     .text.__Default_Handler:00000000 TIM8_BRK_TIM12_IRQHandler
-C:\Users\Bartek\AppData\Local\Temp\ccsqC3sf.s:59     .text.__Default_Handler:00000000 OTG_FS_WKUP_IRQHandler
-C:\Users\Bartek\AppData\Local\Temp\ccsqC3sf.s:59     .text.__Default_Handler:00000000 RTC_Alarm_IRQHandler
-C:\Users\Bartek\AppData\Local\Temp\ccsqC3sf.s:59     .text.__Default_Handler:00000000 EXTI15_10_IRQHandler
-C:\Users\Bartek\AppData\Local\Temp\ccsqC3sf.s:59     .text.__Default_Handler:00000000 USART3_IRQHandler
-C:\Users\Bartek\AppData\Local\Temp\ccsqC3sf.s:59     .text.__Default_Handler:00000000 USART2_IRQHandler
-C:\Users\Bartek\AppData\Local\Temp\ccsqC3sf.s:59     .text.__Default_Handler:00000000 USART1_IRQHandler
-C:\Users\Bartek\AppData\Local\Temp\ccsqC3sf.s:59     .text.__Default_Handler:00000000 SPI2_IRQHandler
-C:\Users\Bartek\AppData\Local\Temp\ccsqC3sf.s:59     .text.__Default_Handler:00000000 SPI1_IRQHandler
-C:\Users\Bartek\AppData\Local\Temp\ccsqC3sf.s:59     .text.__Default_Handler:00000000 I2C2_ER_IRQHandler
-C:\Users\Bartek\AppData\Local\Temp\ccsqC3sf.s:59     .text.__Default_Handler:00000000 I2C2_EV_IRQHandler
-C:\Users\Bartek\AppData\Local\Temp\ccsqC3sf.s:59     .text.__Default_Handler:00000000 I2C1_ER_IRQHandler
-C:\Users\Bartek\AppData\Local\Temp\ccsqC3sf.s:59     .text.__Default_Handler:00000000 I2C1_EV_IRQHandler
-C:\Users\Bartek\AppData\Local\Temp\ccsqC3sf.s:59     .text.__Default_Handler:00000000 TIM4_IRQHandler
-C:\Users\Bartek\AppData\Local\Temp\ccsqC3sf.s:59     .text.__Default_Handler:00000000 TIM3_IRQHandler
-ARM GAS  C:\Users\Bartek\AppData\Local\Temp\ccsqC3sf.s 			page 71
+C:\Users\Bartek\AppData\Local\Temp\ccgdBRxL.s:55     .text.__Default_Handler:00000000 $t
+C:\Users\Bartek\AppData\Local\Temp\ccgdBRxL.s:59     .text.__Default_Handler:00000000 __Default_Handler
+C:\Users\Bartek\AppData\Local\Temp\ccgdBRxL.s:59     .text.__Default_Handler:00000000 FPU_IRQHandler
+C:\Users\Bartek\AppData\Local\Temp\ccgdBRxL.s:59     .text.__Default_Handler:00000000 HASH_RNG_IRQHandler
+C:\Users\Bartek\AppData\Local\Temp\ccgdBRxL.s:59     .text.__Default_Handler:00000000 CRYP_IRQHandler
+C:\Users\Bartek\AppData\Local\Temp\ccgdBRxL.s:59     .text.__Default_Handler:00000000 DCMI_IRQHandler
+C:\Users\Bartek\AppData\Local\Temp\ccgdBRxL.s:59     .text.__Default_Handler:00000000 OTG_HS_IRQHandler
+C:\Users\Bartek\AppData\Local\Temp\ccgdBRxL.s:59     .text.__Default_Handler:00000000 OTG_HS_WKUP_IRQHandler
+C:\Users\Bartek\AppData\Local\Temp\ccgdBRxL.s:59     .text.__Default_Handler:00000000 OTG_HS_EP1_IN_IRQHandler
+C:\Users\Bartek\AppData\Local\Temp\ccgdBRxL.s:59     .text.__Default_Handler:00000000 OTG_HS_EP1_OUT_IRQHandler
+C:\Users\Bartek\AppData\Local\Temp\ccgdBRxL.s:59     .text.__Default_Handler:00000000 I2C3_ER_IRQHandler
+C:\Users\Bartek\AppData\Local\Temp\ccgdBRxL.s:59     .text.__Default_Handler:00000000 I2C3_EV_IRQHandler
+C:\Users\Bartek\AppData\Local\Temp\ccgdBRxL.s:59     .text.__Default_Handler:00000000 USART6_IRQHandler
+C:\Users\Bartek\AppData\Local\Temp\ccgdBRxL.s:59     .text.__Default_Handler:00000000 DMA2_Stream7_IRQHandler
+C:\Users\Bartek\AppData\Local\Temp\ccgdBRxL.s:59     .text.__Default_Handler:00000000 DMA2_Stream6_IRQHandler
+C:\Users\Bartek\AppData\Local\Temp\ccgdBRxL.s:59     .text.__Default_Handler:00000000 DMA2_Stream5_IRQHandler
+C:\Users\Bartek\AppData\Local\Temp\ccgdBRxL.s:59     .text.__Default_Handler:00000000 OTG_FS_IRQHandler
+C:\Users\Bartek\AppData\Local\Temp\ccgdBRxL.s:59     .text.__Default_Handler:00000000 CAN2_SCE_IRQHandler
+C:\Users\Bartek\AppData\Local\Temp\ccgdBRxL.s:59     .text.__Default_Handler:00000000 CAN2_RX1_IRQHandler
+C:\Users\Bartek\AppData\Local\Temp\ccgdBRxL.s:59     .text.__Default_Handler:00000000 CAN2_RX0_IRQHandler
+C:\Users\Bartek\AppData\Local\Temp\ccgdBRxL.s:59     .text.__Default_Handler:00000000 CAN2_TX_IRQHandler
+C:\Users\Bartek\AppData\Local\Temp\ccgdBRxL.s:59     .text.__Default_Handler:00000000 ETH_WKUP_IRQHandler
+C:\Users\Bartek\AppData\Local\Temp\ccgdBRxL.s:59     .text.__Default_Handler:00000000 ETH_IRQHandler
+C:\Users\Bartek\AppData\Local\Temp\ccgdBRxL.s:59     .text.__Default_Handler:00000000 DMA2_Stream4_IRQHandler
+C:\Users\Bartek\AppData\Local\Temp\ccgdBRxL.s:59     .text.__Default_Handler:00000000 DMA2_Stream3_IRQHandler
+C:\Users\Bartek\AppData\Local\Temp\ccgdBRxL.s:59     .text.__Default_Handler:00000000 DMA2_Stream2_IRQHandler
+C:\Users\Bartek\AppData\Local\Temp\ccgdBRxL.s:59     .text.__Default_Handler:00000000 DMA2_Stream1_IRQHandler
+C:\Users\Bartek\AppData\Local\Temp\ccgdBRxL.s:59     .text.__Default_Handler:00000000 DMA2_Stream0_IRQHandler
+C:\Users\Bartek\AppData\Local\Temp\ccgdBRxL.s:59     .text.__Default_Handler:00000000 TIM7_IRQHandler
+C:\Users\Bartek\AppData\Local\Temp\ccgdBRxL.s:59     .text.__Default_Handler:00000000 TIM6_DAC_IRQHandler
+C:\Users\Bartek\AppData\Local\Temp\ccgdBRxL.s:59     .text.__Default_Handler:00000000 UART5_IRQHandler
+C:\Users\Bartek\AppData\Local\Temp\ccgdBRxL.s:59     .text.__Default_Handler:00000000 UART4_IRQHandler
+C:\Users\Bartek\AppData\Local\Temp\ccgdBRxL.s:59     .text.__Default_Handler:00000000 SPI3_IRQHandler
+C:\Users\Bartek\AppData\Local\Temp\ccgdBRxL.s:59     .text.__Default_Handler:00000000 TIM5_IRQHandler
+C:\Users\Bartek\AppData\Local\Temp\ccgdBRxL.s:59     .text.__Default_Handler:00000000 SDIO_IRQHandler
+C:\Users\Bartek\AppData\Local\Temp\ccgdBRxL.s:59     .text.__Default_Handler:00000000 FSMC_IRQHandler
+C:\Users\Bartek\AppData\Local\Temp\ccgdBRxL.s:59     .text.__Default_Handler:00000000 DMA1_Stream7_IRQHandler
+C:\Users\Bartek\AppData\Local\Temp\ccgdBRxL.s:59     .text.__Default_Handler:00000000 TIM8_CC_IRQHandler
+C:\Users\Bartek\AppData\Local\Temp\ccgdBRxL.s:59     .text.__Default_Handler:00000000 TIM8_TRG_COM_TIM14_IRQHandler
+C:\Users\Bartek\AppData\Local\Temp\ccgdBRxL.s:59     .text.__Default_Handler:00000000 TIM8_UP_TIM13_IRQHandler
+C:\Users\Bartek\AppData\Local\Temp\ccgdBRxL.s:59     .text.__Default_Handler:00000000 TIM8_BRK_TIM12_IRQHandler
+C:\Users\Bartek\AppData\Local\Temp\ccgdBRxL.s:59     .text.__Default_Handler:00000000 OTG_FS_WKUP_IRQHandler
+C:\Users\Bartek\AppData\Local\Temp\ccgdBRxL.s:59     .text.__Default_Handler:00000000 RTC_Alarm_IRQHandler
+C:\Users\Bartek\AppData\Local\Temp\ccgdBRxL.s:59     .text.__Default_Handler:00000000 EXTI15_10_IRQHandler
+C:\Users\Bartek\AppData\Local\Temp\ccgdBRxL.s:59     .text.__Default_Handler:00000000 USART3_IRQHandler
+C:\Users\Bartek\AppData\Local\Temp\ccgdBRxL.s:59     .text.__Default_Handler:00000000 USART2_IRQHandler
+C:\Users\Bartek\AppData\Local\Temp\ccgdBRxL.s:59     .text.__Default_Handler:00000000 USART1_IRQHandler
+C:\Users\Bartek\AppData\Local\Temp\ccgdBRxL.s:59     .text.__Default_Handler:00000000 SPI2_IRQHandler
+C:\Users\Bartek\AppData\Local\Temp\ccgdBRxL.s:59     .text.__Default_Handler:00000000 SPI1_IRQHandler
+C:\Users\Bartek\AppData\Local\Temp\ccgdBRxL.s:59     .text.__Default_Handler:00000000 I2C2_ER_IRQHandler
+C:\Users\Bartek\AppData\Local\Temp\ccgdBRxL.s:59     .text.__Default_Handler:00000000 I2C2_EV_IRQHandler
+C:\Users\Bartek\AppData\Local\Temp\ccgdBRxL.s:59     .text.__Default_Handler:00000000 I2C1_ER_IRQHandler
+C:\Users\Bartek\AppData\Local\Temp\ccgdBRxL.s:59     .text.__Default_Handler:00000000 I2C1_EV_IRQHandler
+C:\Users\Bartek\AppData\Local\Temp\ccgdBRxL.s:59     .text.__Default_Handler:00000000 TIM4_IRQHandler
+C:\Users\Bartek\AppData\Local\Temp\ccgdBRxL.s:59     .text.__Default_Handler:00000000 TIM3_IRQHandler
+ARM GAS  C:\Users\Bartek\AppData\Local\Temp\ccgdBRxL.s 			page 71
 
 
-C:\Users\Bartek\AppData\Local\Temp\ccsqC3sf.s:59     .text.__Default_Handler:00000000 TIM2_IRQHandler
-C:\Users\Bartek\AppData\Local\Temp\ccsqC3sf.s:59     .text.__Default_Handler:00000000 TIM1_CC_IRQHandler
-C:\Users\Bartek\AppData\Local\Temp\ccsqC3sf.s:59     .text.__Default_Handler:00000000 TIM1_TRG_COM_TIM11_IRQHandler
-C:\Users\Bartek\AppData\Local\Temp\ccsqC3sf.s:59     .text.__Default_Handler:00000000 TIM1_UP_TIM10_IRQHandler
-C:\Users\Bartek\AppData\Local\Temp\ccsqC3sf.s:59     .text.__Default_Handler:00000000 TIM1_BRK_TIM9_IRQHandler
-C:\Users\Bartek\AppData\Local\Temp\ccsqC3sf.s:59     .text.__Default_Handler:00000000 EXTI9_5_IRQHandler
-C:\Users\Bartek\AppData\Local\Temp\ccsqC3sf.s:59     .text.__Default_Handler:00000000 CAN1_SCE_IRQHandler
-C:\Users\Bartek\AppData\Local\Temp\ccsqC3sf.s:59     .text.__Default_Handler:00000000 CAN1_RX1_IRQHandler
-C:\Users\Bartek\AppData\Local\Temp\ccsqC3sf.s:59     .text.__Default_Handler:00000000 CAN1_RX0_IRQHandler
-C:\Users\Bartek\AppData\Local\Temp\ccsqC3sf.s:59     .text.__Default_Handler:00000000 CAN1_TX_IRQHandler
-C:\Users\Bartek\AppData\Local\Temp\ccsqC3sf.s:59     .text.__Default_Handler:00000000 ADC_IRQHandler
-C:\Users\Bartek\AppData\Local\Temp\ccsqC3sf.s:59     .text.__Default_Handler:00000000 DMA1_Stream6_IRQHandler
-C:\Users\Bartek\AppData\Local\Temp\ccsqC3sf.s:59     .text.__Default_Handler:00000000 DMA1_Stream5_IRQHandler
-C:\Users\Bartek\AppData\Local\Temp\ccsqC3sf.s:59     .text.__Default_Handler:00000000 DMA1_Stream4_IRQHandler
-C:\Users\Bartek\AppData\Local\Temp\ccsqC3sf.s:59     .text.__Default_Handler:00000000 DMA1_Stream3_IRQHandler
-C:\Users\Bartek\AppData\Local\Temp\ccsqC3sf.s:59     .text.__Default_Handler:00000000 DMA1_Stream2_IRQHandler
-C:\Users\Bartek\AppData\Local\Temp\ccsqC3sf.s:59     .text.__Default_Handler:00000000 DMA1_Stream1_IRQHandler
-C:\Users\Bartek\AppData\Local\Temp\ccsqC3sf.s:59     .text.__Default_Handler:00000000 DMA1_Stream0_IRQHandler
-C:\Users\Bartek\AppData\Local\Temp\ccsqC3sf.s:59     .text.__Default_Handler:00000000 EXTI4_IRQHandler
-C:\Users\Bartek\AppData\Local\Temp\ccsqC3sf.s:59     .text.__Default_Handler:00000000 EXTI3_IRQHandler
-C:\Users\Bartek\AppData\Local\Temp\ccsqC3sf.s:59     .text.__Default_Handler:00000000 EXTI2_IRQHandler
-C:\Users\Bartek\AppData\Local\Temp\ccsqC3sf.s:59     .text.__Default_Handler:00000000 EXTI1_IRQHandler
-C:\Users\Bartek\AppData\Local\Temp\ccsqC3sf.s:59     .text.__Default_Handler:00000000 EXTI0_IRQHandler
-C:\Users\Bartek\AppData\Local\Temp\ccsqC3sf.s:59     .text.__Default_Handler:00000000 RCC_IRQHandler
-C:\Users\Bartek\AppData\Local\Temp\ccsqC3sf.s:59     .text.__Default_Handler:00000000 FLASH_IRQHandler
-C:\Users\Bartek\AppData\Local\Temp\ccsqC3sf.s:59     .text.__Default_Handler:00000000 RTC_WKUP_IRQHandler
-C:\Users\Bartek\AppData\Local\Temp\ccsqC3sf.s:59     .text.__Default_Handler:00000000 TAMP_STAMP_IRQHandler
-C:\Users\Bartek\AppData\Local\Temp\ccsqC3sf.s:59     .text.__Default_Handler:00000000 PVD_IRQHandler
-C:\Users\Bartek\AppData\Local\Temp\ccsqC3sf.s:59     .text.__Default_Handler:00000000 WWDG_IRQHandler
-C:\Users\Bartek\AppData\Local\Temp\ccsqC3sf.s:59     .text.__Default_Handler:00000000 SysTick_Handler
-C:\Users\Bartek\AppData\Local\Temp\ccsqC3sf.s:59     .text.__Default_Handler:00000000 PendSV_Handler
-C:\Users\Bartek\AppData\Local\Temp\ccsqC3sf.s:59     .text.__Default_Handler:00000000 __Reserved_0x34_Handler
-C:\Users\Bartek\AppData\Local\Temp\ccsqC3sf.s:59     .text.__Default_Handler:00000000 DebugMon_Handler
-C:\Users\Bartek\AppData\Local\Temp\ccsqC3sf.s:59     .text.__Default_Handler:00000000 SVC_Handler
-C:\Users\Bartek\AppData\Local\Temp\ccsqC3sf.s:59     .text.__Default_Handler:00000000 __Reserved_0x28_Handler
-C:\Users\Bartek\AppData\Local\Temp\ccsqC3sf.s:59     .text.__Default_Handler:00000000 __Reserved_0x24_Handler
-C:\Users\Bartek\AppData\Local\Temp\ccsqC3sf.s:59     .text.__Default_Handler:00000000 __Reserved_0x20_Handler
-C:\Users\Bartek\AppData\Local\Temp\ccsqC3sf.s:59     .text.__Default_Handler:00000000 __Reserved_0x1C_Handler
-C:\Users\Bartek\AppData\Local\Temp\ccsqC3sf.s:59     .text.__Default_Handler:00000000 UsageFault_Handler
-C:\Users\Bartek\AppData\Local\Temp\ccsqC3sf.s:59     .text.__Default_Handler:00000000 BusFault_Handler
-C:\Users\Bartek\AppData\Local\Temp\ccsqC3sf.s:59     .text.__Default_Handler:00000000 MemManage_Handler
-C:\Users\Bartek\AppData\Local\Temp\ccsqC3sf.s:59     .text.__Default_Handler:00000000 HardFault_Handler
-C:\Users\Bartek\AppData\Local\Temp\ccsqC3sf.s:59     .text.__Default_Handler:00000000 NMI_Handler
-C:\Users\Bartek\AppData\Local\Temp\ccsqC3sf.s:281    .vectors:00000000 vectors
-C:\Users\Bartek\AppData\Local\Temp\ccsqC3sf.s:278    .vectors:00000000 $d
+C:\Users\Bartek\AppData\Local\Temp\ccgdBRxL.s:59     .text.__Default_Handler:00000000 TIM2_IRQHandler
+C:\Users\Bartek\AppData\Local\Temp\ccgdBRxL.s:59     .text.__Default_Handler:00000000 TIM1_CC_IRQHandler
+C:\Users\Bartek\AppData\Local\Temp\ccgdBRxL.s:59     .text.__Default_Handler:00000000 TIM1_TRG_COM_TIM11_IRQHandler
+C:\Users\Bartek\AppData\Local\Temp\ccgdBRxL.s:59     .text.__Default_Handler:00000000 TIM1_UP_TIM10_IRQHandler
+C:\Users\Bartek\AppData\Local\Temp\ccgdBRxL.s:59     .text.__Default_Handler:00000000 TIM1_BRK_TIM9_IRQHandler
+C:\Users\Bartek\AppData\Local\Temp\ccgdBRxL.s:59     .text.__Default_Handler:00000000 EXTI9_5_IRQHandler
+C:\Users\Bartek\AppData\Local\Temp\ccgdBRxL.s:59     .text.__Default_Handler:00000000 CAN1_SCE_IRQHandler
+C:\Users\Bartek\AppData\Local\Temp\ccgdBRxL.s:59     .text.__Default_Handler:00000000 CAN1_RX1_IRQHandler
+C:\Users\Bartek\AppData\Local\Temp\ccgdBRxL.s:59     .text.__Default_Handler:00000000 CAN1_RX0_IRQHandler
+C:\Users\Bartek\AppData\Local\Temp\ccgdBRxL.s:59     .text.__Default_Handler:00000000 CAN1_TX_IRQHandler
+C:\Users\Bartek\AppData\Local\Temp\ccgdBRxL.s:59     .text.__Default_Handler:00000000 ADC_IRQHandler
+C:\Users\Bartek\AppData\Local\Temp\ccgdBRxL.s:59     .text.__Default_Handler:00000000 DMA1_Stream6_IRQHandler
+C:\Users\Bartek\AppData\Local\Temp\ccgdBRxL.s:59     .text.__Default_Handler:00000000 DMA1_Stream5_IRQHandler
+C:\Users\Bartek\AppData\Local\Temp\ccgdBRxL.s:59     .text.__Default_Handler:00000000 DMA1_Stream4_IRQHandler
+C:\Users\Bartek\AppData\Local\Temp\ccgdBRxL.s:59     .text.__Default_Handler:00000000 DMA1_Stream3_IRQHandler
+C:\Users\Bartek\AppData\Local\Temp\ccgdBRxL.s:59     .text.__Default_Handler:00000000 DMA1_Stream2_IRQHandler
+C:\Users\Bartek\AppData\Local\Temp\ccgdBRxL.s:59     .text.__Default_Handler:00000000 DMA1_Stream1_IRQHandler
+C:\Users\Bartek\AppData\Local\Temp\ccgdBRxL.s:59     .text.__Default_Handler:00000000 DMA1_Stream0_IRQHandler
+C:\Users\Bartek\AppData\Local\Temp\ccgdBRxL.s:59     .text.__Default_Handler:00000000 EXTI4_IRQHandler
+C:\Users\Bartek\AppData\Local\Temp\ccgdBRxL.s:59     .text.__Default_Handler:00000000 EXTI3_IRQHandler
+C:\Users\Bartek\AppData\Local\Temp\ccgdBRxL.s:59     .text.__Default_Handler:00000000 EXTI2_IRQHandler
+C:\Users\Bartek\AppData\Local\Temp\ccgdBRxL.s:59     .text.__Default_Handler:00000000 EXTI1_IRQHandler
+C:\Users\Bartek\AppData\Local\Temp\ccgdBRxL.s:59     .text.__Default_Handler:00000000 EXTI0_IRQHandler
+C:\Users\Bartek\AppData\Local\Temp\ccgdBRxL.s:59     .text.__Default_Handler:00000000 RCC_IRQHandler
+C:\Users\Bartek\AppData\Local\Temp\ccgdBRxL.s:59     .text.__Default_Handler:00000000 FLASH_IRQHandler
+C:\Users\Bartek\AppData\Local\Temp\ccgdBRxL.s:59     .text.__Default_Handler:00000000 RTC_WKUP_IRQHandler
+C:\Users\Bartek\AppData\Local\Temp\ccgdBRxL.s:59     .text.__Default_Handler:00000000 TAMP_STAMP_IRQHandler
+C:\Users\Bartek\AppData\Local\Temp\ccgdBRxL.s:59     .text.__Default_Handler:00000000 PVD_IRQHandler
+C:\Users\Bartek\AppData\Local\Temp\ccgdBRxL.s:59     .text.__Default_Handler:00000000 WWDG_IRQHandler
+C:\Users\Bartek\AppData\Local\Temp\ccgdBRxL.s:59     .text.__Default_Handler:00000000 SysTick_Handler
+C:\Users\Bartek\AppData\Local\Temp\ccgdBRxL.s:59     .text.__Default_Handler:00000000 PendSV_Handler
+C:\Users\Bartek\AppData\Local\Temp\ccgdBRxL.s:59     .text.__Default_Handler:00000000 __Reserved_0x34_Handler
+C:\Users\Bartek\AppData\Local\Temp\ccgdBRxL.s:59     .text.__Default_Handler:00000000 DebugMon_Handler
+C:\Users\Bartek\AppData\Local\Temp\ccgdBRxL.s:59     .text.__Default_Handler:00000000 SVC_Handler
+C:\Users\Bartek\AppData\Local\Temp\ccgdBRxL.s:59     .text.__Default_Handler:00000000 __Reserved_0x28_Handler
+C:\Users\Bartek\AppData\Local\Temp\ccgdBRxL.s:59     .text.__Default_Handler:00000000 __Reserved_0x24_Handler
+C:\Users\Bartek\AppData\Local\Temp\ccgdBRxL.s:59     .text.__Default_Handler:00000000 __Reserved_0x20_Handler
+C:\Users\Bartek\AppData\Local\Temp\ccgdBRxL.s:59     .text.__Default_Handler:00000000 __Reserved_0x1C_Handler
+C:\Users\Bartek\AppData\Local\Temp\ccgdBRxL.s:59     .text.__Default_Handler:00000000 UsageFault_Handler
+C:\Users\Bartek\AppData\Local\Temp\ccgdBRxL.s:59     .text.__Default_Handler:00000000 BusFault_Handler
+C:\Users\Bartek\AppData\Local\Temp\ccgdBRxL.s:59     .text.__Default_Handler:00000000 MemManage_Handler
+C:\Users\Bartek\AppData\Local\Temp\ccgdBRxL.s:59     .text.__Default_Handler:00000000 HardFault_Handler
+C:\Users\Bartek\AppData\Local\Temp\ccgdBRxL.s:59     .text.__Default_Handler:00000000 NMI_Handler
+C:\Users\Bartek\AppData\Local\Temp\ccgdBRxL.s:281    .vectors:00000000 vectors
+C:\Users\Bartek\AppData\Local\Temp\ccgdBRxL.s:278    .vectors:00000000 $d
                      .debug_frame:00000010 $d
                            .group:00000000 wm4.0.5c85dddcaeec4b2aef6974e769dd345a
 
