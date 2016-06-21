@@ -1,0 +1,488 @@
+
+out/stm32F4-LCD.elf:     file format elf32-littlearm
+
+
+Disassembly of section .text:
+
+08000000 <__rom_start>:
+ 8000000:	20000000 	.word	0x20000000
+ 8000004:	08000189 	.word	0x08000189
+ 8000008:	08000209 	.word	0x08000209
+ 800000c:	08000209 	.word	0x08000209
+ 8000010:	08000209 	.word	0x08000209
+ 8000014:	08000209 	.word	0x08000209
+ 8000018:	08000209 	.word	0x08000209
+ 800001c:	08000209 	.word	0x08000209
+ 8000020:	08000209 	.word	0x08000209
+ 8000024:	08000209 	.word	0x08000209
+ 8000028:	08000209 	.word	0x08000209
+ 800002c:	08000209 	.word	0x08000209
+ 8000030:	08000209 	.word	0x08000209
+ 8000034:	08000209 	.word	0x08000209
+ 8000038:	08000209 	.word	0x08000209
+ 800003c:	08000209 	.word	0x08000209
+ 8000040:	08000209 	.word	0x08000209
+ 8000044:	08000209 	.word	0x08000209
+ 8000048:	08000209 	.word	0x08000209
+ 800004c:	08000209 	.word	0x08000209
+ 8000050:	08000209 	.word	0x08000209
+ 8000054:	08000209 	.word	0x08000209
+ 8000058:	08000209 	.word	0x08000209
+ 800005c:	08000209 	.word	0x08000209
+ 8000060:	08000209 	.word	0x08000209
+ 8000064:	08000209 	.word	0x08000209
+ 8000068:	08000209 	.word	0x08000209
+ 800006c:	08000209 	.word	0x08000209
+ 8000070:	08000209 	.word	0x08000209
+ 8000074:	08000209 	.word	0x08000209
+ 8000078:	08000209 	.word	0x08000209
+ 800007c:	08000209 	.word	0x08000209
+ 8000080:	08000209 	.word	0x08000209
+ 8000084:	08000209 	.word	0x08000209
+ 8000088:	08000209 	.word	0x08000209
+ 800008c:	08000209 	.word	0x08000209
+ 8000090:	08000209 	.word	0x08000209
+ 8000094:	08000209 	.word	0x08000209
+ 8000098:	08000209 	.word	0x08000209
+ 800009c:	08000209 	.word	0x08000209
+ 80000a0:	08000209 	.word	0x08000209
+ 80000a4:	08000209 	.word	0x08000209
+ 80000a8:	08000209 	.word	0x08000209
+ 80000ac:	08000209 	.word	0x08000209
+ 80000b0:	08000209 	.word	0x08000209
+ 80000b4:	08000209 	.word	0x08000209
+ 80000b8:	08000209 	.word	0x08000209
+ 80000bc:	08000209 	.word	0x08000209
+ 80000c0:	08000209 	.word	0x08000209
+ 80000c4:	08000209 	.word	0x08000209
+ 80000c8:	08000209 	.word	0x08000209
+ 80000cc:	08000209 	.word	0x08000209
+ 80000d0:	08000209 	.word	0x08000209
+ 80000d4:	08000209 	.word	0x08000209
+ 80000d8:	08000209 	.word	0x08000209
+ 80000dc:	08000209 	.word	0x08000209
+ 80000e0:	08000209 	.word	0x08000209
+ 80000e4:	08000209 	.word	0x08000209
+ 80000e8:	08000209 	.word	0x08000209
+ 80000ec:	08000209 	.word	0x08000209
+ 80000f0:	08000209 	.word	0x08000209
+ 80000f4:	08000209 	.word	0x08000209
+ 80000f8:	08000209 	.word	0x08000209
+ 80000fc:	08000209 	.word	0x08000209
+ 8000100:	08000209 	.word	0x08000209
+ 8000104:	08000209 	.word	0x08000209
+ 8000108:	08000209 	.word	0x08000209
+ 800010c:	08000209 	.word	0x08000209
+ 8000110:	08000209 	.word	0x08000209
+ 8000114:	08000209 	.word	0x08000209
+ 8000118:	08000209 	.word	0x08000209
+ 800011c:	08000209 	.word	0x08000209
+ 8000120:	08000209 	.word	0x08000209
+ 8000124:	08000209 	.word	0x08000209
+ 8000128:	08000209 	.word	0x08000209
+ 800012c:	08000209 	.word	0x08000209
+ 8000130:	08000209 	.word	0x08000209
+ 8000134:	08000209 	.word	0x08000209
+ 8000138:	08000209 	.word	0x08000209
+ 800013c:	08000209 	.word	0x08000209
+ 8000140:	08000209 	.word	0x08000209
+ 8000144:	08000209 	.word	0x08000209
+ 8000148:	08000209 	.word	0x08000209
+ 800014c:	08000209 	.word	0x08000209
+ 8000150:	08000209 	.word	0x08000209
+ 8000154:	08000209 	.word	0x08000209
+ 8000158:	08000209 	.word	0x08000209
+ 800015c:	08000209 	.word	0x08000209
+ 8000160:	08000209 	.word	0x08000209
+ 8000164:	08000209 	.word	0x08000209
+ 8000168:	08000209 	.word	0x08000209
+ 800016c:	08000209 	.word	0x08000209
+ 8000170:	08000209 	.word	0x08000209
+ 8000174:	08000209 	.word	0x08000209
+ 8000178:	08000209 	.word	0x08000209
+ 800017c:	08000209 	.word	0x08000209
+ 8000180:	08000209 	.word	0x08000209
+ 8000184:	08000209 	.word	0x08000209
+
+08000188 <Reset_Handler>:
++-----------------------------------------------------------------------------+
+| Initialize the process stack pointer
++-----------------------------------------------------------------------------+
+*/
+
+	ldr		r0, =__process_stack_end
+ 8000188:	4810      	ldr	r0, [pc, #64]	; (80001cc <__default_low_level_init+0x2>)
+	msr		PSP, r0
+ 800018a:	f380 8809 	msr	PSP, r0
++-----------------------------------------------------------------------------+
+| Thread mode uses process stack (PSP) and is privileged
++-----------------------------------------------------------------------------+
+*/
+
+	movs	r0, #CONTROL_ALTERNATE_STACK
+ 800018e:	2002      	movs	r0, #2
+	msr		CONTROL, r0
+ 8000190:	f380 8814 	msr	CONTROL, r0
+	isb
+ 8000194:	f3bf 8f6f 	isb	sy
++-----------------------------------------------------------------------------+
+| Branch to low_level_init_0() function (.data and .bss are not initialized!)
++-----------------------------------------------------------------------------+
+*/
+
+	ldr		r0, =low_level_init_0
+ 8000198:	480d      	ldr	r0, [pc, #52]	; (80001d0 <__default_low_level_init+0x6>)
+	blx		r0
+ 800019a:	4780      	blx	r0
++-----------------------------------------------------------------------------+
+| Initialize .data section
++-----------------------------------------------------------------------------+
+*/
+
+	ldr		r1, =__data_init_start
+ 800019c:	490d      	ldr	r1, [pc, #52]	; (80001d4 <__default_low_level_init+0xa>)
+    ldr		r2, =__data_start
+ 800019e:	4a0e      	ldr	r2, [pc, #56]	; (80001d8 <__default_low_level_init+0xe>)
+    ldr		r3, =__data_end
+ 80001a0:	4b0e      	ldr	r3, [pc, #56]	; (80001dc <__default_low_level_init+0x12>)
+
+1:	cmp		r2, r3
+ 80001a2:	429a      	cmp	r2, r3
+	ittt	lo
+ 80001a4:	bf3e      	ittt	cc
+	ldrlo	r0, [r1], #4
+ 80001a6:	f851 0b04 	ldrcc.w	r0, [r1], #4
+	strlo	r0, [r2], #4
+ 80001aa:	f842 0b04 	strcc.w	r0, [r2], #4
+	blo		1b
+ 80001ae:	e7f8      	bcc.n	80001a2 <Reset_Handler+0x1a>
++-----------------------------------------------------------------------------+
+| Zero-init .bss section
++-----------------------------------------------------------------------------+
+*/
+
+	movs	r0, #0
+ 80001b0:	2000      	movs	r0, #0
+	ldr		r1, =__bss_start
+ 80001b2:	490b      	ldr	r1, [pc, #44]	; (80001e0 <__default_low_level_init+0x16>)
+	ldr		r2, =__bss_end
+ 80001b4:	4a0b      	ldr	r2, [pc, #44]	; (80001e4 <__default_low_level_init+0x1a>)
+
+1:	cmp		r1, r2
+ 80001b6:	4291      	cmp	r1, r2
+	itt		lo
+ 80001b8:	bf3c      	itt	cc
+	strlo	r0, [r1], #4
+ 80001ba:	f841 0b04 	strcc.w	r0, [r1], #4
+	blo		1b
+ 80001be:	e7fa      	bcc.n	80001b6 <Reset_Handler+0x2e>
++-----------------------------------------------------------------------------+
+| Branch to low_level_init_1() function
++-----------------------------------------------------------------------------+
+*/
+
+	ldr		r0, =low_level_init_1
+ 80001c0:	4809      	ldr	r0, [pc, #36]	; (80001e8 <__default_low_level_init+0x1e>)
+	blx		r0
+ 80001c2:	4780      	blx	r0
++-----------------------------------------------------------------------------+
+| Branch to main() with link
++-----------------------------------------------------------------------------+
+*/
+
+	ldr		r0, =main
+ 80001c4:	4809      	ldr	r0, [pc, #36]	; (80001ec <__default_low_level_init+0x22>)
+	blx		r0
+ 80001c6:	4780      	blx	r0
++-----------------------------------------------------------------------------+
+| On return - loop till the end of the world
++-----------------------------------------------------------------------------+
+*/
+
+	b		.
+ 80001c8:	e7fe      	b.n	80001c8 <Reset_Handler+0x40>
+
+080001ca <__default_low_level_init>:
+.thumb
+.thumb_func
+.global __default_low_level_init
+
+__default_low_level_init:
+	bx		lr
+ 80001ca:	4770      	bx	lr
++-----------------------------------------------------------------------------+
+| Initialize the process stack pointer
++-----------------------------------------------------------------------------+
+*/
+
+	ldr		r0, =__process_stack_end
+ 80001cc:	20000400 	.word	0x20000400
++-----------------------------------------------------------------------------+
+| Branch to low_level_init_0() function (.data and .bss are not initialized!)
++-----------------------------------------------------------------------------+
+*/
+
+	ldr		r0, =low_level_init_0
+ 80001d0:	080001cb 	.word	0x080001cb
++-----------------------------------------------------------------------------+
+| Initialize .data section
++-----------------------------------------------------------------------------+
+*/
+
+	ldr		r1, =__data_init_start
+ 80001d4:	0800035c 	.word	0x0800035c
+    ldr		r2, =__data_start
+ 80001d8:	20000000 	.word	0x20000000
+    ldr		r3, =__data_end
+ 80001dc:	20000000 	.word	0x20000000
+| Zero-init .bss section
++-----------------------------------------------------------------------------+
+*/
+
+	movs	r0, #0
+	ldr		r1, =__bss_start
+ 80001e0:	20000000 	.word	0x20000000
+	ldr		r2, =__bss_end
+ 80001e4:	20000000 	.word	0x20000000
++-----------------------------------------------------------------------------+
+| Branch to low_level_init_1() function
++-----------------------------------------------------------------------------+
+*/
+
+	ldr		r0, =low_level_init_1
+ 80001e8:	080001cb 	.word	0x080001cb
++-----------------------------------------------------------------------------+
+| Branch to main() with link
++-----------------------------------------------------------------------------+
+*/
+
+	ldr		r0, =main
+ 80001ec:	080001f1 	.word	0x080001f1
+
+080001f0 <main>:
+}
+
+
+
+int main(void)
+{
+ 80001f0:	b580      	push	{r7, lr}
+ 80001f2:	af00      	add	r7, sp, #0
+
+	gpio_pin_cfg(GPIOG, 13, GPIO_OUT_PP_25MHz);
+ 80001f4:	f240 1201 	movw	r2, #257	; 0x101
+ 80001f8:	210d      	movs	r1, #13
+ 80001fa:	4802      	ldr	r0, [pc, #8]	; (8000204 <main+0x14>)
+ 80001fc:	f000 f80c 	bl	8000218 <gpio_pin_cfg>
+
+	while (1)
+	{
+
+	}
+ 8000200:	e7fe      	b.n	8000200 <main+0x10>
+ 8000202:	bf00      	nop
+ 8000204:	40021800 	.word	0x40021800
+
+08000208 <ADC_IRQHandler>:
+* own handler defined.
+*//*-------------------------------------------------------------------------*/
+
+static void __Default_Handler(void) __attribute__ ((interrupt));
+static void __Default_Handler(void)
+{
+ 8000208:	4668      	mov	r0, sp
+ 800020a:	f020 0107 	bic.w	r1, r0, #7
+ 800020e:	468d      	mov	sp, r1
+ 8000210:	b481      	push	{r0, r7}
+ 8000212:	af00      	add	r7, sp, #0
+	while (1);
+ 8000214:	e7fe      	b.n	8000214 <ADC_IRQHandler+0xc>
+ 8000216:	bf00      	nop
+
+08000218 <gpio_pin_cfg>:
+* GPIO_[AF0; AF15]_{PP, OD}_{2MHz, 25MHz, 50MHz, 100MHz}_{PULL_UP, PULL_DOWN},
+* GPIO_ANALOG}
+*//*-------------------------------------------------------------------------*/
+
+void gpio_pin_cfg(GPIO_TypeDef *port_ptr, uint32_t pin, uint32_t configuration)
+{
+ 8000218:	b480      	push	{r7}
+ 800021a:	b08b      	sub	sp, #44	; 0x2c
+ 800021c:	af00      	add	r7, sp, #0
+ 800021e:	60f8      	str	r0, [r7, #12]
+ 8000220:	60b9      	str	r1, [r7, #8]
+ 8000222:	607a      	str	r2, [r7, #4]
+	uint32_t moder, otyper, ospeedr, pupdr, afr, afrx;
+
+	moder = port_ptr->MODER;				// localize
+ 8000224:	68fb      	ldr	r3, [r7, #12]
+ 8000226:	681b      	ldr	r3, [r3, #0]
+ 8000228:	623b      	str	r3, [r7, #32]
+	moder &= ~(GPIO_MODER_mask << (pin * 2));	// clear current setting
+ 800022a:	68bb      	ldr	r3, [r7, #8]
+ 800022c:	005b      	lsls	r3, r3, #1
+ 800022e:	2203      	movs	r2, #3
+ 8000230:	fa02 f303 	lsl.w	r3, r2, r3
+ 8000234:	43db      	mvns	r3, r3
+ 8000236:	461a      	mov	r2, r3
+ 8000238:	6a3b      	ldr	r3, [r7, #32]
+ 800023a:	4013      	ands	r3, r2
+ 800023c:	623b      	str	r3, [r7, #32]
+	moder |= (GPIO_GET_MODER(configuration) << (pin * 2));	// apply new setting
+ 800023e:	687b      	ldr	r3, [r7, #4]
+ 8000240:	f003 020f 	and.w	r2, r3, #15
+ 8000244:	68bb      	ldr	r3, [r7, #8]
+ 8000246:	005b      	lsls	r3, r3, #1
+ 8000248:	fa02 f303 	lsl.w	r3, r2, r3
+ 800024c:	6a3a      	ldr	r2, [r7, #32]
+ 800024e:	4313      	orrs	r3, r2
+ 8000250:	623b      	str	r3, [r7, #32]
+	port_ptr->MODER = moder;				// save back
+ 8000252:	68fb      	ldr	r3, [r7, #12]
+ 8000254:	6a3a      	ldr	r2, [r7, #32]
+ 8000256:	601a      	str	r2, [r3, #0]
+
+	otyper = port_ptr->OTYPER;				// localize
+ 8000258:	68fb      	ldr	r3, [r7, #12]
+ 800025a:	685b      	ldr	r3, [r3, #4]
+ 800025c:	61fb      	str	r3, [r7, #28]
+	otyper &= ~(GPIO_OTYPER_mask << pin);	// clear current setting
+ 800025e:	2201      	movs	r2, #1
+ 8000260:	68bb      	ldr	r3, [r7, #8]
+ 8000262:	fa02 f303 	lsl.w	r3, r2, r3
+ 8000266:	43db      	mvns	r3, r3
+ 8000268:	461a      	mov	r2, r3
+ 800026a:	69fb      	ldr	r3, [r7, #28]
+ 800026c:	4013      	ands	r3, r2
+ 800026e:	61fb      	str	r3, [r7, #28]
+	otyper |= (GPIO_GET_OTYPER(configuration) << pin);	// apply new setting
+ 8000270:	687b      	ldr	r3, [r7, #4]
+ 8000272:	091b      	lsrs	r3, r3, #4
+ 8000274:	f003 020f 	and.w	r2, r3, #15
+ 8000278:	68bb      	ldr	r3, [r7, #8]
+ 800027a:	fa02 f303 	lsl.w	r3, r2, r3
+ 800027e:	69fa      	ldr	r2, [r7, #28]
+ 8000280:	4313      	orrs	r3, r2
+ 8000282:	61fb      	str	r3, [r7, #28]
+	port_ptr->OTYPER = otyper;				// save back
+ 8000284:	68fb      	ldr	r3, [r7, #12]
+ 8000286:	69fa      	ldr	r2, [r7, #28]
+ 8000288:	605a      	str	r2, [r3, #4]
+
+	ospeedr = port_ptr->OSPEEDR;				// localize
+ 800028a:	68fb      	ldr	r3, [r7, #12]
+ 800028c:	689b      	ldr	r3, [r3, #8]
+ 800028e:	61bb      	str	r3, [r7, #24]
+	ospeedr &= ~(GPIO_OSPEEDR_mask << (pin * 2));	// clear current setting
+ 8000290:	68bb      	ldr	r3, [r7, #8]
+ 8000292:	005b      	lsls	r3, r3, #1
+ 8000294:	2203      	movs	r2, #3
+ 8000296:	fa02 f303 	lsl.w	r3, r2, r3
+ 800029a:	43db      	mvns	r3, r3
+ 800029c:	461a      	mov	r2, r3
+ 800029e:	69bb      	ldr	r3, [r7, #24]
+ 80002a0:	4013      	ands	r3, r2
+ 80002a2:	61bb      	str	r3, [r7, #24]
+	ospeedr |= (GPIO_GET_OSPEEDR(configuration) << (pin * 2));	// apply new setting
+ 80002a4:	687b      	ldr	r3, [r7, #4]
+ 80002a6:	0a1b      	lsrs	r3, r3, #8
+ 80002a8:	f003 020f 	and.w	r2, r3, #15
+ 80002ac:	68bb      	ldr	r3, [r7, #8]
+ 80002ae:	005b      	lsls	r3, r3, #1
+ 80002b0:	fa02 f303 	lsl.w	r3, r2, r3
+ 80002b4:	69ba      	ldr	r2, [r7, #24]
+ 80002b6:	4313      	orrs	r3, r2
+ 80002b8:	61bb      	str	r3, [r7, #24]
+	port_ptr->OSPEEDR = ospeedr;				// save back
+ 80002ba:	68fb      	ldr	r3, [r7, #12]
+ 80002bc:	69ba      	ldr	r2, [r7, #24]
+ 80002be:	609a      	str	r2, [r3, #8]
+
+	pupdr = port_ptr->PUPDR;				// localize
+ 80002c0:	68fb      	ldr	r3, [r7, #12]
+ 80002c2:	68db      	ldr	r3, [r3, #12]
+ 80002c4:	617b      	str	r3, [r7, #20]
+	pupdr &= ~(GPIO_PUPDR_mask << (pin * 2));	// clear current setting
+ 80002c6:	68bb      	ldr	r3, [r7, #8]
+ 80002c8:	005b      	lsls	r3, r3, #1
+ 80002ca:	2203      	movs	r2, #3
+ 80002cc:	fa02 f303 	lsl.w	r3, r2, r3
+ 80002d0:	43db      	mvns	r3, r3
+ 80002d2:	461a      	mov	r2, r3
+ 80002d4:	697b      	ldr	r3, [r7, #20]
+ 80002d6:	4013      	ands	r3, r2
+ 80002d8:	617b      	str	r3, [r7, #20]
+	pupdr |= (GPIO_GET_PUPDR(configuration) << (pin * 2));	// apply new setting
+ 80002da:	687b      	ldr	r3, [r7, #4]
+ 80002dc:	0b1b      	lsrs	r3, r3, #12
+ 80002de:	f003 020f 	and.w	r2, r3, #15
+ 80002e2:	68bb      	ldr	r3, [r7, #8]
+ 80002e4:	005b      	lsls	r3, r3, #1
+ 80002e6:	fa02 f303 	lsl.w	r3, r2, r3
+ 80002ea:	697a      	ldr	r2, [r7, #20]
+ 80002ec:	4313      	orrs	r3, r2
+ 80002ee:	617b      	str	r3, [r7, #20]
+	port_ptr->PUPDR = pupdr;				// save back
+ 80002f0:	68fb      	ldr	r3, [r7, #12]
+ 80002f2:	697a      	ldr	r2, [r7, #20]
+ 80002f4:	60da      	str	r2, [r3, #12]
+
+	if (pin < 8)							// determine which AFR register should be used
+ 80002f6:	68bb      	ldr	r3, [r7, #8]
+ 80002f8:	2b07      	cmp	r3, #7
+ 80002fa:	d802      	bhi.n	8000302 <gpio_pin_cfg+0xea>
+		afrx = 0;							// AFRL - pins [0; 7]
+ 80002fc:	2300      	movs	r3, #0
+ 80002fe:	627b      	str	r3, [r7, #36]	; 0x24
+ 8000300:	e004      	b.n	800030c <gpio_pin_cfg+0xf4>
+	else
+	{
+		afrx = 1;							// AFRH - pins [8; 15]
+ 8000302:	2301      	movs	r3, #1
+ 8000304:	627b      	str	r3, [r7, #36]	; 0x24
+		pin -= 8;							// trim pin number
+ 8000306:	68bb      	ldr	r3, [r7, #8]
+ 8000308:	3b08      	subs	r3, #8
+ 800030a:	60bb      	str	r3, [r7, #8]
+	}
+
+	afr = port_ptr->AFR[afrx];				// localize
+ 800030c:	68fb      	ldr	r3, [r7, #12]
+ 800030e:	6a7a      	ldr	r2, [r7, #36]	; 0x24
+ 8000310:	3208      	adds	r2, #8
+ 8000312:	f853 3022 	ldr.w	r3, [r3, r2, lsl #2]
+ 8000316:	613b      	str	r3, [r7, #16]
+	afr &= ~(GPIO_AFRx_mask << (pin * 4));	// clear current setting
+ 8000318:	68bb      	ldr	r3, [r7, #8]
+ 800031a:	009b      	lsls	r3, r3, #2
+ 800031c:	220f      	movs	r2, #15
+ 800031e:	fa02 f303 	lsl.w	r3, r2, r3
+ 8000322:	43db      	mvns	r3, r3
+ 8000324:	461a      	mov	r2, r3
+ 8000326:	693b      	ldr	r3, [r7, #16]
+ 8000328:	4013      	ands	r3, r2
+ 800032a:	613b      	str	r3, [r7, #16]
+	afr |= (GPIO_GET_AFR(configuration) << (pin * 4));	// apply new setting
+ 800032c:	687b      	ldr	r3, [r7, #4]
+ 800032e:	0c1b      	lsrs	r3, r3, #16
+ 8000330:	f003 020f 	and.w	r2, r3, #15
+ 8000334:	68bb      	ldr	r3, [r7, #8]
+ 8000336:	009b      	lsls	r3, r3, #2
+ 8000338:	fa02 f303 	lsl.w	r3, r2, r3
+ 800033c:	693a      	ldr	r2, [r7, #16]
+ 800033e:	4313      	orrs	r3, r2
+ 8000340:	613b      	str	r3, [r7, #16]
+	port_ptr->AFR[afrx] = afr;				// save back
+ 8000342:	68fb      	ldr	r3, [r7, #12]
+ 8000344:	6a7a      	ldr	r2, [r7, #36]	; 0x24
+ 8000346:	3208      	adds	r2, #8
+ 8000348:	6939      	ldr	r1, [r7, #16]
+ 800034a:	f843 1022 	str.w	r1, [r3, r2, lsl #2]
+
+}
+ 800034e:	bf00      	nop
+ 8000350:	372c      	adds	r7, #44	; 0x2c
+ 8000352:	46bd      	mov	sp, r7
+ 8000354:	f85d 7b04 	ldr.w	r7, [sp], #4
+ 8000358:	4770      	bx	lr
+ 800035a:	bf00      	nop

@@ -1,0 +1,6 @@
+eclipse.preferences.version=1
+environment/project/cdt.managedbuild.toolchain.gnu.cross.base.994723602/PATH/delimiter=;
+environment/project/cdt.managedbuild.toolchain.gnu.cross.base.994723602/PATH/operation=replace
+environment/project/cdt.managedbuild.toolchain.gnu.cross.base.994723602/PATH/value=G\:\\STM32Toolchain\\gnu-arm\\5.2_2015q4\\bin;G\:\\STM32Toolchain\\openocd-0.9.0\\openocd-0.9.0\\bin-x64;G\:\\STM32Toolchain\\gnu-arm\\msys+7za+wget+svn+git+mercurial+cvs-rev13\\msys\\bin;C\:\\ProgramData\\Oracle\\Java\\javapath;C\:\\Windows\\system32;C\:\\Windows;C\:\\Windows\\System32\\Wbem;C\:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C\:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;D\:\\Programy\\MPLAB_XC8\\bin
+environment/project/cdt.managedbuild.toolchain.gnu.cross.base.994723602/append=true
+environment/project/cdt.managedbuild.toolchain.gnu.cross.base.994723602/appendContributed=true
